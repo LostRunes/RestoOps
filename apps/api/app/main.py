@@ -31,6 +31,11 @@ if settings.BACKEND_CORS_ORIGINS:
         allow_headers=["*"],
     )
 
+# Routers
+from app.api.v1.router import api_router
+
+app.include_router(api_router, prefix=settings.API_V1_STR)
+
 # Prometheus Metrics
 Instrumentator().instrument(app).expose(app)
 
