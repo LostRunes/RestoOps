@@ -1,6 +1,6 @@
 # Phase 3 — Leads, Email Verification Engine & Scoring
 
-> **Goal:** Build the full lead management system (CRUD, CSV import, pipeline), the custom email verification engine (syntax → DNS → MX → disposable → role-based → SMTP → catch-all), lead scoring, verification jobs via Celery with real-time progress tracking, and the suppression list. This is one of the most technically impressive parts of the project.
+> **Goal:** Build the full lead management system (CRUD, CSV import, pipeline), the custom email verification engine (look into C:\RestoOps\bounce-blitz and C:\RestoOps\bounce-blitz\BounceBlitz_Complete_Documentation.md an already self built tool for this purpose), lead scoring, verification jobs via Celery with real-time progress tracking, and the suppression list. This is one of the most technically impressive parts of the project.
 
 > **Depends on:** Phase 2 (Auth/RBAC/Multi-tenancy)
 

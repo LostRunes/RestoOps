@@ -1,0 +1,1000 @@
+pblair@mv-engineering.com,status,status_label,score,meaning,what_to_do,reason
+abranscum@hallmarkgrp.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+iamcraftee@hotmail.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_timeout
+hima.patel@gohighlevel.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+mpourciau@responsiveed.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+p.hughes@tcu.edu,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+rosemary.mosqueda@gemmy.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+amyackerman@melissaisd.org,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+carolyn.wilkins@amnhealthcare.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+lmarsh@mckinneytexas.org,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+erica@unitedderm.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+jmercado@manhattanconstruction.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,smtp_rejected_554
+rjernigan@medcad.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+nceniceros@lbrealty.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+debbie.willings@pbti.org,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+vicki.barrs@pskcpa.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+deb.holmes-bradford@oncor.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+vera.daniel@wbservice.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+tia.meeker@exitrrg.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+cheryl.fritz@wsfp.us,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+dlovelady@chghospitals.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+lburks@firstdallas.org,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+dv@galyen.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+bonniesimmons@marekbros.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+mclayton@trammellcrow.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+elizabeth.rochelle@mercercapital.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+sheehs@pacificnorthern.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+smcgee@mcgeeconstruction.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+lalexander@marchofdimes.org,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+gmonroe@bvagroup.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+dfrye@higginbotham.net,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+sread@responsiveed.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+carolyn.ames@profrac.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+sierramooney@tamu.edu,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+tina.younger@atcoftexas.org,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+edaniel@tpwf.org,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+sharris@vincehagan.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+kristi.allen@amarr.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+dafina@kore.co,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+eshankle@citadelaviation.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+lyndsie.palmer@perot.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+smitchell@brwarch.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+paige.ferguson@lemonlight.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+heather.collins@jhcc.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+sryan@thompsoncoe.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+jdrew@taylormorrison.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+mwillis@trinitystairs.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+janelle@latinastyle.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+c.mack@us.reinhausen.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+savannah.salazar@wlplastics.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+jenny@kle.consulting,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+foamportal19@futurefoam.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+alesha.culver@kaufmancounty.net,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+amy.majerczyk@billc.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+leighgruns@alphaomegahospice.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+jenb@shiftkey.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+travis@radiovisioninc.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+castanonb@cfbisd.edu,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+cbutler@gwrr.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+tiffany.platt@goodsandservices.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+amanda@spacenation.org,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+cynthia@dougparrhomes.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+lmunoz@jtaylor.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+jenny.school@maverickcap.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+adodson@benttreemd.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,smtp_rejected_554
+ashley@ftgul.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+kstentiford@brightlinedealer.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+mjosten@hksinc.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+kristi.dale@relationinsurance.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+jrwilliams@garverusa.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+adike@watermarkhealth.org,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+airos@versustexas.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+madison.woodson@carrytheload.org,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+amy@parkerproducts.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+ascales@hodgescapital.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+abrouillette@marcoa.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+connie.rice@spectrio.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+acalhoun@montmush.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+kim.dierks@brightspot.email,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+terricory@spford.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+rbivin@basshall.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+llawrence@cts-tex.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+lscheets@catholicfoundation.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+becca@jigsaw.co,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+marcella_cirilo@facinghistory.org,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+p.westfall@mbfi.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+gladys.evans@hitrustalliance.net,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+anayancy.hernandez@mhmrtc.org,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+cassandra@hearbeautifully.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+cwatson@accesstelecare.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+jenna@godbehindbars.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+ann.danford@lbrealty.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+jstewart@marketingwerks.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+robin.fox@cityofdenton.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+fcartee@cafhq.org,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+cristina@interconpaper.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+gwhitley@mcintoshassociates.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+lschaefer@cendien.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+rrogers@rightworks.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+franz.loriega@traxo.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+lhurd@gleneagleadv.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+debral@ideliver-inc.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+haider.naqvi@netsoltech.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+lschneider@aspencares.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+kelsie.christian@egonzehnder.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+coye.dube@amnhealthcare.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+csnyder@engagedmd.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+dhoover@glbarron.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+erika.stilwell@rockbridgefinancial.net,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+alyse.welker@optimalship.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+ksherrill@prospertx.gov,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+jhunt@whiteschapel.org,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+jalgor@virtu.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+lisa.covey@keste.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+ccontreras@irvingisd.net,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+dsantana@talentcorps.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+asweeney@dallasprod.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+tprice@smu.edu,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+kim@libertylitsupport.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+esingleton@tailwatercapital.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+sweltsch@mcgough.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+janet@clubhouse.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+lcherry@gptx.org,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+adycus@glasshouseproducts.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+paula.tarvin@gainsco.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+smetcalf@dickiesarena.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+hcantu@basicidiq.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+stilotta@usedc.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+tgraham@duncanvilleisd.org,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+kellie.dobbs@karatpackaging.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+destiny.mcmillan@raptim.org,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+fwall@mcclure-lawgroup.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+wthomas@rlnrp.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+r.fong@goliathgroup.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+lcasiano@vortechcontracting.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+lwilliams@brucknertruck.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+ylopez@triallawyers.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+mschneider@hbk.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+alyssaj@rehabathomecare.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+ccory@mmhpi.org,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+faith.morse@mansfieldtexas.gov,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+mgriffith@kleintools.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+cwells@sostexas.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+kraig.smith@perotmuseum.org,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+smeek@crawford-consulting.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+jackie.stephens@circlesofcare.org,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+amedina@causewaycap.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+sadia.sarwer@epicmasjid.org,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+sscott@benchmark.us,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+rebecca@kariashealth.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+tanya.stearns@spanishschoolhouse.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+sdeleon@metrocode.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+kcamejo@otsl.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+nichelle@texasmotorplex.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+dina@commercialtaxgroup.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+bmitchell@tradeway.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_timeout
+leila.othman@arbordiagnostics.org,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+psmith@plainscapital.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+ashley@fauxcades.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+britt@eco-staff.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+acrou@acehandymanservices.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+kvanmeenen@structuresolutions.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+tsamek@libertytire.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+amanda.dunn@retechadvisors.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+shammond@naag.org,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+eloop@lineal.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+dcummings@tarrantcounty.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+carolinbrown@alphaplumbingfw.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+ann@budsigns.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+sheli@countrysidebible.org,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+kristin.labruyere@ttiinc.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+tonya.thorp@aint.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+melaniebenson@serviceexperts.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+cshuster@rtpcompany.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+kim.garcia@covenantchristian.net,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+craible@grapevinetexasusa.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+samantha.hamm@axisofs.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+tahern@eastdilsecured.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+sue.kellerman@ttiinc.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+evandagriff@humcapinc.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+samantha@crowleynursingandrehabilitation.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,smtp_rejected_501
+ana@jammyinc.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_timeout
+sn@necam.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+mtrammell@cinergy.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,smtp_rejected_554
+tgood@twu.org,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+sarah@3iinspecting.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+jrbrown@swbts.edu,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+leslie.green@tpwd.texas.gov,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+april.rositas@legenthealth.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+sue.wiggins@encorewire.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+kmussared@brunswickgroup.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+jengle@threeoakshospice.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+marcella.smith@ever.ag,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+victoriab@k18hair.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+deanna.hall@wpwealth.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+carolyn@riseupkings.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+bshamsy@celina-tx.gov,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+julie.schreiber@cypressequities.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+khodges@grandhomes.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+cneely@visioneeringstudios.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+deborah.johnsen@denaliwater.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+anjeereed@fics.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_timeout
+mbrooks@jeremiahprogram.org,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+fhogan@laticrete.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+mary.jones@mpmmed.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+lvarnell@collin.edu,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+ttieueljohnson@live.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_timeout
+barb.dye@kdc.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+dchandler@martinfinancialgroup.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+mlwilson@grsm.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+debra.lett@gatewayloan.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+twall@nstarbuilders.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+erose@openra.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+cuong.vu@midfirst.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+mmallery@dallascapitalbank.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,smtp_rejected_554
+krista.scott@nafinc.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+gsanchez@cnccabinetry.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+mlocket@northwoodretail.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+nafeesah@rotor.ai,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+sheila.alberico@oceanshealthcare.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+kcrow@momentousinstitute.org,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+laura.brodeur@mci-group.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+kandye.escobedo@hfrnetworks.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+monicia@avazzia.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+ashley.lipe@franklincovey.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+dwilson@peregrinegp.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+luevano-denise@aramark.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+ttripp@producersmidstream.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+amy@ausdredgedive.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+stehle@diagnostic-learning.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+ebishop@ies.healthcare,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+moakley@arlingtoncareerinstitute.edu,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+diana.daubar@choicetx.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+alexandra.thomas@elliman.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+nancy.kipulu@dhat.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+kiersten.s@dhimortgage.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+jhammons@beaconoralspecialists.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+mghervas@liquidagents.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+james@belongsolutions.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+nthompson@mpmaterials.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+allan.thompson@arrafinance.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+dorinda@designers-workroom.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+lstone@hanger.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+bailey.clark@municap.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+agonzales@wwwilliams.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+tequila@amaxinsurance.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+carolyn@higherpoweraviation.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+sharpdecisions@sharpdecisions.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+khennigan@firetrol.net,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+cbenjamin@westa.org,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+eyarbrough@judge.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+jesse@neww.io,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+jaegerter@moxiepestcontrol.com,disabled,Disabled,0,Existed once; the provider has shut it down.,Do not send.,account_disabled
+bess.mccombs@ltic.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+gemma.hodges@pacmed.org,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+dbrantley@girlsincdallas.org,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+esther@sls-consultants.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+laparef@interstatewire.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+fmarin@wtg-energy.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+kari.doyle@berkadia.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+kblack@pdmsdesign.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+raven.wilson@gearbox.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+sharon.taylor@orix.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+maria.chispan@jpsbooksandlogistics.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_timeout
+amanes@cheldanhomes.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+cjacot@legacyknight.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+katie.skinner@hhglobal.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+jcarlton@petro-ledger.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+ashleym@gtithurman.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+mkustric@ashtoncc.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+sara.green@pipeviewamerica.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+jchapa@thompsonhorton.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+mcouk@apexfintechsolutions.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+jan.bassett@jacksonlewis.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+yolanda@ramagelawfirm.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+william.barr@voatx.org,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+jlangston@bgca.org,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+renata.logsdon@kuiperlawfirm.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+tonia.kennedy@solismammo.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+lgrossman@cristoreyfw.org,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+sbullock@mckinneyisd.net,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+kadu@prioritymgt.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+emilyk@dfwelectricgroup.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+blaine.simmons@octagon.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+jwatkins@onetechnologies.net,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+olivia.hayden-pless@dallasmavs.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+wadame@retinainstitute.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+mrobichaud@theexpogroup.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+mkaufman@the20.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+kthompson@templeshalomdallas.org,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+jbuckner@kcm.org,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+sdevivo-holt@friscotexas.gov,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+julie.cooper2@horizonhealth.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+allison.offner@apogeephysicians.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+yvonne.renfro@unitedconcordia.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+rheada.leonard@glazersbeer.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+christinas@ideliver-inc.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+thughes@enniscarecenter.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+tpatton@crestlineinc.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+sbrowning@reddyice.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+dhudspeth@statewideremodeling.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+emandrell@mpiweb.org,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+bob@thelennards.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+claudia.erdmann@tsrh.org,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+shyan.houk@lakepointe.church,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+drojas@braunintertec.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+sridner@plos.org,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+lorrie.smithers@zachrycorp.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+swodlinger@wildfire-defense.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+pknight@tollesonwealth.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+julie@compumatrice.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+johanna@ascend-sync.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+stacy.thornton@amegybank.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+jeff@puiwaco.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+kkeehan@lexipol.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+sheryl@wrcompanies.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+lrodriguez@adaptiveresources.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+ssanders@bealbank.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+ginger@soilexpress.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+pluna@dallasnews.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+natalie@arborhouseliving.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+julie.park@finisar.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+susan.drake@aacreditunion.org,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_timeout
+hvanzanten@nchstx.org,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+jshelton@providence-energy.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,smtp_rejected_554
+jennifercurtis@bfsflooring.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+sandra.leal@crossfirstbank.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+susan.eisel@coalfire.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+latkinson@robotentertainment.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+elsa.garcia@bluelinefd.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+djudkins@methanex.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+candy_stockton@midcontinental.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+samantha.nydam@tjinspection.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+erin.heatherington@armor.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+cbarnes@cordelllaw.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+susan.fojtasek@improving.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+ncunningham@corrpro.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+vseales@uplifteducation.org,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+lsibit@birdelectricinc.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+sflores@redleescs.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+jidavis@fablefood.co,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+tsmith@rocktop.io,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+jody.vaught@whitleypenn.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+norris@txwes.edu,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+amartin@unlockingthespectrum.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+jglazer@glazerfinancial.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+coye.dube@amnhealthcare.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+celia@missionmutual.org,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+michelle@joehallroofing.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+michele.dillman@curantissolutions.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+taylor@streetrealty.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+whitneyweiss@mintdentistry.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+ssherrell@dudeperfect.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+olgutierrez@dallasisd.org,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+srowe@mkainc.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+cstalcup@stacywitbeck.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+jade@rsi-visuals.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+jpomerantz@dallasfoundation.org,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+jamie.krause@counterfind.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+destinee@xomarriage.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+v.bernard@kinggeorge.us,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+sherry@ultimatetoolandsafety.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+kelsey.davidson@leadsonline.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+lydia.cross@purvisindustries.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+dhafele@sammonscorp.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+helena.chang@northstaranesthesia.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+llane@dmlp.net,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+swanserski@educationisfreedom.org,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+sandra.valadez@containergraphics.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+megan@theuptownagency.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+paige.bray@icounter.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+beckie.tran@orix.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+gabmartinez@uplifteducation.org,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+judith_rojo@pediatrix.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+alexastevens@curative.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+sowen@shermco.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,smtp_rejected_554
+karen@ctjenergy.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+akennedy@batsecurity.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+terrih@meridinet.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+hisbell@rts.edu,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+amanolakis@fightingblindness.org,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+dee.rupert@gainusa.org,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+knelson@speedwaymotorsports.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+rhonda.sprouse@pediatrix.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+ctyler@firstdallas.org,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+lisa.wentzel@utdallas.edu,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+komalley@cityofmelissa.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+maricruz.mendez@baylorhealth.edu,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+tia.gamble@kajabi.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+tbarnette@unityhunt.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+mhoward@weatherfordtx.gov,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+mmilburn@gibsondunn.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+pcordoba@uplifteducation.org,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+gmartinez@dickinsonisd.org,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+mhaines@trisunhealthcare.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+g.todd@tcu.edu,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+p.kaiser@pdxinc.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+rebecca.parks@servproprovidence.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+amack@mmcgrp.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+akedgar@globe.life,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+mcerda@gptx.org,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+jcagle@dallassummermusicals.org,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+janfurr@daveperrymiller.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+terri.walther@rosslaresecurity.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+cnelson@laticrete.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+rweeks@pqc.edu,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+melva.cleveland@hoeferwelker.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+amoore@elementsgrp.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+w.robinson@genioo.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+d.yarborough@mannaworldwide.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+kara.bradley@egonzehnder.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+dallas.cateringmanager@haynesboone.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+jeriharlan@mhd.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+debbi@chargebackgurus.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+dave.areno@ethosenergy.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+tsabando@concorde.edu,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+ashley@riseupkings.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+amy@cottonbowl.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+adrian.frank@rmc.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+ayancey@stptexas.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+helena.avalos@armanino.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+jbracken@petrohunt.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+janay@playoneup.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+ehager@ise.io,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+emily.watkins@txse.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+angordon@santanderconsumerusa.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_timeout
+yvonne.royals@ultrapure.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+erinb@trwfamily.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+magill@sidley.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_timeout
+rebeccac@monkeymouths.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+nlilja@aotdelivery.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+kbult@marketwave.biz,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+cherry@pollockrealestate.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+mgarcia@marquisgroup.net,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+etorres@gibsondunn.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+jmccoy@lucasgroup.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+sally.wheeler@pgim.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_timeout
+jbruno@gfohome.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+amarchand@cmghomeloans.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+adysondelatorre@novus.global,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+bttran@waspbarcode.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+kellialphin@azz.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+michelle.hughes@go2fbt.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+andrea.nunez@southernbotanical.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+kfisk@standishmanagement.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+katreldav@careington.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+kcarey@hudson-advisors.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+tscott@databank.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_soft_fail_451
+erica@showd.me,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+kogorman@pathwayhospice.net,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+jeannine.porter@aliefisd.net,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+shaun@briercroftequipment.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+faith@patchmypc.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+lillianmccall@novus.global,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+bridget@eduvantis.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+laura@handango.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_timeout
+zacharysmith@mintdentistry.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+pbuie@rayburnelectric.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+nebrahimi@jw.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+dede.cobb@friendlygroup.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+sparker@everchain.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+jphelps@advancedatc.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+judy.offutt@pchas.org,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+mgarretty@hudson-advisors.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+christina@earth.works,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+dwills@m2gventures.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+twinkles@spsd.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+sydney.zavala@lgihomes.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+bailey@goodgoodgolf.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+nickel.mclean@markingsystems.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+shelly@tippensteel.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+vcross@jimlakeco.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+genaa@versantcm.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+priscilla@clientdrivenlaw.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+hornsbyd@smtexas.org,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+lou.branzuela@tm.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+jgreen@hrblock.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+c.womack@tcu.edu,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+mary.davis@bluebell.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+brichardson@thepottershouse.org,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+melinda@infinity-services.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+wrudd@footballfoundation.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+dbaker@portlandmaine.gov,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+laura@lawtonpros.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+mmatthews@dallascowboys.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_timeout
+hmartin@fortress.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+susan@tipotexchevrolet.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_timeout
+krozo@lbtexas.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+breanne.golding@basepointacademy.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+mazen.abdelkader@locality.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+hillary.weaver@orix.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+susan@cdconsulting.org,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_timeout
+cduncan@cheerathletics.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+tamika.singleton@texascapitalbank.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+kaylam@ntphp.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+akimrey@libertycapitalbank.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+vreynoso@weitzmangroup.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+teresab@eaglefinancialgroup.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+kbrady@parkhill.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+christina.lule@texaspainphysicians.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+kbasatneh@se.edu,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+jgriggs@worksoft.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+jsheehan@heidrick.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+jwhitsell@co.collin.tx.us,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+bjohnston@pwphealth.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+lisa.lustig@nwyc.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+andrea@readyrealestate.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+tstoffregen@lpc.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+shay@wildcatlending.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+emily@rbsabilene.org,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+smosby@transsolutions.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+mhuffman@winston.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+amanda@phcasters.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+gdawson@thearnoldcos.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+holly.rawls@scoutep.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+soraya.synan@tsrh.org,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+bmardis@comdata.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+debbie.johnson@transwestern.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+rschagren@qualitycustomdistribution.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+amuncy@accelerate-llc.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+lpartridge@oakhillacademy.org,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+cstanley@aiadallas.org,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+rita.lipnicky@necam.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+rachel@alpineroofing.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+jmccoy@bct-corp.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+adodd@fifthpartners.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+shonalee@hollman.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+sharonh@ufpi.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+jmeegan@kurr.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+dorianne@seniorlivingspecialists.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+barbie.harris@daystar.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+luis.fernando@stratixcorp.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+megan.scroggins@wolterskluwer.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+kellyl@talkingtadpoles.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+jminutillo@docunav.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+agatlin@uiterwyklaw.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+bfavara@m-corcapital.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+mtamayo@sdfoundation.org,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+eva.soto@fccenvironmental.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+smurray@lyle.smu.edu,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+vcisneros@eastdilsecured.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+t.hiner@tcu.edu,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+ipalmer@heedesoutheast.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+wctx@westerncolloid.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+cheryl.dorris@anesthesiaoncall.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_timeout
+ktombaugh@collin.edu,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+sweston@buxtonco.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+kelliemckay@petroflexna.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+mgraver@pacelineequity.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+dthomas@methodist-rehab.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+brooke@cfelectricinc.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+gracefleenor@theseptiengroup.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+gabby.castilleja@thewarrencenter.org,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+cvermillion@birchstoneres.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+jennifer.zhanel@capspire.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+staceyp@plunksmith.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+iwomack@banemachinery.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+sortega@avanci.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+kayla@texastinyteeth.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+paige@dreamsupport.club,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+marisa@uberall.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+cchilton@owproperties.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+kelli.vaughn-hebert@hilltopsecurities.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+isabela.weir@westpacwealth.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+haltmayer@serenityhealthcare.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+ddazet@acorecapital.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+heathermckissick@trivecapital.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+rsp_ea@rsp-associates.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+alyson.king@sagora.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,smtp_rejected_554
+lmw@ffhpc.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+emilym@rapierindustries.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+janet.hill@resolvetech.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+david@grey-rock.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+eorwig@precision-monitoring.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,smtp_rejected_554
+john.wallet@lewisellis.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+abbie.barth@alliedsolutions.net,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+acolley@kleintools.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+msmith@sycamorelp.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+acardozo@uplifteducation.org,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+cvieman@facialoralsurg.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+gcain@plasticpipe.org,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+office@lighthouseengineering.com,role,Role,70,"Valid, but a shared company address (info@, support@).",Fine for B2B outreach; usually skip for newsletters.,catch_all_role
+twells@masseyservices.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+kim.octave@apexus.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+michelle.rodriguez@getaloha.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+barbara_woodruff@ennis.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+vanessac@itpbolt.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+jtucker@centretechnologies.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+robyn.johnson@adticorp.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+jcung@franfund.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+cwelch@sei-mi.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+nancy@jdbagency.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+pbailey@discovery.org,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+tonie@kimbellrp.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+lkautz@alphaortho.net,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+gcripps@fwbg.org,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+snicholson@structuredfoundation.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+svincent@lombartinstrument.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+jschmieder@halff.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+mpearson@bcmd.org,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+patriciaknowles@texashealth.org,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+ashley.morrison@odysseyis.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+smclean@friscotexas.gov,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+cristi.nichols@mansfieldmedicalclinic.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,smtp_rejected_554
+monica.sherrod@dhat.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+sc@irusa.org,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+jpollard@monitronics.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+tgilbert@mannatech.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+jflores@cathdal.org,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,smtp_rejected_554
+cali.hix@dal.frb.org,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_timeout
+gibson@soonestexpress.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+cshelton@valuationresearch.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+cherylannwong@mhd.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+trudy.hester@itgbrands.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+cynthia.gibbs@timely.md,disabled,Disabled,0,Existed once; the provider has shut it down.,Do not send.,account_disabled
+smccloud@kcm.org,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+abel.saenzjr@scouting.org,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+aklement@parker.edu,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+autry.johnson@cleburne.net,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+alyce.dunlap@mckesson.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+peggie.householder@bldgworks.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+ilia.preza@remingtoncollege.edu,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+deanna@datacenterhawk.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+prowland@paragonrealtors.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+lisa.jackson@weknowtx.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+nora.minor@usoncology.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+mbaber@airedynamics.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+eleda.adams@rehabwithoutwalls.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+fpliner@nilife.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+aruiz@dmautoleasing.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+mdouglas@idexgs.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+betty_doss@mohawkind.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+bmartinez@catalysthealthgroup.net,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+lshaw@lbrealty.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+srahman@fightingelderabuse.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+jbonneau@nstarbuilders.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+rwilson@tactax.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+millerj@don.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+rgeorge@legalci.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+michele@athlete.ai,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+kerri@sasfiretx.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+cheng.brandau@morganlewis.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+juanita.buckholz@thcs.org,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+ltran@canyonpartners.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_timeout
+teresa.villareal@globalstep.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+lyndsee.faulkenberry@acgenius.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+cmutchell@thenautilusgroup.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+tmckee@pulice.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+lisa_patterson@acsi.org,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+amy.clark@espmgmt.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+dchang@mahaska.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+gsimmons@industrial-concrete.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+samantha@godseylaw.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+laonna.byrd@arcchurches.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+kristi@therapyexcellenceinc.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+smurphy@natlloyds.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+judy_rojo@mednax.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+abowers@masseyservices.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+twicker@starwindins.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+melanie@greenlakenursery.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+sammy@memmgmt.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+sofia.glynn@goodshepherdhospice.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+natasha.hickman@firststate.bank,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+denna.wilson@necam.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+k.lewis-hodge@pmctrust.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+md@electroguard.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+jrothlisberger@coserv.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+stephanie@foundationscounselingpllc.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+chris.goolsby@tvcc.edu,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+tiffany.cortez@sabre.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+carolyn.bifone@priceline.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+hlaw@tpgfw.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+mcarter@precisionconstructionandroofing.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+jdowns@tremcocpg.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+nahuel.villafane@airculinaireworldwide.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+calgeo@winstead.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+yvana@franzarchitects.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+tcassaday@jacobmartin.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+nn@cubytechnologies.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+schellyc@wierassociates.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+kamie.cherry@structuretone.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+mcasler@srmcorp.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+asillers@comstockresources.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+carmen.shook@whitleypenn.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+glocke@progressresidential.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+cheryl.holiwell@katten.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+srasmussen@firefirstcu.org,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+bolson@northstardiagnosticimaging.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+hstrohl@tailwatercapital.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+eder.fonseca@accessdmc.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+abby.fuchs@fanduel.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+lbock@mckinneytexas.org,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+bcox@agr-us.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+lduckworth@lamar.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+sfeldman@jewishdallas.org,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+lindab@linearroofing.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,smtp_rejected_554
+slakhani@dallaschamber.org,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+elida.barreras@justiceloans.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+kperry@hockaday.org,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+eponce@pike.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+sneeley@psg-dallas.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+bbernstein@reventertainment.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+mschadler@blackbeardoperating.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_timeout
+tnance@dikita.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+melissa.rhea@visitonecc.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+mhinds@rfcdfw.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+gjefferson@matriximaging.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+ida@thefranchiseconsultingcompany.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+ruslana@zelh.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+rachel.ganter@texascapital.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+myra@arena.run,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+jennifer@apextx.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+elewing@tpg.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+tvanpelt@apluspeople.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+michelle.ishmael@bishoplynch.org,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+adrianalexander@mail.smu.edu,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+tcamara@yapinc.org,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+tonya.herrera@leadr.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+adena.wallace@arlingtontx.gov,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+kerry.silversmith@maxxsure.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+kmowrey@lkcm.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+zaynab@absoluterecomp.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+ebony.mcmillan@scouting.org,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+ctwyman@directexp.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+laurie@bpaa.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+catering@themodern.org,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+jmiller@slifer.net,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+maryj@kids-u.org,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+ksmith@uplifteducation.org,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+kimberly.nelson@guggenheimpartners.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+randy.bennett@tctexas.org,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+mhogan@halff.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+mnobles@knightelectricinc.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+mhenson@isn.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+gus.loring@trailrunnerint.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+mbatchelder@wspd.us,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+rreedy@udallas.edu,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+susanschroeder@travelje.org,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+jaleesa.king@txse.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+jennifers@northtexas.ag,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+svelasquez@getcodaclean.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+imelda.molina@thehenrygroup.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+stevie@atcap.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+jnation@asdhome.org,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+mjacobs@wdgarch.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+malorielovell@texas811.org,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+swood@bion.care,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+mhuovinen@smartautocare.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+mmorse@securustechnologies.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+claudia@promisesvc.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+alyasa.allen@andersen.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+erica.fuqua@xplorpreschool.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+kim@behindeverydoor.org,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+ashlin.watkins@linesight.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+mandy.serna@orteqmfg.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+crystal.fine@bluestone.ws,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+sdebacco@bealeinfra.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+pwilliams@dfwopenmri.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+yeseniaondrusek@tasmanindustries.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+bella.noe@tanger.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+jwatson@360wraps.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+aabbott@olshanfoundation.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,smtp_rejected_554
+rebecca.grefrath@basepointacademy.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+tmorgan@chisholmtrailorthopedics.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+darleneb@sedco.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+jennifer.belcher@spirent.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+dramirez@gptx.org,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+kathy.fox@kroll.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+meris@sanderstravel.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+ryan_george@docupace.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+athompson@nanostherapeutics.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+yoko.wagner@nri-na.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+misty@foxelectric.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+karen@c3solutions.org,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+krystinarodriguez@ferristexas.gov,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+lori.reyes@dmautoleasing.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+mtorres@heritageaviationltd.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+jmilstead@cityoflewisville.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+venus.mcginnis@whitleypenn.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+mmartin@stavtar.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+iaguilera@trustcando.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+shill@ymcafw.org,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+sgarcia@behavioral-innovations.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+bbacak@ennis.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+gina.gadson-richards@dal.frb.org,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_timeout
+rosalie.escobedo@house.texas.gov,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+sujatha.ramadas@mgale.co,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+shawna.luetkenhaus@solutiontree.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+ashlee.bryant@chemaqua.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+elizabeth@sylviecollection.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,smtp_rejected_554
+lisa.haubrich@intrusion.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,smtp_rejected_554
+lala7343@yahoo.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_timeout
+jrickert@nbs.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+camille@7figuredocs.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+aschwarz@hoorayhealth.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+bnash@rivierafinance.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+jworby@tsiusa.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+emilyd@careington.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+shannen.mattingly@patriotmobile.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+steviesmith@trivecapital.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+spetty@dfwairport.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+charlene@projectunity.net,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,smtp_rejected_554
+denise@twinliquors.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+misty.syblon@eisholdings.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+ccolegrove@thenelsonclub.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+shirley@parklandhealth.org,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+cswanson@crossland.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+tressie@ssiteam.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+ameet@desperadosrestaurant.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_timeout
+christine.black@ridetm.org,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+mysheu.cranford@dal.frb.org,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_timeout
+kathy.payne@targetbase.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+safety@hammett-excavation.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+glong@grantinsurancetx.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+nparker@haltomcitytx.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+annette.warwick@ringcontainer.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+linda.peoples@scouting.org,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+elsa.guerrero@tsrh.org,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+tmwf@tmwf.org,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+kwake@holder.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+bart.blackburn@tamuc.edu,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+adavis@afb.org,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+tiffany.perkins@plainscapital.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+felicia.foster@claritev.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+mfrazier@advantixsolutions.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+terri.rodriquez@ogletreedeakins.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+bhardcastle@meritadvisor.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+lindsey.reed@futurestandard.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+cheryl.myrick@westdale.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+susannechlebik@callmc.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+kmccoy@depermian.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+dbravo@spcaa.org,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+kross@fbfk.law,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+debbie@santecenter.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+delores@signatureservices.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+mlight@pegasuslogistics.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+adarsh@linkrx.org,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+jingram@e3es.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+jessica.perez@mdregroup.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+sarah.gilmore@cellainc.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+lroewer@interfet.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+blong@dogwoodcommercial.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+bonniew@kindfulhealth.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+isisney@gehanhomes.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+sharon.williams@highgroundadvisors.org,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+tminer@satpon.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+ygallardo@princetontx.us,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+nlopez@virtuoso.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+leah.phillips@bridgecrest.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+callie.gill@cswindustrials.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+rosealia.bray@tungstenautomation.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+rtillman@energydomain.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+pcook@rainwatercf.org,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+christian.rodriguez@bearcreekfamilydentistry.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_timeout
+jennanarosov@trivecapital.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+ericg@scoopsoldiers.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+ntauzin@falconcompanies.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+leslie.delany@dvppumps.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+ccmorris@seyfarth.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+oadams@quantumna.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+greg@ondafamilylaw.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,smtp_rejected_554
+cbeggins@cantexcapital.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+tjohnson@banemachinery.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+megan.ingram@xplortoday.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+agutierrez@citadelpartnersus.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+beate.jamieson@ge.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+al.escoto@forcepoint.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+lbordelon@quotewell.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+lexus.hughes@methodist-rehab.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+veronica.lacy@dynamicaccess.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+jlewis@r-jholdings.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+gianna@jntconstruct.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+sbaker@bakertankhead.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+sobotka@bessemer.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+dallas@eventsandadventures.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+avillatoro@hpitx.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+amberd@fk1935.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+amackie@towerstreetinsurance.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_timeout
+lindas@theautoshop.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_timeout
+jakers@vivoslife.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+lorriefollowwell@regencycenters.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+maria@wowpgh.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+samantha.camp@tdindustries.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+czaccarello@thorntontomasetti.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+lwyatt@manegait.org,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+kim.gibbs@guidestone.org,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+jjones@hallgroup.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+karli.daniels@awest.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+lmiller@dallascowboys.net,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+deb.thoma@asisignage.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+shelby@friscochamber.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+jfoy@fortworthzoo.org,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+phyllis.maguire@remingtoni.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+kadams@methodistsurg.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+hayley@globalimagingusa.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+tracy.lake@propelledbrands.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+aweisel@spins.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+rebecca.pineda@therapypartnerspt.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+lredman@garlandtx.gov,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+aj.jones@samsunghvac.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+cyndi@trnt.net,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+bmorton@levelfourfinancial.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+vricketts@pvschemicals.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+shuckaba@patserv.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+judy.moore@luminant.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+carolined@roxoenergy.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+linda.peoples@scouting.org,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+gmedlen@thepointgroup.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+jmichelle@dallascowboys.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_timeout
+spollard@hanover.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+auna@fapeinado.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+stephanie.smith@mohrpartners.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+jpadilla@wpgus.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+karen@scottexteriors.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+kcraig@berkshireresi.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+gayla.ownbey@acisinc.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+kevin@airrepairusa.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+bianca@churcheleven32.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+smcrawford@diamondbackenergy.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+waters@smilebrands.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+judy.moreland@woodcreekchurch.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+brittany@adamilindsey.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+jsmith@iamaw.org,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+acsnider@flsamerica.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+pclark@terryberry.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+jayme.mcneill@menlosecurity.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+ashley.johnson@resolutemanagers.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+diana.schmoll@argonmedical.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+juana.gonzales@childrens.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+hannah@embarkwithus.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+suzanjones@tarrantcounty.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+jsanderson@prescottgroup.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+susana.villalpando@dallaspolice.gov,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+kelsi.couture@compass.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+jstmarie@macomp.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+abena.valdez@mpowerhealth.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+kwilliams@mcguirewoods.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+lisa.griffin@salasobrien.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+vharris@medexpsi.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+lljohnson@berkleyentertainment.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+brenna@tomcorc.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+dspence@rsimga.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+ejohn@sumologic.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+maddene@bessemer.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+ccampbell@thediscoveryexperts.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+tegan@lonestarneurology.net,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+heidy.sarinana@united-protective.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+maggie.moore@chargebackgurus.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+sbalthazar@arlingtonortho.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+fdelgado@be-ci.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+ccorbin@lincolninternational.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+rbrodnax@hbk.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+ljames@hanger.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+award@dacstaff.org,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+cory_cummins@sil.org,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+apayne@kainoscapital.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+smartin@bvagroup.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,no_mx_record
+mmedelline@udallas.edu,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+beth.rochelle@transwestern.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+kwestphal@swau.edu,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+courtney.ross@systemates.comlinkedin.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+abuell@boomerbenefits.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+brianna@360wraps.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+criselle.gatlin@fastestlabs.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+becky.edmondson@rtresolutions.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,smtp_rejected_554
+tracee.lasuzzo@gcinc.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+rsullivan@wfgtitle.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+mgarcia@wc.edu,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+myoung@tworld.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+deanna.phillips@inbenta.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+lucco@newgenerations.org,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+karolina@siriusbuildingcompany.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+julia.barron@comfortside.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+gnewton@ahujaclark.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+gliendo@pm-pediatrics.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_timeout
+cbranch@texasmotorspeedway.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+sroberson@broadmoormedicallodge.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+behr.janis@pennmutual.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+mclem@cailaw.org,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+afuentes@wbcsouthwest.org,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+dbomengen@manhattanconstruction.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,smtp_rejected_554
+cherylgray@ebby.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+alyssa.baker@egonzehnder.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+nselby@labora.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+sgoldman@tvcc.edu,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+ppaschall@rooseveltmc.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+candace.baker@region10.org,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+phodge@nationalppo.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+kimberly.teague@usmd.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+teri.harper@vehlo.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+thall@lpc.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+ashley.tatsch@recaro-as.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+gwen.phillips@goldmedalpools.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+sgeer-smith@nctcog.org,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+wcochran@concrete-pipe.org,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+wvanhorn@fricksco.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+chaye@santanderconsumerusa.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_timeout
+klyon@hallrender.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+acavrich@theamerican.org,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+jroberts@fortworthchamber.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists

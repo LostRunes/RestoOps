@@ -1,0 +1,1008 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>☕ Bounce Blitz Desktop - Professional Email Verifier</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Graduate&family=Patrick+Hand&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Short+Stack&display=swap"
+    rel="stylesheet">
+
+  <style>
+    :root {
+      --bg-cream: #FAF6EF;
+      --paper-card: #FFFDF9;
+      --coffee-dark: #3C2A21;
+      --coffee-medium: #634832;
+      --coffee-warm: #967E76;
+      --accent-mocha: #D5CEA3;
+      --accent-warm-gold: #E5BA73;
+      --accent-terracotta: #D07850;
+      --accent-sage: #789461;
+      --ink-black: #2B2523;
+      --sketch-shadow: 4px 4px 0px #3C2A21;
+      --sketch-shadow-hover: 6px 6px 0px #3C2A21;
+      --border-hand: 2px solid #3C2A21;
+      --font-doodle: 'Patrick Hand', 'Caveat', cursive;
+      --font-heading: 'Short Stack', 'Caveat', cursive;
+      --font-body: 'Plus Jakarta Sans', sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: var(--font-body);
+      background-color: var(--bg-cream);
+      background-image:
+        radial-gradient(var(--coffee-warm) 0.7px, transparent 0.7px),
+        radial-gradient(var(--coffee-warm) 0.7px, var(--bg-cream) 0.7px);
+      background-size: 28px 28px;
+      background-position: 0 0, 14px 14px;
+      color: var(--ink-black);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 30px 20px 50px 20px;
+    }
+
+    .container {
+      max-width: 860px;
+      width: 100%;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 25px;
+      position: relative;
+    }
+
+    .badge-tag {
+      display: inline-block;
+      background: var(--accent-warm-gold);
+      color: var(--coffee-dark);
+      font-family: var(--font-doodle);
+      font-size: 1.15rem;
+      padding: 4px 16px;
+      border: var(--border-hand);
+      border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+      transform: rotate(-1.5deg);
+      box-shadow: 2px 2px 0px var(--coffee-dark);
+      margin-bottom: 10px;
+    }
+
+    h1 {
+      font-family: var(--font-heading);
+      font-size: 2.6rem;
+      color: var(--coffee-dark);
+      line-height: 1.2;
+      text-shadow: 1px 1px 0px #FFF;
+      position: relative;
+      display: inline-block;
+    }
+
+    h1::after {
+      content: '';
+      display: block;
+      height: 6px;
+      background: var(--accent-terracotta);
+      border-radius: 3px;
+      margin-top: 4px;
+      transform: rotate(-1deg);
+    }
+
+    .subtitle {
+      font-family: var(--font-doodle);
+      font-size: 1.3rem;
+      color: var(--coffee-medium);
+      margin-top: 8px;
+    }
+
+    .guide-toggle-bar {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      margin-bottom: 25px;
+    }
+
+    .toggle-btn {
+      background: var(--paper-card);
+      color: var(--coffee-dark);
+      font-family: var(--font-doodle);
+      font-size: 1.15rem;
+      font-weight: bold;
+      padding: 8px 18px;
+      border: var(--border-hand);
+      border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+      box-shadow: var(--sketch-shadow);
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .toggle-btn:hover {
+      transform: translate(-1px, -1px);
+      box-shadow: var(--sketch-shadow-hover);
+      background: var(--accent-mocha);
+    }
+
+    /* Status Guide Card */
+    .guide-card {
+      background: var(--paper-card);
+      border: var(--border-hand);
+      border-radius: 18px;
+      padding: 20px;
+      margin-bottom: 30px;
+      box-shadow: var(--sketch-shadow);
+      display: none;
+    }
+
+    .guide-card.open {
+      display: block;
+    }
+
+    .guide-card h3 {
+      font-family: var(--font-heading);
+      font-size: 1.4rem;
+      color: var(--coffee-dark);
+      margin-bottom: 12px;
+    }
+
+    .guide-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.92rem;
+    }
+
+    .guide-table th, .guide-table td {
+      padding: 10px 12px;
+      border: 1px solid #E5DDC8;
+      text-align: left;
+    }
+
+    .guide-table th {
+      background: #F4ECE1;
+      font-family: var(--font-heading);
+      color: var(--coffee-dark);
+    }
+
+    .status-pill {
+      display: inline-block;
+      padding: 3px 10px;
+      border-radius: 12px;
+      font-weight: bold;
+      font-size: 0.85rem;
+      font-family: var(--font-doodle);
+    }
+
+    .pill-safe { background: #E8F5E9; color: #2E7D32; border: 1px solid #A5D6A7; }
+    .pill-role { background: #FFF8E1; color: #B78103; border: 1px solid #FFE082; }
+    .pill-catch_all { background: #FFF3E0; color: #E65100; border: 1px solid #FFCC80; }
+    .pill-disposable { background: #FFEBEE; color: #C62828; border: 1px solid #EF9A9A; }
+    .pill-inbox_full { background: #FFF8E1; color: #9E9D24; border: 1px solid #E6EE9C; }
+    .pill-spamtrap { background: #FFEBEE; color: #B71C1C; border: 1px solid #EF9A9A; }
+    .pill-disabled { background: #FFEBEE; color: #880E4F; border: 1px solid #EF9A9A; }
+    .pill-invalid { background: #FFEBEE; color: #D32F2F; border: 1px solid #FFCDD2; }
+    .pill-unknown { background: #FFF8E1; color: #F57F17; border: 1px solid #FFE082; }
+
+    /* Drop Zone */
+    #drop-zone {
+      background: var(--paper-card);
+      border: 3px dashed var(--coffee-dark);
+      border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+      padding: 40px 30px;
+      text-align: center;
+      cursor: pointer;
+      box-shadow: var(--sketch-shadow);
+      transition: all 0.2s ease-in-out;
+      margin-bottom: 30px;
+    }
+
+    #drop-zone:hover, #drop-zone.hover {
+      transform: translate(-2px, -2px);
+      box-shadow: var(--sketch-shadow-hover);
+      background: #FFFBF3;
+      border-color: var(--accent-terracotta);
+    }
+
+    .coffee-cup-icon {
+      font-size: 3.5rem;
+      margin-bottom: 10px;
+      display: inline-block;
+      animation: floatCup 3s ease-in-out infinite alternate;
+    }
+
+    @keyframes floatCup {
+      0% { transform: translateY(0px) rotate(-3deg); }
+      100% { transform: translateY(-6px) rotate(3deg); }
+    }
+
+    .drop-title {
+      font-family: var(--font-heading);
+      font-size: 1.5rem;
+      color: var(--coffee-dark);
+      margin-bottom: 6px;
+    }
+
+    .drop-subtext {
+      font-family: var(--font-doodle);
+      font-size: 1.2rem;
+      color: var(--coffee-warm);
+    }
+
+    .browse-btn {
+      display: inline-block;
+      margin-top: 14px;
+      background: var(--accent-mocha);
+      color: var(--coffee-dark);
+      font-family: var(--font-doodle);
+      font-size: 1.15rem;
+      font-weight: bold;
+      padding: 8px 20px;
+      border: var(--border-hand);
+      border-radius: 20px 255px 20px 255px/255px 20px 255px 20px;
+      box-shadow: 2px 2px 0px var(--coffee-dark);
+      transition: transform 0.1s;
+    }
+
+    /* Jobs Section */
+    #jobs {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+
+    .job-block {
+      background: var(--paper-card);
+      border: var(--border-hand);
+      border-radius: 18px;
+      padding: 24px;
+      position: relative;
+      box-shadow: var(--sketch-shadow);
+    }
+
+    .job-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 12px;
+      padding-right: 25px;
+    }
+
+    .job-filename {
+      font-family: var(--font-heading);
+      font-size: 1.25rem;
+      color: var(--coffee-dark);
+      word-break: break-all;
+    }
+
+    .close-job {
+      position: absolute;
+      top: 16px;
+      right: 18px;
+      font-family: var(--font-doodle);
+      font-size: 1.4rem;
+      font-weight: bold;
+      color: var(--coffee-warm);
+      cursor: pointer;
+      width: 30px;
+      height: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      transition: all 0.2s;
+    }
+
+    .close-job:hover {
+      color: var(--accent-terracotta);
+      transform: scale(1.2) rotate(90deg);
+    }
+
+    .progress-container {
+      background: #F0EAE1;
+      border: 2px solid var(--coffee-dark);
+      border-radius: 12px;
+      height: 22px;
+      overflow: hidden;
+      margin: 12px 0;
+    }
+
+    .progress-bar {
+      height: 100%;
+      background: repeating-linear-gradient(45deg,
+          var(--accent-warm-gold),
+          var(--accent-warm-gold) 10px,
+          #E0B060 10px,
+          #E0B060 20px);
+      width: 0%;
+      transition: width 0.3s ease;
+      border-right: 2px solid var(--coffee-dark);
+    }
+
+    .status {
+      font-family: var(--font-doodle);
+      font-size: 1.15rem;
+      color: var(--coffee-dark);
+      margin-bottom: 6px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .log-line {
+      font-family: monospace;
+      font-size: 0.85rem;
+      background: #F5EFEB;
+      border: 1px dashed var(--coffee-warm);
+      padding: 8px 12px;
+      border-radius: 8px;
+      color: var(--coffee-dark);
+      min-height: 36px;
+      display: flex;
+      align-items: center;
+      margin-top: 8px;
+      word-break: break-all;
+    }
+
+    .stats-summary {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+      gap: 10px;
+      margin-top: 15px;
+      padding: 12px;
+      background: #FBF8F3;
+      border: 1px solid #E5DDC8;
+      border-radius: 12px;
+    }
+
+    .stat-item {
+      text-align: center;
+      padding: 8px;
+      background: #FFF;
+      border-radius: 8px;
+      border: 1px solid #EAE3D2;
+    }
+
+    .stat-num {
+      font-family: var(--font-heading);
+      font-size: 1.3rem;
+      color: var(--coffee-dark);
+    }
+
+    .stat-lbl {
+      font-family: var(--font-doodle);
+      font-size: 0.95rem;
+      color: var(--coffee-medium);
+    }
+
+    .actions {
+      margin-top: 18px;
+    }
+
+    .action-toolbar {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 14px;
+    }
+
+    .view-results-btn {
+      background: var(--accent-warm-gold);
+      color: var(--coffee-dark);
+      font-family: var(--font-doodle);
+      font-size: 1.15rem;
+      font-weight: bold;
+      padding: 8px 18px;
+      border: var(--border-hand);
+      border-radius: 12px;
+      box-shadow: 2px 2px 0px var(--coffee-dark);
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+
+    .view-results-btn:hover {
+      background: var(--accent-terracotta);
+      color: #FFF;
+      transform: translate(-1px, -1px);
+    }
+
+    .format-selector {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-family: var(--font-doodle);
+      font-size: 1.1rem;
+    }
+
+    .fmt-pill {
+      padding: 4px 10px;
+      border: 1px solid var(--coffee-dark);
+      border-radius: 8px;
+      cursor: pointer;
+      background: #FFF;
+      font-weight: bold;
+      transition: all 0.15s;
+    }
+
+    .fmt-pill.active {
+      background: var(--coffee-dark);
+      color: #FFF;
+    }
+
+    .download-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+
+    .download-chip {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      background: #FFF;
+      color: var(--coffee-dark);
+      font-family: var(--font-doodle);
+      font-size: 1.1rem;
+      text-decoration: none;
+      padding: 8px 12px;
+      border: var(--border-hand);
+      border-radius: 12px;
+      box-shadow: 2px 2px 0px var(--coffee-dark);
+      transition: all 0.15s ease;
+      cursor: pointer;
+    }
+
+    .download-chip:hover {
+      transform: translate(-1px, -1px);
+      box-shadow: 3px 3px 0px var(--coffee-dark);
+      background: var(--accent-mocha);
+    }
+
+    .download-chip.safe-chip { background: #E8F5E9; color: #1B5E20; border-color: #2E7D32; }
+    .download-chip.role-chip { background: #FFF8E1; color: #B78103; border-color: #F57F17; }
+    .download-chip.catch-chip { background: #FFF3E0; color: #E65100; border-color: #FF9800; }
+    .download-chip.invalid-chip { background: #FFEBEE; color: #C62828; border-color: #D32F2F; }
+
+    /* In-App Results View Modal / Card */
+    .results-modal {
+      display: none;
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(43, 37, 35, 0.65);
+      z-index: 1000;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .results-modal.open {
+      display: flex;
+    }
+
+    .modal-content {
+      background: var(--paper-card);
+      border: var(--border-hand);
+      border-radius: 18px;
+      box-shadow: 8px 8px 0px #1A120B;
+      max-width: 900px;
+      width: 100%;
+      max-height: 85vh;
+      display: flex;
+      flex-direction: column;
+      padding: 24px;
+      position: relative;
+    }
+
+    .modal-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 16px;
+    }
+
+    .modal-title {
+      font-family: var(--font-heading);
+      font-size: 1.6rem;
+      color: var(--coffee-dark);
+    }
+
+    .modal-close {
+      font-family: var(--font-doodle);
+      font-size: 1.6rem;
+      font-weight: bold;
+      cursor: pointer;
+      color: var(--coffee-warm);
+    }
+
+    .modal-close:hover {
+      color: var(--accent-terracotta);
+    }
+
+    .filter-bar {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 14px;
+      flex-wrap: wrap;
+    }
+
+    .search-input {
+      flex: 1;
+      padding: 8px 14px;
+      border: var(--border-hand);
+      border-radius: 10px;
+      font-family: var(--font-body);
+      font-size: 0.95rem;
+      outline: none;
+    }
+
+    .filter-tab {
+      padding: 6px 14px;
+      border: 1px solid var(--coffee-dark);
+      border-radius: 8px;
+      font-family: var(--font-doodle);
+      font-size: 1.05rem;
+      cursor: pointer;
+      background: #FFF;
+    }
+
+    .filter-tab.active {
+      background: var(--coffee-dark);
+      color: #FFF;
+    }
+
+    .table-wrapper {
+      overflow-y: auto;
+      flex: 1;
+      border: 1px solid #E5DDC8;
+      border-radius: 10px;
+    }
+
+    .data-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.9rem;
+    }
+
+    .data-table th, .data-table td {
+      padding: 10px 12px;
+      border-bottom: 1px solid #E5DDC8;
+      text-align: left;
+    }
+
+    .data-table th {
+      background: #F4ECE1;
+      position: sticky;
+      top: 0;
+      font-family: var(--font-heading);
+      color: var(--coffee-dark);
+    }
+
+    footer {
+      margin-top: 45px;
+      text-align: center;
+      font-family: var(--font-doodle);
+      font-size: 1.25rem;
+      color: var(--coffee-medium);
+      padding: 15px 20px;
+      background: var(--paper-card);
+      border: var(--border-hand);
+      border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+      box-shadow: 3px 3px 0px var(--coffee-dark);
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <header>
+      <div class="badge-tag">⚡ Bounce Blitz Desktop Engine</div>
+      <h1>☕ Galadon Email Verifier</h1>
+      <p class="subtitle">Live verification with Reoon-equivalent status categorization & 0-100 scores!</p>
+    </header>
+
+    <div class="guide-toggle-bar">
+      <button class="toggle-btn" id="toggle-guide-btn">📖 View Verification Status & Score Guide</button>
+    </div>
+
+    <!-- Status Guide Card -->
+    <div class="guide-card" id="guide-card">
+      <h3>Email Verification Statuses & Recommendations</h3>
+      <table class="guide-table">
+        <thead>
+          <tr>
+            <th>Status</th>
+            <th>Score</th>
+            <th>What it means</th>
+            <th>What to do</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="status-pill pill-safe">Safe</span></td>
+            <td><strong>100</strong></td>
+            <td>Mailbox exists and accepts mail; no risk flags.</td>
+            <td>Send with confidence.</td>
+          </tr>
+          <tr>
+            <td><span class="status-pill pill-role">Role</span></td>
+            <td><strong>70</strong></td>
+            <td>Valid, but a shared company address (info@, support@).</td>
+            <td>Fine for B2B outreach; usually skip for newsletters.</td>
+          </tr>
+          <tr>
+            <td><span class="status-pill pill-catch_all">Catch-All</span></td>
+            <td><strong>50</strong></td>
+            <td>The domain accepts mail for any name, so mailbox cannot be confirmed.</td>
+            <td>Send with caution, as a separate segment.</td>
+          </tr>
+          <tr>
+            <td><span class="status-pill pill-disposable">Disposable</span></td>
+            <td><strong>0</strong></td>
+            <td>A throwaway address that expires shortly after creation.</td>
+            <td>Do not send; block it at sign-up.</td>
+          </tr>
+          <tr>
+            <td><span class="status-pill pill-inbox_full">Inbox Full</span></td>
+            <td><strong>35</strong></td>
+            <td>A real mailbox that cannot accept new mail right now.</td>
+            <td>Skip for now and re-verify later.</td>
+          </tr>
+          <tr>
+            <td><span class="status-pill pill-spamtrap">Spamtrap</span></td>
+            <td><strong>0</strong></td>
+            <td>An address that exists only to catch careless senders.</td>
+            <td>Never send.</td>
+          </tr>
+          <tr>
+            <td><span class="status-pill pill-disabled">Disabled</span></td>
+            <td><strong>0</strong></td>
+            <td>Existed once; the provider has shut it down.</td>
+            <td>Do not send.</td>
+          </tr>
+          <tr>
+            <td><span class="status-pill pill-invalid">Invalid</span></td>
+            <td><strong>0</strong></td>
+            <td>No mailbox exists: a guaranteed hard bounce.</td>
+            <td>Do not send.</td>
+          </tr>
+          <tr>
+            <td><span class="status-pill pill-unknown">Unknown</span></td>
+            <td><strong>15</strong></td>
+            <td>The server would not give a definitive answer.</td>
+            <td>Not charged; re-verify later.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div id="drop-zone">
+      <div class="coffee-cup-icon">☕</div>
+      <div class="drop-title">Drop your CSV list here</div>
+      <div class="drop-subtext">or click to browse your computer</div>
+      <div class="browse-btn">📁 Select CSV File</div>
+    </div>
+    <input type="file" id="file-input" accept=".csv" style="display:none;">
+
+    <div id="jobs"></div>
+
+    <footer>
+      ☕ Bounce Blitz Desktop Application — High Precision Lead Verification Engine.
+    </footer>
+  </div>
+
+  <!-- In-App View Modal -->
+  <div class="results-modal" id="results-modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="modal-title" id="modal-filename">📄 Verified Lead Results</div>
+        <div class="modal-close" id="modal-close-btn">✖</div>
+      </div>
+      <div class="filter-bar">
+        <input type="text" class="search-input" id="search-box" placeholder="🔍 Search email address, domain, or reason...">
+        <div class="filter-tab active" data-status="all">All Leads</div>
+        <div class="filter-tab" data-status="safe">Safe (100)</div>
+        <div class="filter-tab" data-status="role">Role (70)</div>
+        <div class="filter-tab" data-status="catch_all">Catch-All (50)</div>
+        <div class="filter-tab" data-status="invalid">Invalid/Risky (0)</div>
+      </div>
+      <div class="table-wrapper">
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Email Address</th>
+              <th>Status</th>
+              <th>Score</th>
+              <th>Recommendation</th>
+              <th>Reason</th>
+            </tr>
+          </thead>
+          <tbody id="modal-table-body">
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const dropZone = document.getElementById('drop-zone');
+    const fileInput = document.getElementById('file-input');
+    const jobsContainer = document.getElementById('jobs');
+    const toggleGuideBtn = document.getElementById('toggle-guide-btn');
+    const guideCard = document.getElementById('guide-card');
+
+    const resultsModal = document.getElementById('results-modal');
+    const modalCloseBtn = document.getElementById('modal-close-btn');
+    const modalFilename = document.getElementById('modal-filename');
+    const modalTableBody = document.getElementById('modal-table-body');
+    const searchBox = document.getElementById('search-box');
+    const filterTabs = document.querySelectorAll('.filter-tab');
+
+    let currentModalRecords = [];
+    let currentFilterStatus = 'all';
+
+    toggleGuideBtn.addEventListener('click', () => {
+      guideCard.classList.toggle('open');
+    });
+
+    modalCloseBtn.addEventListener('click', () => {
+      resultsModal.classList.remove('open');
+    });
+
+    filterTabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        filterTabs.forEach(t => t.classList.remove('active'));
+        tab.classList.add('active');
+        currentFilterStatus = tab.dataset.status;
+        renderModalTable();
+      });
+    });
+
+    searchBox.addEventListener('input', renderModalTable);
+
+    dropZone.addEventListener('click', () => fileInput.click());
+    dropZone.addEventListener('dragover', e => { e.preventDefault(); dropZone.classList.add('hover'); });
+    dropZone.addEventListener('dragleave', () => dropZone.classList.remove('hover'));
+    dropZone.addEventListener('drop', e => {
+      e.preventDefault();
+      dropZone.classList.remove('hover');
+      if (e.dataTransfer.files.length > 0) {
+        handleFile(e.dataTransfer.files[0]);
+      }
+    });
+
+    fileInput.addEventListener('change', () => {
+      if (fileInput.files.length > 0) {
+        handleFile(fileInput.files[0]);
+      }
+    });
+
+    function handleFile(file) {
+      const formData = new FormData();
+      formData.append('file', file);
+
+      fetch('/verify', {
+        method: 'POST',
+        body: formData
+      })
+        .then(res => res.json())
+        .then(({ job_id }) => {
+          createJobBlock(job_id, file.name);
+        })
+        .catch(err => {
+          alert("Error connecting to Bounce Blitz desktop verification server.");
+        });
+    }
+
+    function triggerDownload(job_id, type, fmt) {
+      const downloadUrl = `/download?job_id=${job_id}&type=${type}&format=${fmt}`;
+      fetch(downloadUrl)
+        .then(res => res.blob())
+        .then(blob => {
+          const url = window.URL.createObjectURL(blob);
+          const a = document.createElement('a');
+          a.style.display = 'none';
+          a.href = url;
+          a.download = `${type}-bounceblitz-leads.${fmt}`;
+          document.body.appendChild(a);
+          a.click();
+          window.URL.revokeObjectURL(url);
+          a.remove();
+        })
+        .catch(() => {
+          window.location.href = downloadUrl;
+        });
+    }
+
+    function openInAppViewer(job_id) {
+      fetch(`/results?job_id=${job_id}`)
+        .then(res => res.json())
+        .then(data => {
+          modalFilename.innerText = `📄 ${data.filename} (${data.total} Leads)`;
+          currentModalRecords = data.records;
+          currentFilterStatus = 'all';
+          filterTabs.forEach(t => t.classList.remove('active'));
+          filterTabs[0].classList.add('active');
+          searchBox.value = '';
+          renderModalTable();
+          resultsModal.classList.add('open');
+        })
+        .catch(err => {
+          alert("Could not load in-app results view.");
+        });
+    }
+
+    function renderModalTable() {
+      const query = (searchBox.value || '').toLowerCase().trim();
+      modalTableBody.innerHTML = '';
+
+      const filtered = currentModalRecords.filter(r => {
+        const email = (r.email || r.Email || '').toLowerCase();
+        const status = (r.status || '').toLowerCase();
+        const reason = (r.reason || '').toLowerCase();
+        
+        let matchesStatus = true;
+        if (currentFilterStatus === 'safe') matchesStatus = status === 'safe';
+        else if (currentFilterStatus === 'role') matchesStatus = status === 'role';
+        else if (currentFilterStatus === 'catch_all') matchesStatus = status === 'catch_all';
+        else if (currentFilterStatus === 'invalid') matchesStatus = ['invalid', 'disposable', 'spamtrap', 'disabled'].includes(status);
+
+        let matchesQuery = !query || email.includes(query) || reason.includes(query);
+        return matchesStatus && matchesQuery;
+      });
+
+      if (filtered.length === 0) {
+        modalTableBody.innerHTML = '<tr><td colspan="6" style="text-align:center; color: var(--coffee-warm); padding: 20px;">No matching records found.</td></tr>';
+        return;
+      }
+
+      filtered.forEach((r, idx) => {
+        const tr = document.createElement('tr');
+        const st = r.status || 'unknown';
+        const lbl = r.status_label || st.toUpperCase();
+        const score = r.score || 0;
+        const rec = r.what_to_do || '';
+        const reason = r.reason || '';
+
+        tr.innerHTML = `
+          <td>${idx + 1}</td>
+          <td><strong>${r.email || r.Email || ''}</strong></td>
+          <td><span class="status-pill pill-${st}">${lbl}</span></td>
+          <td><strong>${score}</strong></td>
+          <td style="font-size: 0.85rem; color: var(--coffee-medium);">${rec}</td>
+          <td style="font-family: monospace; font-size: 0.8rem;">${reason}</td>
+        `;
+        modalTableBody.appendChild(tr);
+      });
+    }
+
+    function createJobBlock(job_id, fileName) {
+      const block = document.createElement('div');
+      block.className = 'job-block';
+      let selectedFormat = 'csv';
+
+      block.innerHTML = `
+        <div class="close-job" title="Remove job">✖</div>
+        <div class="job-header">
+          <div class="job-filename">📄 ${fileName}</div>
+        </div>
+        <div class="progress-container"><div class="progress-bar"></div></div>
+        <div class="status">
+          <span class="status-text">Brewing verification...</span>
+          <span class="count-text"></span>
+        </div>
+        <div class="log-line">🔍 Initializing verification engine...</div>
+        <div class="stats-summary" style="display:none;"></div>
+        <div class="actions"><span class="cancel-btn" style="color:var(--accent-terracotta); font-weight:bold; cursor:pointer;">🚫 Cancel Batch</span></div>
+      `;
+      jobsContainer.prepend(block);
+
+      const bar = block.querySelector('.progress-bar');
+      const statusText = block.querySelector('.status-text');
+      const countText = block.querySelector('.count-text');
+      const logLine = block.querySelector('.log-line');
+      const cancelBtn = block.querySelector('.cancel-btn');
+      const actions = block.querySelector('.actions');
+      const closeBtn = block.querySelector('.close-job');
+      const statsSummary = block.querySelector('.stats-summary');
+
+      let canceled = false;
+
+      cancelBtn.onclick = () => {
+        canceled = true;
+        fetch(`/cancel?job_id=${job_id}`, { method: 'POST' });
+        statusText.innerText = `❌ Batch canceled`;
+        actions.innerHTML = '<span style="font-family: var(--font-doodle); color: var(--accent-terracotta);">Job canceled by user.</span>';
+      };
+
+      closeBtn.onclick = () => {
+        fetch(`/cancel?job_id=${job_id}`, { method: 'POST' });
+        block.remove();
+      };
+
+      const poll = setInterval(() => {
+        if (canceled) return clearInterval(poll);
+
+        fetch(`/progress?job_id=${job_id}`)
+          .then(res => res.json())
+          .then(data => {
+            bar.style.width = `${data.percent}%`;
+            statusText.innerText = `${data.percent}% brewed`;
+            countText.innerText = `Row ${data.row} of ${data.total}`;
+
+            if (data.stats) {
+              statsSummary.style.display = 'grid';
+              statsSummary.innerHTML = `
+                <div class="stat-item"><div class="stat-num" style="color:#2E7D32;">${data.stats.safe || 0}</div><div class="stat-lbl">Safe (100)</div></div>
+                <div class="stat-item"><div class="stat-num" style="color:#B78103;">${data.stats.role || 0}</div><div class="stat-lbl">Role (70)</div></div>
+                <div class="stat-item"><div class="stat-num" style="color:#E65100;">${data.stats.catch_all || 0}</div><div class="stat-lbl">Catch-All (50)</div></div>
+                <div class="stat-item"><div class="stat-num" style="color:#C62828;">${data.stats.invalid || 0}</div><div class="stat-lbl">Invalid (0)</div></div>
+              `;
+            }
+
+            if (data.percent >= 100) {
+              clearInterval(poll);
+              statusText.innerText = `✅ Batch complete! (100%)`;
+              countText.innerText = `${data.total} rows verified`;
+              
+              actions.innerHTML = `
+                <div class="action-toolbar">
+                  <button class="view-results-btn" onclick="openInAppViewer('${job_id}')">👁️ View Results In-App</button>
+                  <div class="format-selector">
+                    Export Format:
+                    <span class="fmt-pill active" data-fmt="csv">📄 CSV</span>
+                    <span class="fmt-pill" data-fmt="json">📋 JSON</span>
+                    <span class="fmt-pill" data-fmt="xlsx">📊 Excel (.xlsx)</span>
+                  </div>
+                </div>
+                <div class="download-grid">
+                  <a class="download-chip" href="/download?job_id=${job_id}&type=all&format=csv" download>📋 Download All Leads</a>
+                  <a class="download-chip safe-chip" href="/download?job_id=${job_id}&type=safe&format=csv" download>✅ Download Safe Only</a>
+                  <a class="download-chip role-chip" href="/download?job_id=${job_id}&type=role&format=csv" download>💼 Download B2B Role</a>
+                  <a class="download-chip catch-chip" href="/download?job_id=${job_id}&type=catch_all&format=csv" download>⚠️ Download Catch-All</a>
+                  <a class="download-chip invalid-chip" href="/download?job_id=${job_id}&type=invalid_risky&format=csv" download>❌ Download Invalid & Risky</a>
+                </div>
+              `;
+
+              const fmtPills = actions.querySelectorAll('.fmt-pill');
+              const dlChips = actions.querySelectorAll('.download-chip');
+
+              fmtPills.forEach(p => {
+                p.addEventListener('click', () => {
+                  fmtPills.forEach(x => x.classList.remove('active'));
+                  p.classList.add('active');
+                  const fmt = p.dataset.fmt;
+                  dlChips.forEach(chip => {
+                    const currentHref = chip.getAttribute('href');
+                    chip.setAttribute('href', currentHref.replace(/format=\w+/, `format=${fmt}`));
+                  });
+                });
+              });
+            }
+          })
+          .catch(() => { });
+
+        fetch(`/log?job_id=${job_id}`)
+          .then(res => res.text())
+          .then(text => {
+            if (text) {
+              logLine.innerText = text;
+            }
+          })
+          .catch(() => { });
+      }, 1000);
+    }
+  </script>
+</body>
+
+</html>

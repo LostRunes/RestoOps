@@ -1,0 +1,6 @@
+50-Worker Domain-Throttled Verification Engine:
+
+Ultra-fast verification with 50 parallel workers.
+Built-in per-domain rate limiting (max 2 concurrent probes per domain) to prevent IP blocks.
+Exponential backoff jitter on soft-fails (421, 450, 451).
+Thread-safe DNS MX record caching.

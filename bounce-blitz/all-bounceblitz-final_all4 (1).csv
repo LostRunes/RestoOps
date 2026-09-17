@@ -1,0 +1,1002 @@
+Emails,Reoon API Quick,Reoon API Power (Bulk),Reoon Dashboard,NeverBounce API,NeverBounce Dashboard,,status,status_label,score,meaning,what_to_do,reason
+Time taken,1094.16 s (18 min 14 s),209.26 s (3 min 29 s),35.38 s,351.05 s (5 min 51 s),4 min 32sec,,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,bad_syntax
+pblair@mv-engineering.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+abranscum@hallmarkgrp.com,valid,safe,safe,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast
+iamcraftee@hotmail.com,valid,safe,safe,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_timeout
+hima.patel@gohighlevel.com,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+mpourciau@responsiveed.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+p.hughes@tcu.edu,valid,unknown,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+rosemary.mosqueda@gemmy.com,valid,safe,safe,valid,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+amyackerman@melissaisd.org,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+carolyn.wilkins@amnhealthcare.com,valid,catch_all,catch_all,unknown,unknown,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+lmarsh@mckinneytexas.org,valid,catch_all,catch_all,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+erica@unitedderm.com,valid,safe,safe,unknown,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+jmercado@manhattanconstruction.com,valid,unknown,unknown,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_554_connection_rejected
+rjernigan@medcad.com,valid,unknown,safe,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+nceniceros@lbrealty.com,valid,catch_all,catch_all,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+debbie.willings@pbti.org,valid,unknown,unknown,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+vicki.barrs@pskcpa.com,valid,safe,safe,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+deb.holmes-bradford@oncor.com,valid,invalid,invalid,invalid,invalid,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+vera.daniel@wbservice.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+tia.meeker@exitrrg.com,valid,unknown,unknown,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+cheryl.fritz@wsfp.us,valid,safe,safe,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+dlovelady@chghospitals.com,valid,unknown,unknown,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast
+lburks@firstdallas.org,valid,safe,safe,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+dv@galyen.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+bonniesimmons@marekbros.com,valid,safe,safe,unknown,unknown,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+mclayton@trammellcrow.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+elizabeth.rochelle@mercercapital.com,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+sheehs@pacificnorthern.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+smcgee@mcgeeconstruction.com,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+lalexander@marchofdimes.org,valid,safe,safe,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+gmonroe@bvagroup.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+dfrye@higginbotham.net,valid,unknown,safe,unknown,unknown,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+sread@responsiveed.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+carolyn.ames@profrac.com,valid,safe,safe,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+sierramooney@tamu.edu,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+tina.younger@atcoftexas.org,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+edaniel@tpwf.org,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+sharris@vincehagan.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+kristi.allen@amarr.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+dafina@kore.co,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+eshankle@citadelaviation.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+lyndsie.palmer@perot.com,valid,unknown,catch_all,unknown,unknown,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+smitchell@brwarch.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+paige.ferguson@lemonlight.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+heather.collins@jhcc.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+sryan@thompsoncoe.com,valid,unknown,unknown,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast
+jdrew@taylormorrison.com,valid,catch_all,catch_all,valid,valid,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+mwillis@trinitystairs.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+janelle@latinastyle.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+c.mack@us.reinhausen.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+savannah.salazar@wlplastics.com,valid,catch_all,catch_all,unknown,unknown,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+jenny@kle.consulting,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+foamportal19@futurefoam.com,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+alesha.culver@kaufmancounty.net,valid,unknown,safe,unknown,unknown,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+amy.majerczyk@billc.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+leighgruns@alphaomegahospice.com,valid,safe,safe,valid,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+jenb@shiftkey.com,valid,unknown,unknown,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+travis@radiovisioninc.com,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+castanonb@cfbisd.edu,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+cbutler@gwrr.com,valid,invalid,invalid,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+tiffany.platt@goodsandservices.com,valid,safe,safe,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+amanda@spacenation.org,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+cynthia@dougparrhomes.com,valid,safe,safe,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+lmunoz@jtaylor.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+jenny.school@maverickcap.com,valid,safe,safe,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast
+adodson@benttreemd.com,valid,unknown,unknown,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_554_connection_rejected
+ashley@ftgul.com,valid,unknown,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+kstentiford@brightlinedealer.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+mjosten@hksinc.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+kristi.dale@relationinsurance.com,valid,safe,safe,valid,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+jrwilliams@garverusa.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+adike@watermarkhealth.org,valid,safe,safe,valid,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+airos@versustexas.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+madison.woodson@carrytheload.org,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+amy@parkerproducts.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+ascales@hodgescapital.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+abrouillette@marcoa.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+connie.rice@spectrio.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+acalhoun@montmush.com,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+kim.dierks@brightspot.email,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+terricory@spford.com,valid,catch_all,catch_all,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+rbivin@basshall.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+llawrence@cts-tex.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+lscheets@catholicfoundation.com,valid,safe,safe,unknown,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+becca@jigsaw.co,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+marcella_cirilo@facinghistory.org,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+p.westfall@mbfi.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+gladys.evans@hitrustalliance.net,valid,unknown,unknown,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+anayancy.hernandez@mhmrtc.org,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+cassandra@hearbeautifully.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_550_ambiguous
+cwatson@accesstelecare.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+jenna@godbehindbars.com,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+ann.danford@lbrealty.com,valid,catch_all,catch_all,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+jstewart@marketingwerks.com,valid,unknown,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+robin.fox@cityofdenton.com,valid,catch_all,catch_all,unknown,unknown,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+fcartee@cafhq.org,valid,safe,safe,valid,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+cristina@interconpaper.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+gwhitley@mcintoshassociates.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+lschaefer@cendien.com,valid,catch_all,catch_all,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+rrogers@rightworks.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+franz.loriega@traxo.com,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+lhurd@gleneagleadv.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+debral@ideliver-inc.com,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+haider.naqvi@netsoltech.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+lschneider@aspencares.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+kelsie.christian@egonzehnder.com,valid,unknown,safe,valid,unknown,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+coye.dube@amnhealthcare.com,valid,catch_all,unknown,unknown,unknown,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+csnyder@engagedmd.com,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+dhoover@glbarron.com,valid,safe,safe,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+erika.stilwell@rockbridgefinancial.net,valid,safe,safe,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+alyse.welker@optimalship.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+ksherrill@prospertx.gov,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+jhunt@whiteschapel.org,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+jalgor@virtu.com,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+lisa.covey@keste.com,valid,safe,safe,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+ccontreras@irvingisd.net,valid,unknown,unknown,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+dsantana@talentcorps.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+asweeney@dallasprod.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_550_ambiguous
+tprice@smu.edu,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+kim@libertylitsupport.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+esingleton@tailwatercapital.com,valid,safe,safe,unknown,unknown,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+sweltsch@mcgough.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+janet@clubhouse.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+lcherry@gptx.org,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+adycus@glasshouseproducts.com,valid,unknown,unknown,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast
+paula.tarvin@gainsco.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+smetcalf@dickiesarena.com,valid,unknown,safe,valid,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+hcantu@basicidiq.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+stilotta@usedc.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+tgraham@duncanvilleisd.org,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+kellie.dobbs@karatpackaging.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+destiny.mcmillan@raptim.org,valid,unknown,unknown,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast
+fwall@mcclure-lawgroup.com,valid,safe,safe,unknown,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+wthomas@rlnrp.com,valid,unknown,unknown,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+r.fong@goliathgroup.com,valid,unknown,safe,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+lcasiano@vortechcontracting.com,valid,safe,safe,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+lwilliams@brucknertruck.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+ylopez@triallawyers.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+mschneider@hbk.com,valid,unknown,unknown,unknown,unknown,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+alyssaj@rehabathomecare.com,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+ccory@mmhpi.org,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+faith.morse@mansfieldtexas.gov,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+mgriffith@kleintools.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+cwells@sostexas.com,valid,safe,safe,valid,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+kraig.smith@perotmuseum.org,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+smeek@crawford-consulting.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+jackie.stephens@circlesofcare.org,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+amedina@causewaycap.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+sadia.sarwer@epicmasjid.org,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+sscott@benchmark.us,valid,unknown,unknown,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast
+rebecca@kariashealth.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+tanya.stearns@spanishschoolhouse.com,valid,catch_all,catch_all,valid,valid,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+sdeleon@metrocode.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+kcamejo@otsl.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+nichelle@texasmotorplex.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+dina@commercialtaxgroup.com,valid,safe,safe,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+bmitchell@tradeway.com,valid,safe,safe,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_timeout
+leila.othman@arbordiagnostics.org,valid,catch_all,catch_all,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+psmith@plainscapital.com,valid,catch_all,catch_all,unknown,unknown,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+ashley@fauxcades.com,valid,safe,safe,unknown,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+britt@eco-staff.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+acrou@acehandymanservices.com,valid,catch_all,catch_all,unknown,unknown,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+kvanmeenen@structuresolutions.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+tsamek@libertytire.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+amanda.dunn@retechadvisors.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+shammond@naag.org,valid,unknown,unknown,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast
+eloop@lineal.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+dcummings@tarrantcounty.com,valid,catch_all,catch_all,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+carolinbrown@alphaplumbingfw.com,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+ann@budsigns.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+sheli@countrysidebible.org,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+kristin.labruyere@ttiinc.com,valid,unknown,unknown,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+tonya.thorp@aint.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+melaniebenson@serviceexperts.com,valid,unknown,unknown,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_timeout
+cshuster@rtpcompany.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+kim.garcia@covenantchristian.net,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+craible@grapevinetexasusa.com,valid,safe,safe,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+samantha.hamm@axisofs.com,valid,unknown,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+tahern@eastdilsecured.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_550_ambiguous
+sue.kellerman@ttiinc.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+evandagriff@humcapinc.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+samantha@crowleynursingandrehabilitation.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_rejected_501
+ana@jammyinc.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_timeout
+sn@necam.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+mtrammell@cinergy.com,valid,unknown,catch_all,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_554_connection_rejected
+tgood@twu.org,valid,unknown,unknown,unknown,unknown,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+sarah@3iinspecting.com,valid,unknown,safe,unknown,unknown,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+jrbrown@swbts.edu,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+leslie.green@tpwd.texas.gov,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+april.rositas@legenthealth.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+sue.wiggins@encorewire.com,valid,unknown,unknown,unknown,unknown,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+kmussared@brunswickgroup.com,valid,unknown,unknown,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast
+jengle@threeoakshospice.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+marcella.smith@ever.ag,valid,catch_all,catch_all,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+victoriab@k18hair.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+deanna.hall@wpwealth.com,valid,unknown,unknown,unknown,unknown,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+carolyn@riseupkings.com,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+bshamsy@celina-tx.gov,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+julie.schreiber@cypressequities.com,valid,safe,safe,valid,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+khodges@grandhomes.com,valid,unknown,unknown,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast
+cneely@visioneeringstudios.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+deborah.johnsen@denaliwater.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+anjeereed@fics.com,valid,unknown,unknown,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_timeout
+mbrooks@jeremiahprogram.org,valid,unknown,unknown,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+fhogan@laticrete.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+mary.jones@mpmmed.com,valid,unknown,unknown,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+lvarnell@collin.edu,valid,safe,safe,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+ttieueljohnson@live.com,valid,safe,safe,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_timeout
+barb.dye@kdc.com,valid,unknown,unknown,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+dchandler@martinfinancialgroup.com,valid,unknown,safe,unknown,unknown,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+mlwilson@grsm.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+debra.lett@gatewayloan.com,valid,unknown,unknown,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast
+twall@nstarbuilders.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_550_ambiguous
+erose@openra.com,valid,safe,safe,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+cuong.vu@midfirst.com,valid,unknown,unknown,unknown,unknown,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+mmallery@dallascapitalbank.com,valid,unknown,safe,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_554_connection_rejected
+krista.scott@nafinc.com,valid,unknown,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+gsanchez@cnccabinetry.com,valid,safe,safe,unknown,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+mlocket@northwoodretail.com,valid,unknown,unknown,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_554_connection_rejected
+nafeesah@rotor.ai,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+sheila.alberico@oceanshealthcare.com,valid,unknown,unknown,unknown,unknown,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+kcrow@momentousinstitute.org,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+laura.brodeur@mci-group.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+kandye.escobedo@hfrnetworks.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+monicia@avazzia.com,valid,safe,safe,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+ashley.lipe@franklincovey.com,valid,safe,safe,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+dwilson@peregrinegp.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+luevano-denise@aramark.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+ttripp@producersmidstream.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+amy@ausdredgedive.com,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+stehle@diagnostic-learning.com,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+ebishop@ies.healthcare,valid,unknown,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+moakley@arlingtoncareerinstitute.edu,valid,safe,safe,valid,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+diana.daubar@choicetx.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+alexandra.thomas@elliman.com,valid,unknown,unknown,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast
+nancy.kipulu@dhat.com,valid,unknown,unknown,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast
+kiersten.s@dhimortgage.com,valid,unknown,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+jhammons@beaconoralspecialists.com,valid,safe,safe,unknown,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+mghervas@liquidagents.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+james@belongsolutions.com,valid,unknown,unknown,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_550_ambiguous
+nthompson@mpmaterials.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+allan.thompson@arrafinance.com,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+dorinda@designers-workroom.com,valid,safe,safe,valid,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+lstone@hanger.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+bailey.clark@municap.com,valid,unknown,unknown,unknown,unknown,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+agonzales@wwwilliams.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+tequila@amaxinsurance.com,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+carolyn@higherpoweraviation.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+sharpdecisions@sharpdecisions.com,valid,unknown,unknown,unknown,unknown,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+khennigan@firetrol.net,valid,unknown,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+cbenjamin@westa.org,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+eyarbrough@judge.com,valid,catch_all,catch_all,unknown,unknown,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+jesse@neww.io,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+jaegerter@moxiepestcontrol.com,valid,disabled,disabled,invalid,invalid,,disabled,Disabled,0,Existed once; the provider has shut it down.,Do not send.,account_disabled
+bess.mccombs@ltic.com,valid,unknown,unknown,unknown,unknown,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+gemma.hodges@pacmed.org,valid,catch_all,catch_all,unknown,unknown,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+dbrantley@girlsincdallas.org,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+esther@sls-consultants.com,valid,unknown,unknown,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+laparef@interstatewire.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+fmarin@wtg-energy.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+kari.doyle@berkadia.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+kblack@pdmsdesign.com,valid,unknown,invalid,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+raven.wilson@gearbox.com,valid,unknown,unknown,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast
+sharon.taylor@orix.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+maria.chispan@jpsbooksandlogistics.com,valid,safe,safe,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_timeout
+amanes@cheldanhomes.com,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+cjacot@legacyknight.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+katie.skinner@hhglobal.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+jcarlton@petro-ledger.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+ashleym@gtithurman.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+mkustric@ashtoncc.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+sara.green@pipeviewamerica.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+jchapa@thompsonhorton.com,valid,unknown,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+mcouk@apexfintechsolutions.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+jan.bassett@jacksonlewis.com,valid,safe,safe,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast
+yolanda@ramagelawfirm.com,valid,safe,safe,valid,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+william.barr@voatx.org,valid,unknown,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+jlangston@bgca.org,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+renata.logsdon@kuiperlawfirm.com,valid,safe,safe,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+tonia.kennedy@solismammo.com,valid,catch_all,catch_all,unknown,unknown,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+lgrossman@cristoreyfw.org,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+sbullock@mckinneyisd.net,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+kadu@prioritymgt.com,valid,safe,safe,valid,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+emilyk@dfwelectricgroup.com,valid,unknown,unknown,unknown,unknown,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+blaine.simmons@octagon.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+jwatkins@onetechnologies.net,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+olivia.hayden-pless@dallasmavs.com,valid,safe,safe,unknown,unknown,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+wadame@retinainstitute.com,valid,unknown,safe,unknown,unknown,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+mrobichaud@theexpogroup.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+mkaufman@the20.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+kthompson@templeshalomdallas.org,valid,safe,safe,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+jbuckner@kcm.org,valid,unknown,unknown,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast
+sdevivo-holt@friscotexas.gov,valid,unknown,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+julie.cooper2@horizonhealth.com,valid,unknown,unknown,unknown,unknown,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+allison.offner@apogeephysicians.com,valid,unknown,unknown,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast
+yvonne.renfro@unitedconcordia.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+rheada.leonard@glazersbeer.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+christinas@ideliver-inc.com,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+thughes@enniscarecenter.com,valid,invalid,invalid,invalid,invalid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+tpatton@crestlineinc.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+sbrowning@reddyice.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+dhudspeth@statewideremodeling.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+emandrell@mpiweb.org,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+bob@thelennards.com,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+claudia.erdmann@tsrh.org,valid,catch_all,catch_all,unknown,unknown,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+shyan.houk@lakepointe.church,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+drojas@braunintertec.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+sridner@plos.org,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+lorrie.smithers@zachrycorp.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+swodlinger@wildfire-defense.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+pknight@tollesonwealth.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+julie@compumatrice.com,valid,safe,safe,valid,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+johanna@ascend-sync.com,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+stacy.thornton@amegybank.com,valid,unknown,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+jeff@puiwaco.com,valid,invalid,invalid,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+kkeehan@lexipol.com,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+sheryl@wrcompanies.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+lrodriguez@adaptiveresources.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+ssanders@bealbank.com,valid,unknown,unknown,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+ginger@soilexpress.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+pluna@dallasnews.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+natalie@arborhouseliving.com,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+julie.park@finisar.com,valid,unknown,unknown,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+susan.drake@aacreditunion.org,valid,catch_all,catch_all,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_timeout
+hvanzanten@nchstx.org,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+jshelton@providence-energy.com,valid,safe,safe,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_554_connection_rejected
+jennifercurtis@bfsflooring.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+sandra.leal@crossfirstbank.com,valid,unknown,unknown,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast
+susan.eisel@coalfire.com,valid,catch_all,catch_all,unknown,unknown,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+latkinson@robotentertainment.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+elsa.garcia@bluelinefd.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+djudkins@methanex.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+candy_stockton@midcontinental.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+samantha.nydam@tjinspection.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+erin.heatherington@armor.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+cbarnes@cordelllaw.com,valid,unknown,unknown,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast
+susan.fojtasek@improving.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+ncunningham@corrpro.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+vseales@uplifteducation.org,valid,unknown,unknown,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast
+lsibit@birdelectricinc.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+sflores@redleescs.com,valid,unknown,unknown,valid,unknown,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+jidavis@fablefood.co,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+tsmith@rocktop.io,valid,unknown,unknown,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast
+jody.vaught@whitleypenn.com,valid,unknown,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+norris@txwes.edu,valid,invalid,invalid,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+amartin@unlockingthespectrum.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+jglazer@glazerfinancial.com,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+coye.dube@amnhealthcare.com,valid,catch_all,unknown,unknown,unknown,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+celia@missionmutual.org,valid,safe,safe,unknown,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+michelle@joehallroofing.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_550_ambiguous
+michele.dillman@curantissolutions.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+taylor@streetrealty.com,valid,invalid,invalid,invalid,invalid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+whitneyweiss@mintdentistry.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+ssherrell@dudeperfect.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+olgutierrez@dallasisd.org,valid,unknown,unknown,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast
+srowe@mkainc.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+cstalcup@stacywitbeck.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+jade@rsi-visuals.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+jpomerantz@dallasfoundation.org,valid,safe,safe,valid,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+jamie.krause@counterfind.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+destinee@xomarriage.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+v.bernard@kinggeorge.us,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+sherry@ultimatetoolandsafety.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+kelsey.davidson@leadsonline.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+lydia.cross@purvisindustries.com,valid,unknown,unknown,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+dhafele@sammonscorp.com,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+helena.chang@northstaranesthesia.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+llane@dmlp.net,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+swanserski@educationisfreedom.org,valid,safe,safe,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+sandra.valadez@containergraphics.com,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+megan@theuptownagency.com,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+paige.bray@icounter.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+beckie.tran@orix.com,valid,catch_all,unknown,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+gabmartinez@uplifteducation.org,valid,unknown,unknown,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast
+judith_rojo@pediatrix.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+alexastevens@curative.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+sowen@shermco.com,valid,safe,safe,catchall,accept_all_unverifiable,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_554_connection_rejected
+karen@ctjenergy.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+akennedy@batsecurity.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+terrih@meridinet.com,valid,unknown,unknown,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_timeout
+hisbell@rts.edu,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+amanolakis@fightingblindness.org,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+dee.rupert@gainusa.org,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+knelson@speedwaymotorsports.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+rhonda.sprouse@pediatrix.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+ctyler@firstdallas.org,valid,safe,safe,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+lisa.wentzel@utdallas.edu,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+komalley@cityofmelissa.com,valid,unknown,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+maricruz.mendez@baylorhealth.edu,valid,unknown,unknown,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+tia.gamble@kajabi.com,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+tbarnette@unityhunt.com,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+mhoward@weatherfordtx.gov,valid,unknown,catch_all,unknown,unknown,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+mmilburn@gibsondunn.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+pcordoba@uplifteducation.org,valid,unknown,unknown,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_timeout
+gmartinez@dickinsonisd.org,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+mhaines@trisunhealthcare.com,disposable,disposable,disposable,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+g.todd@tcu.edu,valid,unknown,safe,unknown,unknown,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+p.kaiser@pdxinc.com,valid,catch_all,catch_all,unknown,unknown,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+rebecca.parks@servproprovidence.com,valid,invalid,invalid,invalid,invalid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_550_ambiguous
+amack@mmcgrp.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+akedgar@globe.life,valid,unknown,catch_all,unknown,unknown,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+mcerda@gptx.org,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+jcagle@dallassummermusicals.org,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+janfurr@daveperrymiller.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+terri.walther@rosslaresecurity.com,valid,safe,safe,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+cnelson@laticrete.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+rweeks@pqc.edu,valid,catch_all,catch_all,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_554_connection_rejected
+melva.cleveland@hoeferwelker.com,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+amoore@elementsgrp.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+w.robinson@genioo.com,valid,unknown,unknown,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+d.yarborough@mannaworldwide.com,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+kara.bradley@egonzehnder.com,valid,unknown,unknown,unknown,unknown,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+dallas.cateringmanager@haynesboone.com,valid,unknown,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+jeriharlan@mhd.com,valid,safe,safe,unknown,unknown,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+debbi@chargebackgurus.com,valid,safe,safe,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+dave.areno@ethosenergy.com,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+tsabando@concorde.edu,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+ashley@riseupkings.com,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+amy@cottonbowl.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+adrian.frank@rmc.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+ayancey@stptexas.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+helena.avalos@armanino.com,valid,unknown,unknown,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast
+jbracken@petrohunt.com,valid,unknown,catch_all,catchall,accept_all_unverifiable,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_timeout
+janay@playoneup.com,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+ehager@ise.io,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+emily.watkins@txse.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+angordon@santanderconsumerusa.com,valid,catch_all,catch_all,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_timeout
+yvonne.royals@ultrapure.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+erinb@trwfamily.com,valid,safe,safe,valid,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+magill@sidley.com,valid,invalid,invalid,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_proofpoint
+rebeccac@monkeymouths.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+nlilja@aotdelivery.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+kbult@marketwave.biz,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+cherry@pollockrealestate.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+mgarcia@marquisgroup.net,valid,safe,safe,unknown,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+etorres@gibsondunn.com,valid,catch_all,unknown,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+jmccoy@lucasgroup.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+sally.wheeler@pgim.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+jbruno@gfohome.com,valid,safe,safe,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+amarchand@cmghomeloans.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+adysondelatorre@novus.global,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+bttran@waspbarcode.com,valid,safe,safe,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+kellialphin@azz.com,valid,unknown,unknown,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast
+michelle.hughes@go2fbt.com,valid,unknown,invalid,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+andrea.nunez@southernbotanical.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+kfisk@standishmanagement.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+katreldav@careington.com,valid,unknown,safe,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+kcarey@hudson-advisors.com,valid,unknown,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+tscott@databank.com,valid,unknown,unknown,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+erica@showd.me,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+kogorman@pathwayhospice.net,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+jeannine.porter@aliefisd.net,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+shaun@briercroftequipment.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+faith@patchmypc.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+lillianmccall@novus.global,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+bridget@eduvantis.com,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+laura@handango.com,valid,unknown,unknown,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_timeout
+zacharysmith@mintdentistry.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+pbuie@rayburnelectric.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+nebrahimi@jw.com,valid,unknown,unknown,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast
+dede.cobb@friendlygroup.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+sparker@everchain.com,valid,safe,safe,unknown,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+jphelps@advancedatc.com,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+judy.offutt@pchas.org,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+mgarretty@hudson-advisors.com,valid,unknown,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+christina@earth.works,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+dwills@m2gventures.com,valid,unknown,unknown,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+twinkles@spsd.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+sydney.zavala@lgihomes.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+bailey@goodgoodgolf.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+nickel.mclean@markingsystems.com,valid,unknown,unknown,invalid,invalid,,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+shelly@tippensteel.com,valid,safe,safe,valid,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+vcross@jimlakeco.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_550_ambiguous
+genaa@versantcm.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+priscilla@clientdrivenlaw.com,valid,unknown,unknown,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast
+hornsbyd@smtexas.org,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+lou.branzuela@tm.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+jgreen@hrblock.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+c.womack@tcu.edu,valid,safe,safe,unknown,unknown,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+mary.davis@bluebell.com,valid,unknown,unknown,unknown,unknown,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+brichardson@thepottershouse.org,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+melinda@infinity-services.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+wrudd@footballfoundation.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+dbaker@portlandmaine.gov,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+laura@lawtonpros.com,valid,invalid,invalid,invalid,invalid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+mmatthews@dallascowboys.com,valid,unknown,unknown,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_timeout
+hmartin@fortress.com,valid,unknown,unknown,valid,valid,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+susan@tipotexchevrolet.com,valid,invalid,invalid,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_timeout
+krozo@lbtexas.com,valid,unknown,safe,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+breanne.golding@basepointacademy.com,valid,unknown,unknown,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast
+mazen.abdelkader@locality.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+hillary.weaver@orix.com,valid,catch_all,catch_all,valid,valid,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+susan@cdconsulting.org,valid,unknown,catch_all,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_timeout
+cduncan@cheerathletics.com,valid,catch_all,catch_all,valid,valid,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+tamika.singleton@texascapitalbank.com,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+kaylam@ntphp.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+akimrey@libertycapitalbank.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+vreynoso@weitzmangroup.com,valid,catch_all,catch_all,valid,valid,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+teresab@eaglefinancialgroup.com,valid,catch_all,catch_all,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+kbrady@parkhill.com,valid,unknown,unknown,unknown,unknown,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+christina.lule@texaspainphysicians.com,valid,invalid,invalid,invalid,invalid,,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+kbasatneh@se.edu,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+jgriggs@worksoft.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+jsheehan@heidrick.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+jwhitsell@co.collin.tx.us,valid,unknown,unknown,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast
+bjohnston@pwphealth.com,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+lisa.lustig@nwyc.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+andrea@readyrealestate.com,valid,unknown,unknown,unknown,unknown,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+tstoffregen@lpc.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+shay@wildcatlending.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+emily@rbsabilene.org,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+smosby@transsolutions.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_550_ambiguous
+mhuffman@winston.com,valid,unknown,unknown,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast
+amanda@phcasters.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+gdawson@thearnoldcos.com,valid,unknown,unknown,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast
+holly.rawls@scoutep.com,valid,catch_all,catch_all,valid,valid,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+soraya.synan@tsrh.org,valid,catch_all,catch_all,unknown,unknown,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+bmardis@comdata.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+debbie.johnson@transwestern.com,valid,unknown,unknown,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast
+rschagren@qualitycustomdistribution.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+amuncy@accelerate-llc.com,valid,unknown,unknown,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+lpartridge@oakhillacademy.org,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+cstanley@aiadallas.org,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+rita.lipnicky@necam.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+rachel@alpineroofing.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+jmccoy@bct-corp.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+adodd@fifthpartners.com,valid,catch_all,catch_all,valid,valid,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+shonalee@hollman.com,valid,safe,safe,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_550_ambiguous
+sharonh@ufpi.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+jmeegan@kurr.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+dorianne@seniorlivingspecialists.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+barbie.harris@daystar.com,valid,unknown,unknown,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast
+luis.fernando@stratixcorp.com,valid,invalid,invalid,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast
+megan.scroggins@wolterskluwer.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+kellyl@talkingtadpoles.com,valid,safe,safe,unknown,unknown,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+jminutillo@docunav.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+agatlin@uiterwyklaw.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+bfavara@m-corcapital.com,valid,catch_all,catch_all,unknown,unknown,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+mtamayo@sdfoundation.org,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+eva.soto@fccenvironmental.com,valid,unknown,unknown,unknown,unknown,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+smurray@lyle.smu.edu,valid,safe,safe,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+vcisneros@eastdilsecured.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_550_ambiguous
+t.hiner@tcu.edu,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+ipalmer@heedesoutheast.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+wctx@westerncolloid.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+cheryl.dorris@anesthesiaoncall.com,valid,catch_all,catch_all,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_timeout
+ktombaugh@collin.edu,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+sweston@buxtonco.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+kelliemckay@petroflexna.com,valid,safe,safe,valid,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+mgraver@pacelineequity.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+dthomas@methodist-rehab.com,valid,unknown,unknown,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast
+brooke@cfelectricinc.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+gracefleenor@theseptiengroup.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+gabby.castilleja@thewarrencenter.org,valid,catch_all,catch_all,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+cvermillion@birchstoneres.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+jennifer.zhanel@capspire.com,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+staceyp@plunksmith.com,valid,unknown,unknown,unknown,unknown,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+iwomack@banemachinery.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+sortega@avanci.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+kayla@texastinyteeth.com,valid,invalid,invalid,invalid,invalid,,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+paige@dreamsupport.club,valid,catch_all,catch_all,catchall,unknown,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+marisa@uberall.com,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+cchilton@owproperties.com,valid,safe,safe,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+kelli.vaughn-hebert@hilltopsecurities.com,valid,safe,safe,unknown,unknown,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+isabela.weir@westpacwealth.com,valid,safe,safe,unknown,unknown,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+haltmayer@serenityhealthcare.com,valid,safe,safe,valid,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+ddazet@acorecapital.com,valid,unknown,unknown,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast
+heathermckissick@trivecapital.com,valid,unknown,unknown,unknown,unknown,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+rsp_ea@rsp-associates.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+alyson.king@sagora.com,valid,safe,safe,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_554_connection_rejected
+lmw@ffhpc.com,valid,safe,safe,valid,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_550_ambiguous
+emilym@rapierindustries.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+janet.hill@resolvetech.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+david@grey-rock.com,valid,safe,safe,valid,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+eorwig@precision-monitoring.com,valid,safe,safe,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_554_connection_rejected
+john.wallet@lewisellis.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+abbie.barth@alliedsolutions.net,valid,unknown,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+acolley@kleintools.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+msmith@sycamorelp.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+acardozo@uplifteducation.org,valid,unknown,unknown,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast
+cvieman@facialoralsurg.com,valid,safe,safe,valid,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+gcain@plasticpipe.org,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+office@lighthouseengineering.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,role,Role,70,"Valid, but a shared company address (info@, support@).",Fine for B2B outreach; usually skip for newsletters.,catch_all_role
+twells@masseyservices.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+kim.octave@apexus.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+michelle.rodriguez@getaloha.com,valid,unknown,unknown,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+barbara_woodruff@ennis.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+vanessac@itpbolt.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+jtucker@centretechnologies.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+robyn.johnson@adticorp.com,valid,unknown,unknown,valid,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+jcung@franfund.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+cwelch@sei-mi.com,valid,unknown,unknown,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast
+nancy@jdbagency.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+pbailey@discovery.org,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+tonie@kimbellrp.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+lkautz@alphaortho.net,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+gcripps@fwbg.org,valid,safe,safe,valid,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+snicholson@structuredfoundation.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+svincent@lombartinstrument.com,valid,safe,safe,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+jschmieder@halff.com,valid,unknown,unknown,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast
+mpearson@bcmd.org,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+patriciaknowles@texashealth.org,valid,safe,safe,unknown,unknown,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+ashley.morrison@odysseyis.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+smclean@friscotexas.gov,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+cristi.nichols@mansfieldmedicalclinic.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_554_connection_rejected
+monica.sherrod@dhat.com,valid,unknown,unknown,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast
+sc@irusa.org,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+jpollard@monitronics.com,valid,unknown,unknown,unknown,unknown,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+tgilbert@mannatech.com,valid,safe,safe,unknown,unknown,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+jflores@cathdal.org,valid,safe,safe,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_554_connection_rejected
+cali.hix@dal.frb.org,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_timeout
+gibson@soonestexpress.com,valid,safe,safe,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+cshelton@valuationresearch.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+cherylannwong@mhd.com,valid,catch_all,catch_all,unknown,unknown,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+trudy.hester@itgbrands.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+cynthia.gibbs@timely.md,valid,disabled,disabled,invalid,invalid,,disabled,Disabled,0,Existed once; the provider has shut it down.,Do not send.,account_disabled
+smccloud@kcm.org,valid,unknown,unknown,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast
+abel.saenzjr@scouting.org,valid,safe,safe,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+aklement@parker.edu,valid,unknown,unknown,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+autry.johnson@cleburne.net,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+alyce.dunlap@mckesson.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+peggie.householder@bldgworks.com,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+ilia.preza@remingtoncollege.edu,valid,safe,safe,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+deanna@datacenterhawk.com,valid,safe,safe,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast
+prowland@paragonrealtors.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+lisa.jackson@weknowtx.com,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+nora.minor@usoncology.com,valid,unknown,unknown,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+mbaber@airedynamics.com,valid,invalid,invalid,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+eleda.adams@rehabwithoutwalls.com,valid,safe,safe,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+fpliner@nilife.com,valid,unknown,catch_all,unknown,unknown,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+aruiz@dmautoleasing.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+mdouglas@idexgs.com,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+betty_doss@mohawkind.com,valid,unknown,unknown,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast
+bmartinez@catalysthealthgroup.net,valid,catch_all,catch_all,valid,valid,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+lshaw@lbrealty.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+srahman@fightingelderabuse.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+jbonneau@nstarbuilders.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_550_ambiguous
+rwilson@tactax.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+millerj@don.com,valid,unknown,unknown,unknown,unknown,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+rgeorge@legalci.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+michele@athlete.ai,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+kerri@sasfiretx.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+cheng.brandau@morganlewis.com,valid,unknown,unknown,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+juanita.buckholz@thcs.org,valid,catch_all,catch_all,unknown,unknown,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+ltran@canyonpartners.com,valid,catch_all,catch_all,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_timeout
+teresa.villareal@globalstep.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+lyndsee.faulkenberry@acgenius.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+cmutchell@thenautilusgroup.com,valid,catch_all,catch_all,unknown,unknown,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+tmckee@pulice.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+lisa_patterson@acsi.org,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+amy.clark@espmgmt.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+dchang@mahaska.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+gsimmons@industrial-concrete.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+samantha@godseylaw.com,valid,safe,safe,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+laonna.byrd@arcchurches.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+kristi@therapyexcellenceinc.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+smurphy@natlloyds.com,valid,catch_all,catch_all,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+judy_rojo@mednax.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+abowers@masseyservices.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+twicker@starwindins.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+melanie@greenlakenursery.com,valid,catch_all,catch_all,valid,valid,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+sammy@memmgmt.com,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+sofia.glynn@goodshepherdhospice.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+natasha.hickman@firststate.bank,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+denna.wilson@necam.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+k.lewis-hodge@pmctrust.com,valid,unknown,safe,valid,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+md@electroguard.com,valid,role_account,role_account,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+jrothlisberger@coserv.com,valid,safe,safe,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+stephanie@foundationscounselingpllc.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+chris.goolsby@tvcc.edu,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+tiffany.cortez@sabre.com,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+carolyn.bifone@priceline.com,valid,unknown,unknown,unknown,unknown,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+hlaw@tpgfw.com,valid,safe,safe,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+mcarter@precisionconstructionandroofing.com,valid,invalid,invalid,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+jdowns@tremcocpg.com,valid,unknown,unknown,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast
+nahuel.villafane@airculinaireworldwide.com,valid,unknown,unknown,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast
+calgeo@winstead.com,valid,unknown,unknown,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast
+yvana@franzarchitects.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+tcassaday@jacobmartin.com,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+nn@cubytechnologies.com,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+schellyc@wierassociates.com,valid,unknown,unknown,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast
+kamie.cherry@structuretone.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+mcasler@srmcorp.com,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+asillers@comstockresources.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast
+carmen.shook@whitleypenn.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+glocke@progressresidential.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+cheryl.holiwell@katten.com,valid,unknown,unknown,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast
+srasmussen@firefirstcu.org,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+bolson@northstardiagnosticimaging.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+hstrohl@tailwatercapital.com,valid,unknown,safe,unknown,unknown,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+eder.fonseca@accessdmc.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+abby.fuchs@fanduel.com,valid,safe,safe,valid,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+lbock@mckinneytexas.org,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+bcox@agr-us.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+lduckworth@lamar.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+sfeldman@jewishdallas.org,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+lindab@linearroofing.com,valid,catch_all,catch_all,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_554_connection_rejected
+slakhani@dallaschamber.org,valid,catch_all,catch_all,unknown,unknown,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+elida.barreras@justiceloans.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+kperry@hockaday.org,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+eponce@pike.com,valid,unknown,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+sneeley@psg-dallas.com,valid,safe,safe,unknown,unknown,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+bbernstein@reventertainment.com,valid,unknown,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+mschadler@blackbeardoperating.com,valid,safe,safe,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_timeout
+tnance@dikita.com,valid,unknown,safe,valid,unknown,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+melissa.rhea@visitonecc.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+mhinds@rfcdfw.com,valid,safe,safe,valid,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+gjefferson@matriximaging.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+ida@thefranchiseconsultingcompany.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+ruslana@zelh.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+rachel.ganter@texascapital.com,valid,unknown,safe,valid,unknown,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+myra@arena.run,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+jennifer@apextx.com,valid,unknown,unknown,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+elewing@tpg.com,valid,unknown,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+tvanpelt@apluspeople.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+michelle.ishmael@bishoplynch.org,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+adrianalexander@mail.smu.edu,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+tcamara@yapinc.org,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+tonya.herrera@leadr.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+adena.wallace@arlingtontx.gov,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+kerry.silversmith@maxxsure.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+kmowrey@lkcm.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+zaynab@absoluterecomp.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+ebony.mcmillan@scouting.org,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+ctwyman@directexp.com,valid,safe,safe,valid,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+laurie@bpaa.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+catering@themodern.org,valid,role_account,role_account,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast
+jmiller@slifer.net,valid,unknown,unknown,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast
+maryj@kids-u.org,valid,catch_all,catch_all,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+ksmith@uplifteducation.org,valid,unknown,unknown,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast
+kimberly.nelson@guggenheimpartners.com,valid,unknown,catch_all,unknown,unknown,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+randy.bennett@tctexas.org,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+mhogan@halff.com,valid,unknown,unknown,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast
+mnobles@knightelectricinc.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+mhenson@isn.com,valid,unknown,catch_all,unknown,unknown,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+gus.loring@trailrunnerint.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+mbatchelder@wspd.us,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+rreedy@udallas.edu,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+susanschroeder@travelje.org,valid,safe,safe,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+jaleesa.king@txse.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+jennifers@northtexas.ag,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+svelasquez@getcodaclean.com,valid,safe,safe,valid,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+imelda.molina@thehenrygroup.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+stevie@atcap.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+jnation@asdhome.org,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+mjacobs@wdgarch.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+malorielovell@texas811.org,valid,unknown,unknown,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+swood@bion.care,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+mhuovinen@smartautocare.com,valid,safe,safe,valid,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+mmorse@securustechnologies.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+claudia@promisesvc.com,valid,safe,safe,unknown,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+alyasa.allen@andersen.com,valid,unknown,unknown,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast
+erica.fuqua@xplorpreschool.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+kim@behindeverydoor.org,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+ashlin.watkins@linesight.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+mandy.serna@orteqmfg.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+crystal.fine@bluestone.ws,valid,safe,safe,valid,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+sdebacco@bealeinfra.com,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+pwilliams@dfwopenmri.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+yeseniaondrusek@tasmanindustries.com,valid,safe,safe,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+bella.noe@tanger.com,valid,unknown,unknown,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+jwatson@360wraps.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+aabbott@olshanfoundation.com,valid,catch_all,catch_all,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_554_connection_rejected
+rebecca.grefrath@basepointacademy.com,valid,unknown,unknown,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast
+tmorgan@chisholmtrailorthopedics.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+darleneb@sedco.com,valid,catch_all,catch_all,catchall,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+jennifer.belcher@spirent.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+dramirez@gptx.org,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+kathy.fox@kroll.com,valid,safe,safe,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast
+meris@sanderstravel.com,valid,safe,safe,unknown,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+ryan_george@docupace.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+athompson@nanostherapeutics.com,valid,safe,safe,unknown,unknown,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+yoko.wagner@nri-na.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+misty@foxelectric.com,valid,safe,safe,valid,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+karen@c3solutions.org,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+krystinarodriguez@ferristexas.gov,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+lori.reyes@dmautoleasing.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+mtorres@heritageaviationltd.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_550_ambiguous
+jmilstead@cityoflewisville.com,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+venus.mcginnis@whitleypenn.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+mmartin@stavtar.com,valid,unknown,unknown,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast
+iaguilera@trustcando.com,invalid,invalid,invalid,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+shill@ymcafw.org,valid,safe,safe,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+sgarcia@behavioral-innovations.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+bbacak@ennis.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+gina.gadson-richards@dal.frb.org,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_timeout
+rosalie.escobedo@house.texas.gov,valid,safe,safe,valid,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+sujatha.ramadas@mgale.co,valid,safe,safe,valid,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+shawna.luetkenhaus@solutiontree.com,valid,unknown,unknown,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast
+ashlee.bryant@chemaqua.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+elizabeth@sylviecollection.com,valid,safe,safe,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_554_connection_rejected
+lisa.haubrich@intrusion.com,valid,catch_all,catch_all,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_554_connection_rejected
+lala7343@yahoo.com,valid,unknown,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_timeout
+jrickert@nbs.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+camille@7figuredocs.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+aschwarz@hoorayhealth.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+bnash@rivierafinance.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+jworby@tsiusa.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+emilyd@careington.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+shannen.mattingly@patriotmobile.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+steviesmith@trivecapital.com,valid,unknown,safe,valid,unknown,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+spetty@dfwairport.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+charlene@projectunity.net,valid,unknown,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_554_connection_rejected
+denise@twinliquors.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+misty.syblon@eisholdings.com,valid,unknown,unknown,unknown,unknown,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+ccolegrove@thenelsonclub.com,valid,safe,safe,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+shirley@parklandhealth.org,valid,catch_all,catch_all,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast
+cswanson@crossland.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+tressie@ssiteam.com,valid,unknown,unknown,unknown,unknown,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+ameet@desperadosrestaurant.com,valid,unknown,catch_all,catchall,accept_all_unverifiable,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_timeout
+christine.black@ridetm.org,valid,unknown,unknown,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast
+mysheu.cranford@dal.frb.org,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_timeout
+kathy.payne@targetbase.com,valid,unknown,safe,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+safety@hammett-excavation.com,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+glong@grantinsurancetx.com,valid,unknown,safe,unknown,unknown,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+nparker@haltomcitytx.com,valid,safe,safe,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+annette.warwick@ringcontainer.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+linda.peoples@scouting.org,valid,safe,safe,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+elsa.guerrero@tsrh.org,valid,catch_all,unknown,unknown,unknown,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+tmwf@tmwf.org,valid,safe,safe,valid,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+kwake@holder.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+bart.blackburn@tamuc.edu,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+adavis@afb.org,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+tiffany.perkins@plainscapital.com,valid,catch_all,catch_all,unknown,unknown,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+felicia.foster@claritev.com,valid,catch_all,catch_all,unknown,unknown,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+mfrazier@advantixsolutions.com,valid,unknown,catch_all,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast
+terri.rodriquez@ogletreedeakins.com,valid,unknown,unknown,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast
+bhardcastle@meritadvisor.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+lindsey.reed@futurestandard.com,valid,catch_all,catch_all,unknown,unknown,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+cheryl.myrick@westdale.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+susannechlebik@callmc.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+kmccoy@depermian.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+dbravo@spcaa.org,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+kross@fbfk.law,valid,safe,safe,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+debbie@santecenter.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+delores@signatureservices.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+mlight@pegasuslogistics.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+adarsh@linkrx.org,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+jingram@e3es.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+jessica.perez@mdregroup.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+sarah.gilmore@cellainc.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+lroewer@interfet.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+blong@dogwoodcommercial.com,valid,unknown,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+bonniew@kindfulhealth.com,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+isisney@gehanhomes.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+sharon.williams@highgroundadvisors.org,valid,invalid,invalid,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+tminer@satpon.com,valid,unknown,unknown,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast
+ygallardo@princetontx.us,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+nlopez@virtuoso.com,valid,safe,safe,valid,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+leah.phillips@bridgecrest.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+callie.gill@cswindustrials.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+rosealia.bray@tungstenautomation.com,valid,unknown,unknown,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+rtillman@energydomain.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+pcook@rainwatercf.org,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+christian.rodriguez@bearcreekfamilydentistry.com,valid,catch_all,catch_all,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_timeout
+jennanarosov@trivecapital.com,valid,unknown,safe,valid,unknown,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+ericg@scoopsoldiers.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+ntauzin@falconcompanies.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+leslie.delany@dvppumps.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+ccmorris@seyfarth.com,valid,unknown,unknown,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+oadams@quantumna.com,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+greg@ondafamilylaw.com,valid,invalid,invalid,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_554_connection_rejected
+cbeggins@cantexcapital.com,valid,unknown,unknown,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+tjohnson@banemachinery.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+megan.ingram@xplortoday.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+agutierrez@citadelpartnersus.com,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+beate.jamieson@ge.com,valid,invalid,invalid,unknown,unknown,,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found
+al.escoto@forcepoint.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+lbordelon@quotewell.com,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+lexus.hughes@methodist-rehab.com,valid,unknown,unknown,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast
+veronica.lacy@dynamicaccess.com,valid,safe,safe,unknown,unknown,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+jlewis@r-jholdings.com,valid,unknown,unknown,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast
+gianna@jntconstruct.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+sbaker@bakertankhead.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+sobotka@bessemer.com,valid,safe,safe,unknown,unknown,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+dallas@eventsandadventures.com,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+avillatoro@hpitx.com,valid,safe,safe,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+amberd@fk1935.com,valid,safe,safe,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+amackie@towerstreetinsurance.com,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+lindas@theautoshop.com,valid,unknown,unknown,catchall,accept_all_unverifiable,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_timeout
+jakers@vivoslife.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+lorriefollowwell@regencycenters.com,valid,safe,safe,unknown,unknown,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+maria@wowpgh.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+samantha.camp@tdindustries.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+czaccarello@thorntontomasetti.com,valid,catch_all,catch_all,unknown,unknown,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+lwyatt@manegait.org,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+kim.gibbs@guidestone.org,valid,unknown,catch_all,catchall,accept_all_unverifiable,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+jjones@hallgroup.com,valid,safe,safe,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+karli.daniels@awest.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+lmiller@dallascowboys.net,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+deb.thoma@asisignage.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+shelby@friscochamber.com,valid,safe,safe,catchall,accept_all_unverifiable,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+jfoy@fortworthzoo.org,valid,safe,safe,valid,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+phyllis.maguire@remingtoni.com,invalid,catch_all,catch_all,catchall,accept_all_unverifiable,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_timeout
+kadams@methodistsurg.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+hayley@globalimagingusa.com,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+tracy.lake@propelledbrands.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+aweisel@spins.com,valid,safe,safe,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+rebecca.pineda@therapypartnerspt.com,valid,catch_all,catch_all,unknown,unknown,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+lredman@garlandtx.gov,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+aj.jones@samsunghvac.com,valid,safe,safe,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+cyndi@trnt.net,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+bmorton@levelfourfinancial.com,valid,safe,safe,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+vricketts@pvschemicals.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+shuckaba@patserv.com,valid,catch_all,catch_all,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_550_ambiguous
+judy.moore@luminant.com,valid,unknown,catch_all,catchall,accept_all_unverifiable,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+carolined@roxoenergy.com,valid,catch_all,catch_all,valid,valid,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+linda.peoples@scouting.org,valid,safe,safe,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+gmedlen@thepointgroup.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+jmichelle@dallascowboys.com,valid,unknown,unknown,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_timeout
+spollard@hanover.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+auna@fapeinado.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+stephanie.smith@mohrpartners.com,valid,unknown,unknown,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+jpadilla@wpgus.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+karen@scottexteriors.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+kcraig@berkshireresi.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+gayla.ownbey@acisinc.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+kevin@airrepairusa.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+bianca@churcheleven32.com,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+smcrawford@diamondbackenergy.com,valid,unknown,unknown,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast
+waters@smilebrands.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+judy.moreland@woodcreekchurch.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+brittany@adamilindsey.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+jsmith@iamaw.org,valid,catch_all,catch_all,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_550_ambiguous
+acsnider@flsamerica.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+pclark@terryberry.com,valid,unknown,unknown,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast
+jayme.mcneill@menlosecurity.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+ashley.johnson@resolutemanagers.com,valid,unknown,unknown,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast
+diana.schmoll@argonmedical.com,valid,unknown,unknown,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast
+juana.gonzales@childrens.com,valid,unknown,unknown,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+hannah@embarkwithus.com,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+suzanjones@tarrantcounty.com,valid,catch_all,catch_all,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+jsanderson@prescottgroup.com,valid,unknown,unknown,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+susana.villalpando@dallaspolice.gov,valid,catch_all,catch_all,unknown,unknown,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+kelsi.couture@compass.com,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+jstmarie@macomp.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_550_ambiguous
+abena.valdez@mpowerhealth.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+kwilliams@mcguirewoods.com,valid,safe,safe,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+lisa.griffin@salasobrien.com,valid,unknown,unknown,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast
+vharris@medexpsi.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+lljohnson@berkleyentertainment.com,valid,catch_all,catch_all,unknown,unknown,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+brenna@tomcorc.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+dspence@rsimga.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+ejohn@sumologic.com,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+maddene@bessemer.com,valid,safe,safe,unknown,unknown,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+ccampbell@thediscoveryexperts.com,valid,safe,safe,valid,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+tegan@lonestarneurology.net,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+heidy.sarinana@united-protective.com,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+maggie.moore@chargebackgurus.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+sbalthazar@arlingtonortho.com,valid,safe,safe,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+fdelgado@be-ci.com,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+ccorbin@lincolninternational.com,valid,unknown,safe,valid,unknown,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+rbrodnax@hbk.com,valid,catch_all,catch_all,unknown,unknown,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+ljames@hanger.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+award@dacstaff.org,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+cory_cummins@sil.org,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+apayne@kainoscapital.com,valid,safe,safe,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+smartin@bvagroup.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+mmedelline@udallas.edu,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+beth.rochelle@transwestern.com,valid,unknown,unknown,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast
+kwestphal@swau.edu,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+courtney.ross@systemates.comlinkedin.com,disposable,disposable,disposable,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+abuell@boomerbenefits.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+brianna@360wraps.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+criselle.gatlin@fastestlabs.com,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+becky.edmondson@rtresolutions.com,valid,unknown,unknown,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_554_connection_rejected
+tracee.lasuzzo@gcinc.com,valid,unknown,unknown,valid,valid,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+rsullivan@wfgtitle.com,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+mgarcia@wc.edu,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+myoung@tworld.com,valid,catch_all,catch_all,unknown,unknown,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+deanna.phillips@inbenta.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+lucco@newgenerations.org,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+karolina@siriusbuildingcompany.com,valid,unknown,unknown,unknown,unknown,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+julia.barron@comfortside.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+gnewton@ahujaclark.com,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+gliendo@pm-pediatrics.com,valid,unknown,unknown,catchall,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_timeout
+cbranch@texasmotorspeedway.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+sroberson@broadmoormedicallodge.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+behr.janis@pennmutual.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+mclem@cailaw.org,valid,safe,safe,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+afuentes@wbcsouthwest.org,valid,safe,safe,valid,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+dbomengen@manhattanconstruction.com,valid,unknown,unknown,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_554_connection_rejected
+cherylgray@ebby.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+alyssa.baker@egonzehnder.com,valid,unknown,safe,unknown,unknown,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
+nselby@labora.com,valid,safe,safe,valid,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+sgoldman@tvcc.edu,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+ppaschall@rooseveltmc.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+candace.baker@region10.org,valid,safe,safe,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+phodge@nationalppo.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+kimberly.teague@usmd.com,valid,catch_all,catch_all,catchall,accept_all_unverifiable,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+teri.harper@vehlo.com,valid,safe,safe,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+thall@lpc.com,valid,catch_all,catch_all,valid,valid,,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all
+ashley.tatsch@recaro-as.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+gwen.phillips@goldmedalpools.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+sgeer-smith@nctcog.org,valid,safe,safe,valid,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+wcochran@concrete-pipe.org,valid,unknown,unknown,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast
+wvanhorn@fricksco.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+chaye@santanderconsumerusa.com,valid,catch_all,catch_all,unknown,unknown,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_timeout
+klyon@hallrender.com,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+acavrich@theamerican.org,valid,safe,safe,valid,valid,,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft
+jroberts@fortworthchamber.com,valid,safe,safe,valid,valid,,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists
