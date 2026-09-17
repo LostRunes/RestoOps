@@ -1,8 +1,15 @@
 from app.db.base import Base
+from app.models.job import Job
+from app.models.job_event import JobEvent
+from app.models.lead import Lead
+from app.models.lead_activity import LeadActivity
+from app.models.lead_contact import LeadContact
+from app.models.lead_verification import LeadVerification
 from app.models.organization import Organization
 from app.models.refresh_token import RefreshToken
 from app.models.restaurant import Restaurant
 from app.models.role import Role
+from app.models.suppression import SuppressionEntry
 from app.models.user import User
 
 __all__ = [
@@ -12,4 +19,11 @@ __all__ = [
     "User",
     "Restaurant",
     "RefreshToken",
+    "Lead",
+    "LeadContact",
+    "LeadVerification",
+    "LeadActivity",
+    "SuppressionEntry",
+    "Job",
+    "JobEvent",
 ]
