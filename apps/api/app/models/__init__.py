@@ -1,10 +1,15 @@
 from app.db.base import Base
+from app.models.campaign import Campaign
+from app.models.campaign_lead import CampaignLead
+from app.models.campaign_step import CampaignStep
+from app.models.conversation import Conversation
 from app.models.job import Job
 from app.models.job_event import JobEvent
 from app.models.lead import Lead
 from app.models.lead_activity import LeadActivity
 from app.models.lead_contact import LeadContact
 from app.models.lead_verification import LeadVerification
+from app.models.message import Message
 from app.models.organization import Organization
 from app.models.refresh_token import RefreshToken
 from app.models.restaurant import Restaurant
@@ -26,4 +31,9 @@ __all__ = [
     "SuppressionEntry",
     "Job",
     "JobEvent",
+    "Campaign",
+    "CampaignStep",
+    "CampaignLead",
+    "Conversation",
+    "Message",
 ]

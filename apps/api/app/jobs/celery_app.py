@@ -17,6 +17,17 @@ celery_app.conf.update(
     task_time_limit=300,  # 5 minutes max per task
 )
 
+celery_app.conf.beat_schedule = {
+    "ingest-emails-every-minute": {
+        "task": "app.workers.email_ingestion_worker.ingest_emails",
+        "schedule": 60.0,
+    },
+    "execute-due-campaign-steps": {
+        "task": "app.workers.campaign_worker.check_due_steps",
+        "schedule": 300.0,  # Every 5 minutes
+    },
+}
+
 
 @celery_app.task(name="app.jobs.celery_app.health_check_task")
 def health_check_task():

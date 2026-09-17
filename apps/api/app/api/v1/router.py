@@ -1,12 +1,14 @@
 from fastapi import APIRouter
 from app.api.v1.endpoints import (
     auth,
+    campaigns,
+    conversations,
+    leads,
     organizations,
     restaurants,
-    users,
-    leads,
-    verification,
     suppression,
+    users,
+    verification,
 )
 
 api_router = APIRouter()
@@ -25,4 +27,10 @@ api_router.include_router(
 )
 api_router.include_router(
     suppression.router, prefix="/suppression", tags=["Suppression"]
+)
+api_router.include_router(
+    campaigns.router, prefix="/campaigns", tags=["Campaigns"]
+)
+api_router.include_router(
+    conversations.router, prefix="/conversations", tags=["Conversations"]
 )

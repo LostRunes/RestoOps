@@ -40,6 +40,7 @@ class Settings(BaseSettings):
     SMTP_PASSWORD: str = ""
     EMAILS_FROM_EMAIL: str = "noreply@restoops.local"
     EMAILS_FROM_NAME: str = "RestoOps System"
+    MAILPIT_HTTP_URL: str = "http://localhost:8025"
 
     # AI / Ollama
     OLLAMA_BASE_URL: str = "http://localhost:11434"
