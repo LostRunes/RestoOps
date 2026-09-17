@@ -692,34 +692,34 @@ app.include_router(jobs.router, prefix="/api/v1/jobs", tags=["jobs"])
 
 ## Phase 3 Completion Checklist
 
-- [ ] `leads` table with all fields and indexes
-- [ ] `lead_contacts` table
-- [ ] `lead_verifications` table
-- [ ] `lead_activities` table
-- [ ] `suppression_list` table
-- [ ] `jobs` + `job_events` tables
-- [ ] Alembic migration applied
-- [ ] Verification engine: syntax validator works
-- [ ] Verification engine: DNS/MX checker works
-- [ ] Verification engine: disposable domain detection works (1000+ domains loaded)
-- [ ] Verification engine: role-based detection works
-- [ ] Verification engine: SMTP prober connects, sends RCPT TO, reads response
-- [ ] Verification engine: catch-all detection works
-- [ ] Verification engine: domain MX cache works (Redis)
-- [ ] Verification engine: classifier produces VALID/INVALID/RISKY/UNKNOWN correctly
-- [ ] Quick mode: runs syntax + DNS + disposable + role checks
-- [ ] Power mode: runs everything including SMTP
-- [ ] Lead scoring: 0-100 score, HOT/HIGH/MEDIUM/LOW priority
-- [ ] Lead CRUD API works (create, list, get, update, delete)
-- [ ] CSV import: parses file, creates leads, returns Job
-- [ ] Single verify API: returns VerificationResult
-- [ ] Bulk verify API: creates Job, queues Celery task
-- [ ] Celery verification worker: processes emails, updates progress
-- [ ] Job progress tracking: processed/total updated in DB
-- [ ] Suppression list: add, check, remove
-- [ ] Lead activities logged on key events
-- [ ] All queries scoped to organization_id
-- [ ] `git commit -m "Phase 3: Leads, verification engine, scoring"`
+- [x] `leads` table with all fields and indexes
+- [x] `lead_contacts` table
+- [x] `lead_verifications` table
+- [x] `lead_activities` table
+- [x] `suppression_list` table
+- [x] `jobs` + `job_events` tables
+- [x] Alembic migration applied
+- [x] Verification engine: syntax validator works
+- [x] Verification engine: DNS/MX checker works
+- [x] Verification engine: disposable domain detection works (1000+ domains loaded)
+- [x] Verification engine: role-based detection works
+- [x] Verification engine: SMTP prober connects, sends RCPT TO, reads response
+- [x] Verification engine: catch-all detection works
+- [x] Verification engine: domain MX cache works (Redis)
+- [x] Verification engine: classifier produces VALID/INVALID/RISKY/UNKNOWN correctly
+- [x] Quick mode: runs syntax + DNS + disposable + role checks
+- [x] Power mode: runs everything including SMTP
+- [x] Lead scoring: 0-100 score, HOT/HIGH/MEDIUM/LOW priority
+- [x] Lead CRUD API works (create, list, get, update, delete)
+- [x] CSV import: parses file, creates leads, returns Job
+- [x] Single verify API: returns VerificationResult
+- [x] Bulk verify API: creates Job, queues Celery task
+- [x] Celery verification worker: processes emails, updates progress
+- [x] Job progress tracking: processed/total updated in DB
+- [x] Suppression list: add, check, remove
+- [x] Lead activities logged on key events
+- [x] All queries scoped to organization_id
+- [x] `git commit -m "Phase 3: Leads, verification engine, scoring"`
 
 ---
 
