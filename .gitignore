@@ -57,3 +57,10 @@ grafana_data/
 # OS
 .DS_Store
 Thumbs.db
+
+# Executables & Tauri target
+RestoOps.exe
+*.exe
+*.msi
+src-tauri/target/
+target/
