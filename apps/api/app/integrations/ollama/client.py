@@ -1,9 +1,9 @@
 """
 Ollama HTTP client — wraps the local Ollama REST API.
 Supports generate (single-turn) and chat (multi-turn) endpoints.
+Model can be set at client construction time OR overridden per-call,
+which enables the dual-model (Gemma analysis + Qwen tool-calling) pattern.
 """
-import json
-import time
 import httpx
 from app.core.config import settings
 from app.core.logging import logger
@@ -12,7 +12,7 @@ from app.core.logging import logger
 class OllamaClient:
     def __init__(self, base_url: str = None, model: str = None):
         self.base_url = (base_url or settings.OLLAMA_BASE_URL).rstrip("/")
-        self.model = model or settings.OLLAMA_MODEL
+        self.default_model = model or settings.OLLAMA_ANALYSIS_MODEL
         self.client = httpx.AsyncClient(timeout=120.0)
 
     async def generate(
@@ -20,19 +20,26 @@ class OllamaClient:
         prompt: str,
         system: str = None,
         format: str = "json",
+        model: str = None,          # per-call model override
     ) -> dict:
         """
         POST /api/generate — single-turn generation.
+
+        Args:
+            model: Optional override for the model to use this call only.
+                   Falls back to self.default_model if not specified.
 
         Returns:
             {
                 "response": str,
                 "total_duration": int (nanoseconds),
                 "eval_count": int (tokens),
+                "model_used": str,
             }
         """
+        resolved_model = model or self.default_model
         payload = {
-            "model": self.model,
+            "model": resolved_model,
             "prompt": prompt,
             "stream": False,
             "format": format,
@@ -55,6 +62,7 @@ class OllamaClient:
                 "response": data.get("response", ""),
                 "total_duration": data.get("total_duration", 0),
                 "eval_count": data.get("eval_count"),
+                "model_used": resolved_model,
             }
         except httpx.ConnectError as exc:
             raise ConnectionError(
@@ -63,7 +71,7 @@ class OllamaClient:
             ) from exc
         except httpx.TimeoutException as exc:
             raise TimeoutError(
-                f"Ollama request timed out after 120s for model '{self.model}'"
+                f"Ollama request timed out after 120s for model '{resolved_model}'"
             ) from exc
 
     async def chat(
@@ -71,14 +79,16 @@ class OllamaClient:
         messages: list[dict],
         system: str = None,
         format: str = "json",
+        model: str = None,          # per-call model override
     ) -> dict:
         """
         POST /api/chat — multi-turn conversation.
 
         messages format: [{"role": "user", "content": "..."}, ...]
         """
+        resolved_model = model or self.default_model
         payload = {
-            "model": self.model,
+            "model": resolved_model,
             "messages": messages,
             "stream": False,
             "format": format,
@@ -102,6 +112,7 @@ class OllamaClient:
                 "response": msg.get("content", ""),
                 "total_duration": data.get("total_duration", 0),
                 "eval_count": data.get("eval_count"),
+                "model_used": resolved_model,
             }
         except httpx.ConnectError as exc:
             raise ConnectionError(
@@ -109,7 +120,7 @@ class OllamaClient:
             ) from exc
         except httpx.TimeoutException as exc:
             raise TimeoutError(
-                f"Ollama chat request timed out after 120s for model '{self.model}'"
+                f"Ollama chat request timed out after 120s for model '{resolved_model}'"
             ) from exc
 
     async def health_check(self) -> bool:

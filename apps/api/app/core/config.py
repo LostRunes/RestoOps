@@ -44,7 +44,15 @@ class Settings(BaseSettings):
 
     # AI / Ollama
     OLLAMA_BASE_URL: str = "http://localhost:11434"
-    OLLAMA_MODEL: str = "llama3.2"
+    # Gemma 3 4B — fast, excellent at language understanding, intent detection,
+    # structured reasoning and conversation comprehension.
+    OLLAMA_ANALYSIS_MODEL: str = "gemma3:4b"
+    # Qwen 2.5 7B — fine-tuned for function/tool calling, produces highly
+    # schema-conformant JSON tool suggestions.
+    OLLAMA_TOOL_MODEL: str = "qwen2.5:7b"
+    # Legacy alias kept for backward compat; defaults to analysis model
+    OLLAMA_MODEL: str = "gemma3:4b"
+
 
     # CORS
     BACKEND_CORS_ORIGINS: List[str] = [

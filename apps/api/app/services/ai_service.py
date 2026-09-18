@@ -71,6 +71,8 @@ class AIService:
 
         # Build context for agent
         context = {
+            "lead_id": lead.id if lead else None,
+            "lead_email": lead.email if lead else "",
             "lead_company": lead.company_name if lead else "Unknown",
             "lead_contact": lead.contact_name if lead else "Unknown",
             "lead_industry": lead.industry if lead else "Unknown",
@@ -91,11 +93,12 @@ class AIService:
         agent = ConversationAgent(self.ollama)
         agent_result = await agent.analyze(context)
 
-        # Store AI run record
+        # Store AI run record — log both models used
+        model_label = f"{settings.OLLAMA_ANALYSIS_MODEL}+{settings.OLLAMA_TOOL_MODEL}"
         ai_run = await self.ai_run_repo.create(
             org_id=org_id,
             agent=agent_result.agent_name,
-            model=settings.OLLAMA_MODEL,
+            model=model_label,
             input_text=agent.build_prompt(context),
             output_text=agent_result.raw_output,
             structured_output=agent_result.structured_output,
