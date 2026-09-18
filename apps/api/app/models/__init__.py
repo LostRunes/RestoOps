@@ -1,4 +1,7 @@
 from app.db.base import Base
+from app.models.ai_action import AIAction
+from app.models.ai_run import AIRun
+from app.models.audit_log import AuditLog
 from app.models.campaign import Campaign
 from app.models.campaign_lead import CampaignLead
 from app.models.campaign_step import CampaignStep
@@ -36,4 +39,7 @@ __all__ = [
     "CampaignLead",
     "Conversation",
     "Message",
+    "AIRun",
+    "AIAction",
+    "AuditLog",
 ]

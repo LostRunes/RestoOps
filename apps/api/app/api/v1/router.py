@@ -1,5 +1,6 @@
 from fastapi import APIRouter
 from app.api.v1.endpoints import (
+    ai,
     auth,
     campaigns,
     conversations,
@@ -34,3 +35,4 @@ api_router.include_router(
 api_router.include_router(
     conversations.router, prefix="/conversations", tags=["Conversations"]
 )
+api_router.include_router(ai.router, prefix="/ai", tags=["AI"])

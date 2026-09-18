@@ -129,6 +129,17 @@ class EmailIngestionService:
 
                 await self.db.commit()
 
+                # Queue AI analysis for this conversation
+                try:
+                    from app.workers.ai_worker import process_conversation_ai
+                    process_conversation_ai.delay(str(conv.id), str(org_id))
+                except Exception as ai_exc:
+                    # Never let AI worker errors block ingestion
+                    import logging
+                    logging.getLogger(__name__).warning(
+                        f"Failed to queue AI analysis for conversation {conv.id}: {ai_exc}"
+                    )
+
             ingested_count += 1
 
         return ingested_count

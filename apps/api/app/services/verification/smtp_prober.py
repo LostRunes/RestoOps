@@ -36,13 +36,15 @@ def classify_smtp_response(
     msg_lower = msg_str.lower()
 
     # Inbox full / quota exceeded
-    if (
-        code == 452
-        or "quota exceeded" in msg_lower
+    is_quota_phrase = (
+        "quota exceeded" in msg_lower
         or "mailbox full" in msg_lower
         or "over quota" in msg_lower
         or "storage limit" in msg_lower
-    ):
+    )
+    is_sender_error = "resolve sender domain" in msg_lower or "sender address rejected" in msg_lower
+    
+    if is_quota_phrase or (code == 452 and not is_sender_error):
         return "inbox_full", "mailbox_over_quota"
 
     # Account disabled / deactivated
@@ -109,8 +111,8 @@ def smtp_probe_mx(
         server = smtplib.SMTP(timeout=8)
         try:
             server.connect(mx_host)
-            server.helo("restoops.io")
-            server.mail("probe@restoops.io")
+            server.helo("bounceblitz.com")
+            server.mail("probe@bounceblitz.com")
             code, _ = server.rcpt(f"nonexistent_probe_xr7k29@{domain}")
             if code == 250:
                 catch_all = True
@@ -131,8 +133,8 @@ def smtp_probe_mx(
             server = smtplib.SMTP(timeout=8)
             try:
                 server.connect(mx_host)
-                server.helo("restoops.io")
-                server.mail("verifier@restoops.io")
+                server.helo("bounceblitz.com")
+                server.mail("verifier@bounceblitz.com")
                 code, msg = server.rcpt(email)
                 return code, str(msg)
             finally:

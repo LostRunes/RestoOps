@@ -1,0 +1,301 @@
+email,status,status_label,score,meaning,what_to_do,reason,mx_host,provider,latency_ms
+cpounds@triplecrownresources.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,triplecrownresources-com.mail.protection.outlook.com,microsoft,5782
+crystal@biggame.org,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,biggame-org.mail.protection.outlook.com,microsoft,1141
+mreid@higginbotham.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists,us-smtp-inbound-1.mimecast.com,mimecast,4703
+susana.wetzel@madd.org,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft,madd-org.mail.protection.outlook.com,microsoft,4171
+renee.long@navarrocollege.edu,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,navarrocollege-edu.mail.protection.outlook.com,microsoft,1875
+lhall@nisdtx.org,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast,us-smtp-inbound-2.mimecast.com,mimecast,4780
+sarasmith@trivecapital.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_proofpoint,mx1-us1.ppe-hosted.com,proofpoint,4141
+vfrunzi@kindredhomes.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,kindredhomes-com.mail.protection.outlook.com,microsoft,983
+valencia.owens@enmu.edu,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft,enmu-edu.mail.protection.outlook.com,microsoft,4203
+heidi.wilson@envisionhealth.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all,mxa-0011af01.gslb.pphosted.com,proofpoint,2343
+jean@campat.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all,d198010a.ess.barracudanetworks.com,barracuda,2405
+b.davidson@norriscenters.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all,norriscenters.com.mx1.rcimx.com,generic,9733
+kvogel@hed.co,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,hed-co.mail.protection.outlook.com,microsoft,1062
+james.courtney@hrblock.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,hrblock-com.mail.protection.outlook.com,microsoft,1391
+angie.richard@freemanco.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft,freemanco-com.mail.protection.outlook.com,microsoft,4625
+tbosquez@harmonytx.org,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all,mx1.hc4306-8.iphmx.com,generic,2171
+terry.kranz@abacuscorporation.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all,abacuscorporation.com.1.0001.arsmtp.com,generic,2467
+kathythomas@ebby.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all,aspmx.l.google.com,google,1905
+khardman@briggsfreeman.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,briggsfreeman-com.mail.protection.outlook.com,microsoft,937
+jsande@pattersonpersonalinjury.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_proofpoint,mx1-us1.ppe-hosted.com,proofpoint,4092
+melissa.thweatt@texasbank.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast,usb-smtp-inbound-1.mimecast.com,mimecast,4250
+m.bravo@norriscenters.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all,norriscenters.com.mx1.rcimx.com,generic,4625
+moffitts@dneph.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all,aspmx.l.google.com,google,1889
+tracy.kennedy@argonmedical.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast,us-smtp-inbound-2.mimecast.com,mimecast,4671
+jane.scott@oncor.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all,mail1.oncor.com,generic,8608
+mistyhawley@iscmfg.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,o365_user_not_found,iscmfg-com.mail.protection.outlook.com,microsoft,967
+mpeterson@lonestarfunds.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all,mxa-00499001.gslb.pphosted.com,proofpoint,2092
+dreynolds@criswell.edu,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,criswell-edu.mail.protection.outlook.com,microsoft,1077
+price.ashly@serviceexperts.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast,us-smtp-inbound-1.mimecast.com,mimecast,9967
+dfarrell@eastdilsecured.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_550_ambiguous,eastdilsecured-com.mail.eo.outlook.com,generic,3577
+kacy.campbell@informa.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast,us-smtp-inbound-1.mimecast.com,mimecast,4530
+jacquelyn.ferrara@maverickcap.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast,us-smtp-inbound-2.mimecast.com,mimecast,4657
+burkard.patricia@iononline.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_soft_fail_503,mxb-00320f01.gslb.pphosted.com,proofpoint,9500
+dfrizzell@encore.bz,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,encore-bz.mail.protection.outlook.com,microsoft,1032
+dana.audet@careunited.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_timeout,mx004.netsol.xion.oxcs.net,generic,5907
+jsherwood@frontlinemobilehealth.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,frontlinemobilehealth-com.mail.protection.outlook.com,microsoft,1062
+mtemchin@cmta.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,cmta-com.mail.protection.outlook.com,microsoft,937
+slaprade@aethonenergy.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,aethonenergy-com.mail.protection.outlook.com,microsoft,969
+mcoppola@thecolonyer.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,thecolonyer-com.mail.protection.outlook.com,microsoft,1032
+lkelley@statlab.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,statlab-com.mail.protection.outlook.com,microsoft,969
+dana@grizzlyind.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,grizzlyind-com.mail.protection.outlook.com,microsoft,937
+jessica.henry@trinity-solar.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,o365_user_not_found,trinitysolar-com01i.mail.protection.outlook.com,microsoft,1016
+emily.milling@e-mg.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,o365_user_not_found,emg-com0c.mail.protection.outlook.com,microsoft,1000
+pchappell@signature-systems.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast,us-smtp-inbound-2.mimecast.com,mimecast,5078
+charley.maynard@bodycote.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast,us-smtp-inbound-1.mimecast.com,mimecast,4625
+ppurcell@jasperridge.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast,us-smtp-inbound-1.mimecast.com,mimecast,4625
+t.haney@tcu.edu,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists,ppagent06.tcu.edu,generic,4031
+jacquelinefinn@upwork.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all,aspmx.l.google.com,google,1733
+bbridges@partneresi.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,partneresi-com.mail.protection.outlook.com,microsoft,1078
+mgalvan@khov.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast,us-smtp-inbound-2.mimecast.com,mimecast,4719
+jalexander@atcllc.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,o365_user_not_found,atcllc-com.mail.protection.outlook.com,microsoft,952
+jmaples@berkshirehathawayautomotive.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists,mx0b-001ea403.pphosted.com,proofpoint,8531
+sammie.yem@ttiinc.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all,mxb-00179101.gslb.pphosted.com,proofpoint,1906
+emily.titus@equifyllc.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,equifyllc-com.mail.protection.outlook.com,microsoft,734
+lizeeth@cflandscapes.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists,aspmx.l.google.com,google,3562
+joswald@forgeconstructors.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists,mx2-us2.ppe-hosted.com,proofpoint,7983
+nohely.rios@kaufmandolowich.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast,us-smtp-inbound-1.mimecast.com,mimecast,4155
+fernando.giannazzo@alston.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast,us-smtp-inbound-1.mimecast.com,mimecast,4453
+achapman@cftexas.org,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,cftexas-org.mail.protection.outlook.com,microsoft,1000
+jfox@sutton.engineering,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,sutton-engineering.mail.protection.outlook.com,microsoft,1030
+katelin@amr.capital,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,amr-capital.mail.protection.outlook.com,microsoft,765
+kims@christchapelbc.org,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_554_connection_rejected,mx01a.pp-tp.com,generic,14655
+jjackson@atmac.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,atmac-com.mail.protection.outlook.com,microsoft,531
+kay.sloan@mavenir.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,mavenir-com.mail.protection.outlook.com,microsoft,1359
+connie.robledo@givemethevin.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists,aspmx.l.google.com,google,4030
+brichards@photofax.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,photofax-com.mail.protection.outlook.com,microsoft,6266
+ccothrin@huntregional.org,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_soft_fail_450,mx.paubox.com,generic,8514
+sherry.wagner@dal.frb.org,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_timeout,mx2.frb.iphmx.com,generic,2625
+mpwren@republicfinance.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast,us-smtp-inbound-1.mimecast.com,mimecast,4469
+ataylor3@dart.org,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft,dart-org.mail.protection.outlook.com,microsoft,3953
+mmills@benchmark.us,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast,us-smtp-inbound-1.mimecast.com,mimecast,4156
+jessica.green@webce.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,webce-com.mail.protection.outlook.com,microsoft,766
+kali.dennis@trtholdings.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all,mxb-0025b901.gslb.pphosted.com,proofpoint,1985
+lindsey@stephenslaw.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_proofpoint,mx2-us1.ppe-hosted.com,proofpoint,5266
+mribble@buildersmovement.org,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_proofpoint,mx1-us1.ppe-hosted.com,proofpoint,7031
+alexander@cncatering.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all,d270878a.ess.barracudanetworks.com,barracuda,1906
+bspencer@remarkablehospice.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,remarkablehospice-com.mail.protection.outlook.com,microsoft,625
+beckyru@plano.gov,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,plano-gov.mail.protection.outlook.com,microsoft,625
+katy@digitalprint.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all,d316378a.ess.barracudanetworks.com,barracuda,1858
+cgranados@trinityhunt.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,o365_user_not_found,trinityhunt-com.mail.protection.outlook.com,microsoft,875
+jguerrero@cookiesnmilkinc.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all,d311187a.ess.barracudanetworks.com,barracuda,2110
+akilpatrick@workreadytexas.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,workreadytexas-com.mail.protection.outlook.com,microsoft,796
+kelli.barnes@pollock.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all,mx0a-002d3901.pphosted.com,proofpoint,1734
+michelle.stobb@doxa.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,doxa-com.mail.protection.outlook.com,microsoft,733
+cporras@solesourcecapital.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all,d298518a.ess.barracudanetworks.com,barracuda,2032
+cathy.hodge@bondsellis.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all,bondsellis.com.1.0001.arsmtp.com,generic,2296
+elizabethramos@brinkshome.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_soft_fail_451,us-smtp-inbound-1.mimecast.com,mimecast,20030
+dharrison@ctlamedica.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_proofpoint,mx1-us1.ppe-hosted.com,proofpoint,5234
+amanda.tonroy@blackmtn.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,blackmtn-com.mail.protection.outlook.com,microsoft,671
+pat.steinbach@djsintl.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,o365_user_not_found,djsintl-com.mail.protection.outlook.com,microsoft,468
+vdavis@austin-ind.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast,usb-smtp-inbound-1.mimecast.com,mimecast,3375
+skyler.hollis@blackbox.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast,eu-smtp-inbound-1.mimecast.com,mimecast,4000
+jszczepanski@merryhillschool.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all,mxa-00820c01.gslb.pphosted.com,proofpoint,2092
+carmen@acepipe.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all,mx0a-00905001.pphosted.com,proofpoint,2031
+hannah@callfirehouse.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,callfirehouse-com.mail.protection.outlook.com,microsoft,1546
+landisf@automax4u.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists,aspmx.l.google.com,google,3985
+doris.reyes@rexelusa.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft,rexelusa-com.mail.protection.outlook.com,microsoft,4015
+teakins@reliablechevrolet.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists,mxa-001ea403.gslb.pphosted.com,proofpoint,3578
+rsilva@allstate.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft,allstate-com.mail.protection.outlook.com,microsoft,4202
+creyes@linbeck.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft,linbeck-com.mail.protection.outlook.com,microsoft,3812
+tiffany.rendleman@bankatfirst.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all,mxa-00136001.gslb.pphosted.com,proofpoint,1968
+amanda@cdconsulting.org,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_timeout,smtp.secureserver.net,generic,7984
+kristy.steger@usap.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_timeout,mx1.hc2347-48.iphmx.com,generic,2671
+acallahan@cambridgeassociates.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all,smtp1.cambridgeassociates.com,generic,2139
+susana@trezcapital.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,trezcapital-com.mail.protection.outlook.com,microsoft,625
+maridobbs@lirapediatrics.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,o365_user_not_found,lirapediatrics-com.mail.protection.outlook.com,microsoft,796
+donna.collins@nch.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all,mxb-0004a701.gslb.pphosted.com,proofpoint,1921
+brett@hiddencreekevents.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists,aspmx.l.google.com,google,3030
+mdilworth@crowholdings.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,o365_user_not_found,crowholdings-com.mail.protection.outlook.com,microsoft,687
+shannon@netsync.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all,mx2.hc5434-99.iphmx.com,generic,2000
+kelly.schmit@landsberg.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all,mx0a-002d3901.pphosted.com,proofpoint,3421
+sandy.sheffler@jts.net,inbox_full,Inbox Full,35,A real mailbox that cannot accept new mail right now.,Skip for now and re-verify later.,mailbox_over_quota,jts-net-1.fortimailcloud.com,generic,8092
+louann.dearment@analyticsindiamag.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all,alt4.aspmx.l.google.com,google,1640
+ashley@morgan-electric.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,morganelectric-com01e.mail.protection.outlook.com,microsoft,1125
+mnaimi@moneygram.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all,mxb-0010c601.gslb.pphosted.com,proofpoint,2375
+beth@connectchurch.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists,aspmx.l.google.com,google,3967
+ece@cemvita.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,cemvita-com.mail.protection.outlook.com,microsoft,6016
+cbasciano@dallascowboys.net,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all,mx0a-001c4a01.pphosted.com,proofpoint,1610
+sdolph@somliving.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_proofpoint,mx1-us1.ppe-hosted.com,proofpoint,7344
+deana.howell@spmoilandgas.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists,mxa-0004f803.gslb.pphosted.com,proofpoint,3733
+astarr@tacenergy.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast,us-smtp-inbound-2.mimecast.com,mimecast,5469
+suzanneb@savillecpa.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast,us-smtp-inbound-2.mimecast.com,mimecast,3875
+brenda.ruzicka@crossroadschristian.org,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,o365_user_not_found,crossroadschristian-org.mail.protection.outlook.com,microsoft,640
+ashley@prudentialrealty.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_timeout,mx1.emailsrvr.com,generic,2594
+kpayne@northmarq.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast,us-smtp-inbound-2.mimecast.com,mimecast,4594
+devin.blair@driveninsights.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,driveninsights-com.mail.protection.outlook.com,microsoft,625
+cstewart@kosmosenergy.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,kosmosenergy-com.mail.protection.outlook.com,microsoft,907
+martha.hackbarth@hillwood.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all,mx0a-00206901.pphosted.com,proofpoint,1671
+lisa.patrick@guidestone.org,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,o365_user_not_found,guidestone-org.mail.protection.outlook.com,microsoft,702
+diane.colburn@publicisna.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,o365_user_not_found,publicisna-com.mail.protection.outlook.com,microsoft,828
+nicole.morton@clicknclose.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all,clicknclose-com.mx1.arsmtp.com,generic,3359
+moriah@texinspec.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all,ASPMX.L.GOOGLE.com,google,1953
+bgreen@gaugecapital.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,gaugecapital-com.mail.protection.outlook.com,microsoft,782
+gtammy@bswhealth.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all,mxb-0005f601.gslb.pphosted.com,proofpoint,2155
+rwerts@tenaska.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft,tenaska-com.mail.protection.outlook.com,microsoft,6000
+pclark@unityhunt.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists,unityhunt-com.inbound.emailservice.io,generic,5233
+dshumake@nisdtx.org,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast,us-smtp-inbound-2.mimecast.com,mimecast,3765
+scox@applieddigital.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,applieddigital-com.mail.protection.outlook.com,microsoft,546
+caitlyn@trinityhealthcare.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,trinityhealthcare-com.mail.protection.outlook.com,microsoft,844
+amber.trevino@wtxretina.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_timeout,mail.wtrc.clinic,generic,17109
+refreytag@soundphysicians.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,SoundPhysicians-com.mail.protection.outlook.com,microsoft,969
+katie@scarbrough-medlin.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,scarbroughmedlin-com02e.mail.protection.outlook.com,microsoft,858
+tami.hommel@edwardjones.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all,mxa-00355d01.gslb.pphosted.com,proofpoint,1860
+labraham@pacelineequity.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,pacelineequity-com.mail.protection.outlook.com,microsoft,687
+michele@tdirefrigeration.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_554_connection_rejected,mx101.us.everycloudtech.com,generic,7030
+lagles@statenational.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_timeout,usa.mx1.mailanyone.net,generic,73202
+hhindi@dynamicslr.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all,aspmx.l.google.com,google,1578
+anna.hill@summitchurchwylie.org,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,o365_user_not_found,summitchurchwylie-org.mail.protection.outlook.com,microsoft,750
+mjacquez@orthotexas.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,o365_user_not_found,orthotexas-com.mail.protection.outlook.com,microsoft,500
+nikki@cdbaby.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft,cdbaby-com.mail.protection.outlook.com,microsoft,3889
+londracek@globalpro.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast,us-smtp-inbound-2.mimecast.com,mimecast,3983
+staceym@teamhumphrey.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,teamhumphrey-com.mail.protection.outlook.com,microsoft,5875
+amccormick@prosper-isd.net,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all,mxa-0084a601.gslb.pphosted.com,proofpoint,2078
+ellen@gurianco.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all,gurianco-com.mx1.arsmtp.com,generic,2125
+chelsie.morrow@transcore.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,transcore-com.mail.protection.outlook.com,microsoft,750
+christi.grossklaus@mouser.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists,mxa-0016e702.gslb.pphosted.com,proofpoint,3578
+diane.c@longhornfab.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,longhornfab-com.mail.protection.outlook.com,microsoft,968
+joyce.manalo@jsx.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,jsx-com.mail.protection.outlook.com,microsoft,5733
+ssmith@kmpcorp.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,kmpcorp-com.mail.protection.outlook.com,microsoft,703
+smorton@totalapartmentsolutions.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all,aspmx.l.google.com,google,2421
+amanda.eckhardt@injala.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,injala-com.mail.protection.outlook.com,microsoft,1155
+bcampbell@dart.org,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft,dart-org.mail.protection.outlook.com,microsoft,3984
+lisa.bruhn@aperturellc.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,aperturellc-com.mail.protection.outlook.com,microsoft,6296
+jroy@apptricity.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,apptricity-com.mail.protection.outlook.com,microsoft,608
+alyssar@signapay.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_proofpoint,mx1-us1.ppe-hosted.com,proofpoint,3843
+earagon@hanger.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_soft_fail_503,mxa-00138201.gslb.pphosted.com,proofpoint,8280
+dcalvert@tradeway.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_timeout,mail.mailroute.net,generic,17156
+jwilliams@trtblaw.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,trtblaw-com.mail.protection.outlook.com,microsoft,969
+klarisa.perry@signifyhealth.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast,usb-smtp-inbound-1.mimecast.com,mimecast,4812
+joannm@abbottlabel.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,abbottlabel-com.mail.protection.outlook.com,microsoft,983
+mpecoy@automaticfireprotection.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,automaticfireprotection-com.mail.protection.outlook.com,microsoft,703
+karis@behindthewalls.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,behindthewalls-com.mail.protection.outlook.com,microsoft,657
+dmatzke@pogueconstruction.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,o365_user_not_found,pogueconstruction-com.mail.protection.outlook.com,microsoft,609
+bbarwick@team.nxlink.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_proofpoint,mx1-us1.ppe-hosted.com,proofpoint,5984
+sajee.lertsuthirasmevong@toyota.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all,mxa-001f1301.gslb.pphosted.com,proofpoint,1906
+sberry@traconline.org,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_proofpoint,mx1-us1.ppe-hosted.com,proofpoint,4858
+marco.escamilla@vg-re.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,vgre-com0e.mail.protection.outlook.com,microsoft,796
+annie.emory@dallascounty.org,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast,us-smtp-inbound-1.mimecast.com,mimecast,3953
+sporter@tollesonwealth.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,tollesonwealth-com.mail.protection.outlook.com,microsoft,671
+dianne@applieddigital.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,applieddigital-com.mail.protection.outlook.com,microsoft,500
+sheri@eslin.us,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all,eslin.us.1.0001.arsmtp.com,generic,2108
+margo@epiqscripts.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists,aspmx.l.google.com,google,3000
+karla@sayanconstruction.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,sayanconstruction-com.mail.protection.outlook.com,microsoft,907
+cmilne@weitzmangroup.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all,mxa-00350101.gslb.pphosted.com,proofpoint,2155
+janie.hunter@spawglass.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,spawglass-com.mail.protection.outlook.com,microsoft,735
+toral.patel@vonage.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft,vonage-com.mail.protection.outlook.com,microsoft,4031
+diane.norwood@trs-rentelco.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all,d157370a.ess.barracudanetworks.com,barracuda,1890
+lwilliams@hanger.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_soft_fail_503,mxa-00138201.gslb.pphosted.com,proofpoint,7328
+kflynn@mfi.org,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,mfi-org.mail.protection.outlook.com,microsoft,828
+brianna.thiede@fellowshipchurch.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,o365_user_not_found,fellowshipchurch-com.mail.protection.outlook.com,microsoft,608
+areid@collin.edu,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft,collin-edu.mail.protection.outlook.com,microsoft,4281
+jboroughs@jshelwig.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,jshelwig-com.mail.protection.outlook.com,microsoft,640
+wgaytan@jettaoperating.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_proofpoint,mx1-us1.ppe-hosted.com,proofpoint,3782
+hosborne@princetonisd.net,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all,aspmx.l.google.com,google,1968
+liz.shafton@astech.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,astech-com.mail.protection.outlook.com,microsoft,593
+ssmith@dbldesign.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all,aspmx.l.google.com,google,2171
+karmstead@alacritysolutions.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast,usb-smtp-inbound-1.mimecast.com,mimecast,4422
+bchalmers@brightnow.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,o365_user_not_found,brightnow-com.mail.protection.outlook.com,microsoft,594
+jennifer.gardner@daystar.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast,usb-smtp-inbound-1.mimecast.com,mimecast,3967
+abell@huntsmanbuilds.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,o365_user_not_found,huntsmanbuilds-com.mail.protection.outlook.com,microsoft,875
+fcintron@jtaylor.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,jtaylor-com.mail.protection.outlook.com,microsoft,1172
+kelly.lane@austco.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,austco-com.mail.protection.outlook.com,microsoft,733
+bdawson@streetlights.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all,streetlights-com.mx1.arsmtp.com,generic,2250
+tstrauser@crestservices.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all,mxa-00229301.gslb.pphosted.com,proofpoint,2094
+anamika@brandaidevents.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists,smtp.google.com,google,3016
+nina@pedersonsfarms.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_550_ambiguous,smtp1-msp.securence.com,generic,6483
+allie.gatlin@avenhospitality.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,avenhospitality-com.mail.protection.outlook.com,microsoft,1187
+lynngant@aseschool.org,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_550_ambiguous,smtp1-msp.securence.com,generic,7297
+gwallace@ursulinedallas.org,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_550_ambiguous,ursuline.in.tmes.trendmicro.com,generic,3109
+lindseym@ucs.net,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists,d272754a.ess.barracudanetworks.com,barracuda,3750
+deidrac@ctgtx.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists,ctgtx-com.p10.mxthunder.com,generic,4296
+rnichols@congregationbethtorah.org,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists,aspmx.l.google.com,google,3875
+vickie.wiltcher@youngerpartners.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists,youngerpartners-com.inbound.emailservice.io,generic,4016
+chenson@crescent.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,crescent-com.mail.protection.outlook.com,microsoft,1280
+daphne.berry@tdindustries.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,tdindustries-com.mail.protection.outlook.com,microsoft,656
+card@gptx.org,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all,d182397a.ess.barracudanetworks.com,barracuda,1952
+joden@lainfaulkner.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_proofpoint,mx1-us1.ppe-hosted.com,proofpoint,5421
+laura.thomas@moveconcierge.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all,aspmx.l.google.com,google,1641
+jtaylor@crescent.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,crescent-com.mail.protection.outlook.com,microsoft,546
+adrienne.monson@ips.us,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all,d367824a.ess.barracudanetworks.com,barracuda,2062
+cwalker@alliedplastic.org,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists,alt2.aspmx.l.google.com,google,2782
+kweber@omm.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,omm-com.mail.protection.outlook.com,microsoft,594
+aoldham@brident.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,brident-com.mail.protection.outlook.com,microsoft,657
+sherry.hanks@smilebrands.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,smilebrands-com.mail.protection.outlook.com,microsoft,641
+pwake@heritageranchgolf.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,o365_user_not_found,heritageranchgolf-com.mail.protection.outlook.com,microsoft,719
+ivette@kpstaffing.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists,aspmx.l.google.com,google,4000
+donna.mcbrayer@recaro-as.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,recaroas-com01e.mail.protection.outlook.com,microsoft,797
+mjowdy@parkscoffee.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all,mxb-00229301.gslb.pphosted.com,proofpoint,1703
+arunnels@huntoil.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast,us-smtp-inbound-2.mimecast.com,mimecast,4983
+gpugh@ngpenergy.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast,us-smtp-inbound-2.mimecast.com,mimecast,4155
+lydiareiser@ebby.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all,aspmx.l.google.com,google,1797
+shill@encoreacq.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_soft_fail_451,us-smtp-inbound-2.mimecast.com,mimecast,18671
+smclaughlin@central.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all,mx0a-002daa01.pphosted.com,proofpoint,2343
+ruizr@dneph.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all,aspmx.l.google.com,google,1375
+whitney@texasmotorplex.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all,barracuda.redlinetechnology.com,generic,2858
+freda.williams@werkenbijcbr.nl,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_timeout,werkenbijcbr.nl,generic,16296
+soha.estrada@staffmarkgroup.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,staffmarkgroup-com.mail.protection.outlook.com,microsoft,655
+jpontz@pbr.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast,us-smtp-inbound-2.mimecast.com,mimecast,9250
+kfountain@boulderassociates.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast,us-smtp-inbound-2.mimecast.com,mimecast,5671
+keron@themonitor.net,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_timeout,mx-biz.mail.am0.yahoodns.net,generic,5046
+amoshell@uogg.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,uogg-com.mail.protection.outlook.com,microsoft,671
+cindy.grinstead@southwestchristian.org,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists,aspmx2.googlemail.com,google,3546
+karen.frederking@primerica.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all,mxb-005cdc01.gslb.pphosted.com,proofpoint,1984
+susanne.barney@cityofcorinth.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,cityofcorinth-com.mail.protection.outlook.com,microsoft,594
+laurena@covenantchurch.org,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,covenantchurch-org.mail.protection.outlook.com,microsoft,703
+wanthony@cadencemcshane.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,cadencemcshane-com.mail.protection.outlook.com,microsoft,828
+katrina.walker@dsisdtx.us,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all,mxa-00960a01.gslb.pphosted.com,proofpoint,10235
+cindy@rankinconstruction.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,rankinconstruction-com.mail.protection.outlook.com,microsoft,625
+bgoeke@arcomurray.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,arcomurray-com.mail.protection.outlook.com,microsoft,968
+tina.atkins@nbly.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all,mxb-00913701.gslb.pphosted.com,proofpoint,2078
+bbraaten@brunswickgroup.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast,eu-smtp-inbound-1.mimecast.com,mimecast,3390
+sarah.collum@lstcompanies.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,lstcompanies-com.mail.protection.outlook.com,microsoft,687
+jbarragan@niwcorp.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists,smtp.google.com,google,4000
+lizet.shuja@narvar.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists,aspmx.l.google.com,google,3515
+eclergeau@westcoastuniversity.edu,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all,mxa-00273a01.gslb.pphosted.com,proofpoint,2187
+jessica.dismuke@vaqueromidstream.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,vaqueromidstream-com.mail.protection.outlook.com,microsoft,1250
+tbjohnson@atlasrestoration.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,atlasrestoration-com.mail.protection.outlook.com,microsoft,562
+nohare@bli.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,bli-com.mail.protection.outlook.com,microsoft,812
+lreeves@fwbg.org,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,fwbg-org.mail.protection.outlook.com,microsoft,827
+alex.brown@pvinsightinc.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,pvinsightinc-com.mail.protection.outlook.com,microsoft,687
+nikki.johnson@toyotacf.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists,mxb-0036c701.gslb.pphosted.com,proofpoint,3594
+angie_cain@candfsteel.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,user_not_found,aspmx.l.google.com,google,3453
+andi.gwyn@arlingtontx.gov,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all,mxa-003aba01.gslb.pphosted.com,proofpoint,2078
+kdagel@orion180.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all,orion180-com.mx1.arsmtp.com,generic,3203
+christina@markingsystems.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_proofpoint,mx1-us1.ppe-hosted.com,proofpoint,5562
+aesparza@thevested.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_proofpoint,mx1-us1.ppe-hosted.com,proofpoint,5312
+nwilliams@cyrusone.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast,us-smtp-inbound-2.mimecast.com,mimecast,4000
+priya.horvath@perkinswill.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,perkinswill-com.mail.protection.outlook.com,microsoft,671
+susana.mendoza@redoakisd.org,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all,d132165a.ess.barracudanetworks.com,barracuda,1890
+elizabeth.parker@ameriship.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,ameriship-com.mail.protection.outlook.com,microsoft,515
+kboggess@linbeck.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft,linbeck-com.mail.protection.outlook.com,microsoft,3750
+natalie.jenkins@castlemontessori.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,o365_user_not_found,castlemontessori-com.mail.protection.outlook.com,microsoft,687
+parker@fauxcades.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,fauxcades-com.mail.protection.outlook.com,microsoft,702
+kaden.kochner@supersure.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,supersure-com.mail.protection.outlook.com,microsoft,641
+debbiej@rmdfw.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,smtp_550_ambiguous,mail.rmdfw.com,generic,15905
+kristi@pritchardassociates.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_proofpoint,mx1-us1.ppe-hosted.com,proofpoint,5250
+ccarter@cobbmartinez.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,cobbmartinez-com.mail.protection.outlook.com,microsoft,672
+kateri.cale@orix.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all,mxa-00126402.gslb.pphosted.com,proofpoint,2171
+kimberley@d-elaw.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,delaw-com0c.mail.protection.outlook.com,microsoft,717
+abigail.picon@nbly.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all,mxb-00913701.gslb.pphosted.com,proofpoint,1468
+cdao@friscotexas.gov,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all,mxb-002e7701.gslb.pphosted.com,proofpoint,3250
+manderson@bsw-architects.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,o365_user_not_found,bswarchitects-com0i.mail.protection.outlook.com,microsoft,734
+vcortes@highlander-partners.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,highlanderpartners-com02e.mail.protection.outlook.com,microsoft,983
+tisha.mcgruder@thryv.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,o365_user_not_found,thryv-com.mail.protection.outlook.com,microsoft,562
+kprachyl@forefrontdermatology.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,forefrontdermatology-com.mail.protection.outlook.com,microsoft,562
+courtney.grubb@ussm.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_mimecast,us-smtp-inbound-1.mimecast.com,mimecast,3875
+mklapperich@ogc.org,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,ogc-org.mail.protection.outlook.com,microsoft,812
+rcain@unitedtolearn.org,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,mailbox_exists,aspmx.l.google.com,google,11296
+lmozingo@hchb.com,unknown,Unknown,15,The server would not give a definitive answer.,Not charged; re-verify later.,provider_dha_microsoft,hchb-com.mail.protection.outlook.com,microsoft,3860
+wwarren@industrialnetworking.com,invalid,Invalid,0,No mailbox exists: a guaranteed hard bounce.,Do not send.,o365_user_not_found,industrialnetworking-com.mail.protection.outlook.com,microsoft,827
+christy@greatcities.org,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,greatcities-org.mail.protection.outlook.com,microsoft,828
+elena.lujan@socialdriver.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all,aspmx.l.google.com,google,6875
+jordan.lao@weathermatic.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,weathermatic-com.mail.protection.outlook.com,microsoft,842
+destiny.west@skillable.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,skillable-com.mail.protection.outlook.com,microsoft,1157
+aluther@epicwatersgp.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,epicwatersgp-com.mail.protection.outlook.com,microsoft,1000
+msibley@naterra.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,naterra-com.mail.protection.outlook.com,microsoft,625
+debra@allynmedia.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all,aspmx.l.google.com,google,1796
+thipp@theontimeexperts.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,theontimeexperts-com.mail.protection.outlook.com,microsoft,734
+fhenson@primelending.com,catch_all,Catch-All,50,"The domain accepts mail for any name, so mailbox cannot be confirmed.","Send with caution, as a separate segment.",domain_accepts_all,mxb-001d0301.gslb.pphosted.com,proofpoint,2141
+pjaroszewicz@andrewsdistributing.com,safe,Safe,100,Mailbox exists and accepts mail; no risk flags.,Send with confidence.,o365_mailbox_confirmed,andrewsdistributing-com.mail.protection.outlook.com,microsoft,905
