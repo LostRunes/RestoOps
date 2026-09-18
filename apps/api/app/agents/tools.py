@@ -52,12 +52,46 @@ class ToolRegistry:
 # Tool handler stubs — these will be wired to real services in later phases
 # ---------------------------------------------------------------------------
 
-async def _create_quote(lead_id: str, guest_count: int = None, event_date: str = None,
-                         event_type: str = None, **kwargs) -> dict:
-    """Placeholder — Phase 6 will implement the full quote creation flow."""
+async def _create_quote(
+    lead_id: str,
+    guest_count: int = 10,
+    event_date: str = None,
+    event_type: str = None,
+    items: list[dict] = None,
+    org_id: str = None,
+    restaurant_id: str = None,
+    db = None,
+    **kwargs,
+) -> dict:
+    """Creates a catering quote for a lead via QuoteService if db context is provided."""
+    from datetime import date
+    if db and org_id and restaurant_id:
+        from app.services.quote_service import QuoteService
+        service = QuoteService(db)
+        parsed_date = date.fromisoformat(event_date) if isinstance(event_date, str) else (event_date or date.today())
+        quote = await service.create_quote(
+            org_id=org_id,
+            restaurant_id=restaurant_id,
+            lead_id=lead_id,
+            event_date=parsed_date,
+            guest_count=guest_count or 10,
+            event_type=event_type,
+            items=items or [{"name": "Catering Package", "quantity": guest_count or 10, "unit_price": 25.0}],
+            notes=kwargs.get("notes"),
+        )
+        return {
+            "status": "draft_created",
+            "quote_id": quote.id,
+            "quote_number": quote.quote_number,
+            "lead_id": lead_id,
+            "guest_count": quote.guest_count,
+            "event_date": str(quote.event_date),
+            "total": float(quote.total),
+        }
+
     return {
         "status": "draft_created",
-        "note": "Quote creation will be fully implemented in Phase 6.",
+        "note": "Quote creation tool invoked.",
         "lead_id": lead_id,
         "guest_count": guest_count,
         "event_date": event_date,

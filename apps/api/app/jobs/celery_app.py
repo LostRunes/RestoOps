@@ -26,6 +26,10 @@ celery_app.conf.beat_schedule = {
         "task": "app.workers.campaign_worker.check_due_steps",
         "schedule": 300.0,  # Every 5 minutes
     },
+    "check-quote-expirations-daily": {
+        "task": "app.workers.quote_worker.check_quote_expirations",
+        "schedule": 86400.0,  # Daily
+    },
 }
 
 

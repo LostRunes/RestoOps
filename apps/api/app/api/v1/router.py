@@ -5,7 +5,9 @@ from app.api.v1.endpoints import (
     campaigns,
     conversations,
     leads,
+    orders,
     organizations,
+    quotes,
     restaurants,
     suppression,
     users,
@@ -36,3 +38,5 @@ api_router.include_router(
     conversations.router, prefix="/conversations", tags=["Conversations"]
 )
 api_router.include_router(ai.router, prefix="/ai", tags=["AI"])
+api_router.include_router(quotes.router, prefix="/quotes", tags=["Quotes"])
+api_router.include_router(orders.router, prefix="/orders", tags=["Orders"])

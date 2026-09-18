@@ -29,6 +29,8 @@ EXPECTED_TABLES = [
     "conversations", "messages",
     # Phase 5
     "ai_runs", "ai_actions", "audit_logs",
+    # Phase 6
+    "quotes", "quote_items", "orders", "order_items",
 ]
 
 
@@ -115,9 +117,9 @@ def test_alembic_migrations_current(pg):
     rows = _query(pg, "SELECT version_num FROM alembic_version")
     assert rows, "No alembic migration version found"
     version = rows[0][0]
-    assert version == "bcc92846d4c6", (
+    assert version == "a4680eaa59d7", (
         f"Unexpected alembic version: {version}. "
-        f"Expected bcc92846d4c6 (Phase 5). Run: alembic upgrade head"
+        f"Expected a4680eaa59d7 (Phase 6). Run: alembic upgrade head"
     )
 
 

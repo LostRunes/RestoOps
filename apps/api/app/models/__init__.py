@@ -13,7 +13,11 @@ from app.models.lead_activity import LeadActivity
 from app.models.lead_contact import LeadContact
 from app.models.lead_verification import LeadVerification
 from app.models.message import Message
+from app.models.order import Order
+from app.models.order_item import OrderItem
 from app.models.organization import Organization
+from app.models.quote import Quote
+from app.models.quote_item import QuoteItem
 from app.models.refresh_token import RefreshToken
 from app.models.restaurant import Restaurant
 from app.models.role import Role
@@ -42,4 +46,8 @@ __all__ = [
     "AIRun",
     "AIAction",
     "AuditLog",
+    "Quote",
+    "QuoteItem",
+    "Order",
+    "OrderItem",
 ]
