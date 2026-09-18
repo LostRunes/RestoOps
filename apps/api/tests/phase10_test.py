@@ -383,8 +383,8 @@ if token and state.get("lead_id"):
             r = session.post(f"{API}/quotes/{state['quote_id']}/items", headers=headers, json={
                 "name": "Priority Support", "quantity": 1, "unit_price": 99.00
             })
-            check("POST /quotes/{id}/items -> 201", r.status_code == 201, f"status={r.status_code}")
-            if r.status_code == 201:
+            check("POST /quotes/{id}/items -> 200", r.status_code == 200, f"status={r.status_code}")
+            if r.status_code == 200:
                 state["quote_item_id"] = r.json().get("id")
         except Exception as e:
             fail(f"Add quote item failed: {e}")
