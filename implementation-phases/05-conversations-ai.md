@@ -534,32 +534,32 @@ This service should be called from:
 
 ## Phase 5 Completion Checklist
 
-- [ ] `ai_runs` table created
-- [ ] `ai_actions` table created
-- [ ] `audit_logs` table created
-- [ ] Alembic migration applied
-- [ ] Ollama client: can connect and generate responses
-- [ ] Ollama client: handles connection errors, timeouts
-- [ ] Conversation agent: builds proper context from messages + lead
-- [ ] Conversation agent: sends prompt with system instructions
-- [ ] Conversation agent: parses structured JSON response
-- [ ] Conversation agent: extracts intent, sentiment, urgency, guest count, event date
-- [ ] Conversation agent: suggests actions (create_quote, send_email, update_lead, etc.)
-- [ ] AI run records stored with input, output, latency, tokens
-- [ ] AI actions created as PROPOSED for each suggested action
-- [ ] Tool registry: tools registered and callable
-- [ ] Approve action: executes tool, updates status, creates audit log
-- [ ] Reject action: updates status, stores reason, creates audit log
-- [ ] Edit action: modifies arguments before execution
-- [ ] Pending actions API: lists all PROPOSED actions
-- [ ] AI activity API: paginated history of all AI runs
-- [ ] Manual analysis trigger: POST /ai/analyze/{conversation_id}
-- [ ] Celery worker: processes conversation AI after inbound message
-- [ ] Celery worker: retries on Ollama errors
-- [ ] Audit service: logs important state changes
-- [ ] Email ingestion (Phase 4) updated to queue AI processing
-- [ ] All queries scoped to organization_id
-- [ ] `git commit -m "Phase 5: AI agent, human-in-the-loop, audit logs"`
+- [x] `ai_runs` table created
+- [x] `ai_actions` table created
+- [x] `audit_logs` table created
+- [x] Alembic migration applied
+- [x] Ollama client: can connect and generate responses
+- [x] Ollama client: handles connection errors, timeouts
+- [x] Conversation agent: builds proper context from messages + lead
+- [x] Conversation agent: sends prompt with system instructions
+- [x] Conversation agent: parses structured JSON response
+- [x] Conversation agent: extracts intent, sentiment, urgency, guest count, event date
+- [x] Conversation agent: suggests actions (create_quote, send_email, update_lead, etc.)
+- [x] AI run records stored with input, output, latency, tokens
+- [x] AI actions created as PROPOSED for each suggested action
+- [x] Tool registry: tools registered and callable
+- [x] Approve action: executes tool, updates status, creates audit log
+- [x] Reject action: updates status, stores reason, creates audit log
+- [x] Edit action: modifies arguments before execution
+- [x] Pending actions API: lists all PROPOSED actions
+- [x] AI activity API: paginated history of all AI runs
+- [x] Manual analysis trigger: POST /ai/analyze/{conversation_id}
+- [x] Celery worker: processes conversation AI after inbound message
+- [x] Celery worker: retries on Ollama errors
+- [x] Audit service: logs important state changes
+- [x] Email ingestion (Phase 4) updated to queue AI processing
+- [x] All queries scoped to organization_id
+- [x] `git commit -m "Phase 5: AI agent, human-in-the-loop, audit logs"`
 
 ---
 

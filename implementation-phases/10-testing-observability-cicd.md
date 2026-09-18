@@ -751,64 +751,64 @@ CMD ["npm", "start"]
 ## Phase 10 Completion Checklist
 
 ### Unit Tests
-- [ ] Syntax validator: 10+ test cases
-- [ ] DNS checker: mock tests for MX, A, NXDOMAIN, timeout
-- [ ] Disposable domain: known disposable + valid domains
-- [ ] Role-based: role prefixes + normal addresses
-- [ ] SMTP prober: mock 250, 550, 451, timeout, refused
-- [ ] Classifier: all classification combinations
-- [ ] Lead scoring: full score, minimal score, priority mapping
-- [ ] Password hashing: hash, verify, wrong password
-- [ ] JWT: create, decode, expired, invalid
-- [ ] Permissions: role checks for all 5 roles
-- [ ] Quote calculations: subtotal, tax, total, edge cases
+- [x] Syntax validator: 10+ test cases
+- [x] DNS checker: mock tests for MX, A, NXDOMAIN, timeout
+- [x] Disposable domain: known disposable + valid domains
+- [x] Role-based: role prefixes + normal addresses
+- [x] SMTP prober: mock 250, 550, 451, timeout, refused
+- [x] Classifier: all classification combinations
+- [x] Lead scoring: full score, minimal score, priority mapping
+- [x] Password hashing: hash, verify, wrong password
+- [x] JWT: create, decode, expired, invalid
+- [x] Permissions: role checks for all 5 roles
+- [x] Quote calculations: subtotal, tax, total, edge cases
 
 ### Integration Tests
-- [ ] Auth flow: register, login, refresh, me
-- [ ] Lead CRUD: create, list, get, update, delete
-- [ ] Multi-tenancy: org isolation verified
-- [ ] Campaign flow: create, start, pause, cancel
-- [ ] Quote → Order: full pipeline
-- [ ] AI actions: propose, approve, reject
+- [x] Auth flow: register, login, refresh, me
+- [x] Lead CRUD: create, list, get, update, delete
+- [x] Multi-tenancy: org isolation verified
+- [x] Campaign flow: create, start, pause, cancel
+- [x] Quote → Order: full pipeline
+- [x] AI actions: propose, approve, reject
 
 ### E2E Tests
-- [ ] Login/register
-- [ ] Lead management
-- [ ] CSV import
-- [ ] Campaign creation
-- [ ] Conversation + AI panel
-- [ ] Quote creation
+- [x] Login/register
+- [x] Lead management
+- [x] CSV import
+- [x] Campaign creation
+- [x] Conversation + AI panel
+- [x] Quote creation
 
 ### Observability
-- [ ] Custom Prometheus metrics defined
-- [ ] Metrics instrumented in verification, email, AI, calls
-- [ ] Grafana provisioning configured
-- [ ] Grafana dashboard created with all panels
-- [ ] Prometheus scraping FastAPI /metrics
+- [x] Custom Prometheus metrics defined
+- [x] Metrics instrumented in verification, email, AI, calls
+- [x] Grafana provisioning configured
+- [x] Grafana dashboard created with all panels
+- [x] Prometheus scraping FastAPI /metrics
 
 ### CI/CD
-- [ ] GitHub Actions workflow: lint, type check, unit tests, integration tests, build
-- [ ] CI uses service containers for Postgres + Redis
-- [ ] Frontend: lint + build in CI
+- [x] GitHub Actions workflow: lint, type check, unit tests, integration tests, build
+- [x] CI uses service containers for Postgres + Redis
+- [x] Frontend: lint + build in CI
 
 ### Documentation
-- [ ] README.md complete with all sections
-- [ ] docs/architecture.md with diagrams
-- [ ] docs/api.md with endpoint overview
-- [ ] 10 Architecture Decision Records created
-- [ ] .env.example up to date with all variables
+- [x] README.md complete with all sections
+- [x] docs/architecture.md with diagrams
+- [x] docs/api.md with endpoint overview
+- [x] 10 Architecture Decision Records created
+- [x] .env.example up to date with all variables
 
 ### Docker
-- [ ] API Dockerfile works
-- [ ] Frontend Dockerfile works
-- [ ] docker-compose.yml includes all 10 services
-- [ ] `docker-compose up` boots the entire stack
-- [ ] Can complete full demo flow from Docker
+- [x] API Dockerfile works
+- [x] Frontend Dockerfile works
+- [x] docker-compose.yml includes all 10 services
+- [x] `docker-compose up` boots the entire stack
+- [x] Can complete full demo flow from Docker
 
 ### Final Verification
-- [ ] `git commit -m "Phase 10: Testing, observability, CI/CD, documentation"`
-- [ ] Full end-to-end demo works (spec section 94)
-- [ ] All checklist items from final_goal.md section 110 are green
+- [x] `git commit -m "Phase 10: Testing, observability, CI/CD, documentation"`
+- [x] Full end-to-end demo works (spec section 94)
+- [x] All checklist items from final_goal.md section 110 are green
 
 ---
 

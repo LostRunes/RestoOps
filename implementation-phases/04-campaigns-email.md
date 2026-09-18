@@ -529,35 +529,35 @@ app.include_router(conversations.router, prefix="/api/v1/conversations", tags=["
 
 ## Phase 4 Completion Checklist
 
-- [ ] `campaigns` table created
-- [ ] `campaign_steps` table created
-- [ ] `campaign_leads` table created (with indexes on next_step_at)
-- [ ] `conversations` table created
-- [ ] `messages` table created (with index on message_id)
-- [ ] Alembic migration applied
-- [ ] Email provider abstraction: `EmailProvider` base class
-- [ ] Mailpit provider: can send emails via SMTP
-- [ ] Mailpit provider: can fetch messages via HTTP API
-- [ ] Email service facade: `send_email()`, `send_campaign_email()`
-- [ ] Template engine: `{{variable}}` substitution works
-- [ ] Campaign CRUD API works
-- [ ] Campaign start: finds eligible leads, creates campaign_leads, queues steps
-- [ ] Campaign pause/cancel works
-- [ ] Suppression check during campaign execution
-- [ ] Campaign step executor: sends templated emails, records messages
-- [ ] Campaign analytics: counts by status
-- [ ] Email ingestion: fetches new messages from Mailpit
-- [ ] Email parsing: extracts headers, body, Message-ID, In-Reply-To
-- [ ] Conversation matcher: matches replies to existing conversations
-- [ ] New conversations created for unmatched messages
-- [ ] Message records created for both inbound and outbound
-- [ ] Lead activity logged on email events
-- [ ] Celery Beat: email ingestion runs every 60s
-- [ ] Celery Beat: campaign step check runs every 5 min
-- [ ] Conversation API: list, get, get messages, send reply
-- [ ] Manual reply from conversation sends email
-- [ ] All queries scoped to organization_id
-- [ ] `git commit -m "Phase 4: Campaigns, email, conversations"`
+- [x] `campaigns` table created
+- [x] `campaign_steps` table created
+- [x] `campaign_leads` table created (with indexes on next_step_at)
+- [x] `conversations` table created
+- [x] `messages` table created (with index on message_id)
+- [x] Alembic migration applied
+- [x] Email provider abstraction: `EmailProvider` base class
+- [x] Mailpit provider: can send emails via SMTP
+- [x] Mailpit provider: can fetch messages via HTTP API
+- [x] Email service facade: `send_email()`, `send_campaign_email()`
+- [x] Template engine: `{{variable}}` substitution works
+- [x] Campaign CRUD API works
+- [x] Campaign start: finds eligible leads, creates campaign_leads, queues steps
+- [x] Campaign pause/cancel works
+- [x] Suppression check during campaign execution
+- [x] Campaign step executor: sends templated emails, records messages
+- [x] Campaign analytics: counts by status
+- [x] Email ingestion: fetches new messages from Mailpit
+- [x] Email parsing: extracts headers, body, Message-ID, In-Reply-To
+- [x] Conversation matcher: matches replies to existing conversations
+- [x] New conversations created for unmatched messages
+- [x] Message records created for both inbound and outbound
+- [x] Lead activity logged on email events
+- [x] Celery Beat: email ingestion runs every 60s
+- [x] Celery Beat: campaign step check runs every 5 min
+- [x] Conversation API: list, get, get messages, send reply
+- [x] Manual reply from conversation sends email
+- [x] All queries scoped to organization_id
+- [x] `git commit -m "Phase 4: Campaigns, email, conversations"`
 
 ---
 

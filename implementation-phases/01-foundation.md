@@ -6,10 +6,10 @@
 
 ## Pre-Requisites (Human)
 
-- [ ] Docker Desktop installed & running
-- [ ] Node.js ≥ 18 installed
-- [ ] Python ≥ 3.11 installed
-- [ ] Git initialized (`git init` in `c:\RestoOps`)
+- [x] Docker Desktop installed & running
+- [x] Node.js ≥ 18 installed
+- [x] Python ≥ 3.11 installed
+- [x] Git initialized (`git init` in `c:\RestoOps`)
 
 ---
 
@@ -579,24 +579,24 @@ lint:
 
 ## Phase 1 Completion Checklist
 
-- [ ] `.gitignore` created
-- [ ] Full directory skeleton in place with `__init__.py` files
-- [ ] `.env.example` created, `.env` copied and filled
-- [ ] `docker-compose.yml` with postgres, redis, mailpit, ollama, prometheus, grafana
-- [ ] `docker-compose up -d` → all services healthy
-- [ ] Prometheus config file in `infrastructure/monitoring/prometheus/`
-- [ ] `pyproject.toml` with all dependencies listed
-- [ ] Python venv created, dependencies installed
-- [ ] `core/config.py` — Settings class loads from `.env`
-- [ ] `db/session.py` — Async engine + session factory
-- [ ] `db/base.py` — Base, TimestampMixin, UUIDMixin
-- [ ] Alembic initialized, can generate empty migration
-- [ ] `workers/celery_app.py` — Celery configured
-- [ ] `core/logging.py` — Structured logging configured
-- [ ] `main.py` — FastAPI app boots, `/health` returns OK, `/metrics` exposed
-- [ ] Makefile works: `make up`, `make api`, `make worker`
-- [ ] README.md with basic setup instructions
-- [ ] `git add . && git commit -m "Phase 1: Foundation"` succeeds
+- [x] `.gitignore` created
+- [x] Full directory skeleton in place with `__init__.py` files
+- [x] `.env.example` created, `.env` copied and filled
+- [x] `docker-compose.yml` with postgres, redis, mailpit, ollama, prometheus, grafana
+- [x] `docker-compose up -d` → all services healthy
+- [x] Prometheus config file in `infrastructure/monitoring/prometheus/`
+- [x] `pyproject.toml` with all dependencies listed
+- [x] Python venv created, dependencies installed
+- [x] `core/config.py` — Settings class loads from `.env`
+- [x] `db/session.py` — Async engine + session factory
+- [x] `db/base.py` — Base, TimestampMixin, UUIDMixin
+- [x] Alembic initialized, can generate empty migration
+- [x] `workers/celery_app.py` — Celery configured
+- [x] `core/logging.py` — Structured logging configured
+- [x] `main.py` — FastAPI app boots, `/health` returns OK, `/metrics` exposed
+- [x] Makefile works: `make up`, `make api`, `make worker`
+- [x] README.md with basic setup instructions
+- [x] `git add . && git commit -m "Phase 1: Foundation"` succeeds
 
 ---
 

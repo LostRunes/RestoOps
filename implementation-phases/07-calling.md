@@ -675,29 +675,29 @@ On the free trial:
 
 ## Phase 7 Completion Checklist
 
-- [ ] `calls` table created with `exotel_call_sid` field
-- [ ] `call_events` table created
-- [ ] Alembic migration applied
-- [ ] Call provider abstraction: `CallProvider` base class
-- [ ] Exotel provider: `initiate_call()` via REST POST to `/Calls/connect`
-- [ ] Exotel provider: `get_call_status()` via REST GET
-- [ ] Exotel provider: `validate_webhook_secret()` checks shared secret
-- [ ] Exotel status webhook: receives JSON, validates secret, updates call
-- [ ] Webhook idempotency: prevents duplicate processing via Redis
-- [ ] WebRTC provider: creates rooms, manages state in Redis
-- [ ] WebRTC room manager: create, join, close rooms
-- [ ] WebSocket signaling: connects peers, relays offer/answer/ICE
-- [ ] WebSocket authentication works
-- [ ] Call service facade: `start_call()`, `end_call()`, `handle_exotel_status()`
-- [ ] Call records: status transitions tracked
-- [ ] Call events: logged for each state change
-- [ ] Call API: start, list, get, end, status, events
-- [ ] Lead activity logged on call events
-- [ ] Conversation created/updated on call start
-- [ ] STUN server configuration available via API
-- [ ] All queries scoped to `organization_id`
-- [ ] `.env` updated with Exotel credentials
-- [ ] `git commit -m "Phase 7: Exotel calling, WebRTC signaling"`
+- [x] `calls` table created with `exotel_call_sid` field
+- [x] `call_events` table created
+- [x] Alembic migration applied
+- [x] Call provider abstraction: `CallProvider` base class
+- [x] Exotel provider: `initiate_call()` via REST POST to `/Calls/connect`
+- [x] Exotel provider: `get_call_status()` via REST GET
+- [x] Exotel provider: `validate_webhook_secret()` checks shared secret
+- [x] Exotel status webhook: receives JSON, validates secret, updates call
+- [x] Webhook idempotency: prevents duplicate processing via Redis
+- [x] WebRTC provider: creates rooms, manages state in Redis
+- [x] WebRTC room manager: create, join, close rooms
+- [x] WebSocket signaling: connects peers, relays offer/answer/ICE
+- [x] WebSocket authentication works
+- [x] Call service facade: `start_call()`, `end_call()`, `handle_exotel_status()`
+- [x] Call records: status transitions tracked
+- [x] Call events: logged for each state change
+- [x] Call API: start, list, get, end, status, events
+- [x] Lead activity logged on call events
+- [x] Conversation created/updated on call start
+- [x] STUN server configuration available via API
+- [x] All queries scoped to `organization_id`
+- [x] `.env` updated with Exotel credentials
+- [x] `git commit -m "Phase 7: Exotel calling, WebRTC signaling"`
 
 ---
 

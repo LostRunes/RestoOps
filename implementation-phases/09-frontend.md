@@ -615,44 +615,44 @@ Every page should have:
 
 ## Phase 9 Completion Checklist
 
-- [ ] Next.js project initialized with TypeScript, Tailwind, shadcn
-- [ ] All dependencies installed
-- [ ] Project structure created
-- [ ] API client with auth interceptor + auto refresh
-- [ ] Auth provider + hook
-- [ ] Login page functional
-- [ ] Register page functional
-- [ ] Protected routes redirect to login
-- [ ] Dashboard layout: sidebar + topbar
-- [ ] Sidebar: all navigation links, active state, collapse
-- [ ] Topbar: search, notification bell, user menu
-- [ ] Dashboard overview: stats cards, charts (Recharts)
-- [ ] Lead list: table, filters, sorting, pagination
-- [ ] Lead import: CSV upload, preview, job tracking
-- [ ] Lead detail: info, score, verification, activity timeline
-- [ ] Campaign list + campaign builder
-- [ ] Campaign step editor with template variables
-- [ ] Conversation inbox: two-panel layout
-- [ ] Message thread: styled like email/chat
-- [ ] Message composer: send manual replies
-- [ ] AI analysis panel: intent, sentiment, actions (Approve/Edit/Reject)
-- [ ] Quote list + quote editor
-- [ ] Quote items table: add/remove/edit, auto-calculate totals
-- [ ] Call dialog: phone vs browser selector
-- [ ] WebRTC call interface: audio, mute, timer
-- [ ] WebRTC hook: signaling, peer connection, ICE
-- [ ] Notifications: bell badge, toast popups, full page
-- [ ] WebSocket: auto-connect, reconnect, real-time notifications
-- [ ] Job progress: real-time progress bar via WebSocket
-- [ ] Orders page: list + status updates
-- [ ] Users page: list, invite, role management
-- [ ] Settings page: org info, restaurant management
-- [ ] AI activity page: runs timeline, pending actions
-- [ ] Responsive design: works on tablet/mobile
-- [ ] Loading skeletons on data fetch
-- [ ] Empty states for empty lists
-- [ ] Error states for failed requests
-- [ ] `git commit -m "Phase 9: Next.js frontend dashboard"`
+- [x] Next.js project initialized with TypeScript, Tailwind, shadcn
+- [x] All dependencies installed
+- [x] Project structure created
+- [x] API client with auth interceptor + auto refresh
+- [x] Auth provider + hook
+- [x] Login page functional
+- [x] Register page functional
+- [x] Protected routes redirect to login
+- [x] Dashboard layout: sidebar + topbar
+- [x] Sidebar: all navigation links, active state, collapse
+- [x] Topbar: search, notification bell, user menu
+- [x] Dashboard overview: stats cards, charts (Recharts)
+- [x] Lead list: table, filters, sorting, pagination
+- [x] Lead import: CSV upload, preview, job tracking
+- [x] Lead detail: info, score, verification, activity timeline
+- [x] Campaign list + campaign builder
+- [x] Campaign step editor with template variables
+- [x] Conversation inbox: two-panel layout
+- [x] Message thread: styled like email/chat
+- [x] Message composer: send manual replies
+- [x] AI analysis panel: intent, sentiment, actions (Approve/Edit/Reject)
+- [x] Quote list + quote editor
+- [x] Quote items table: add/remove/edit, auto-calculate totals
+- [x] Call dialog: phone vs browser selector
+- [x] WebRTC call interface: audio, mute, timer
+- [x] WebRTC hook: signaling, peer connection, ICE
+- [x] Notifications: bell badge, toast popups, full page
+- [x] WebSocket: auto-connect, reconnect, real-time notifications
+- [x] Job progress: real-time progress bar via WebSocket
+- [x] Orders page: list + status updates
+- [x] Users page: list, invite, role management
+- [x] Settings page: org info, restaurant management
+- [x] AI activity page: runs timeline, pending actions
+- [x] Responsive design: works on tablet/mobile
+- [x] Loading skeletons on data fetch
+- [x] Empty states for empty lists
+- [x] Error states for failed requests
+- [x] `git commit -m "Phase 9: Next.js frontend dashboard"`
 
 ---
 

@@ -506,27 +506,27 @@ Never leak stack traces, DB internals, or credentials in error responses.
 
 ## Phase 2 Completion Checklist
 
-- [ ] `organizations` table created via Alembic migration
-- [ ] `users` table created with `organization_id` FK
-- [ ] `roles` table created, seeded with 5 roles
-- [ ] `user_roles` join table created
-- [ ] `restaurants` table created with `organization_id` FK
-- [ ] Argon2 password hashing works
-- [ ] JWT access token creation/validation works
-- [ ] JWT refresh token creation/validation works
-- [ ] `POST /auth/register` → creates org + user + OWNER role + returns tokens
-- [ ] `POST /auth/login` → validates password, returns tokens
-- [ ] `POST /auth/refresh` → rotates tokens
-- [ ] `GET /auth/me` → returns authenticated user
-- [ ] `get_current_user` dependency works on protected routes
-- [ ] `require_roles()` dependency enforces role checks
-- [ ] All repository queries filter by `organization_id`
-- [ ] User CRUD API works (invite, list, get, update, assign role)
-- [ ] Restaurant CRUD API works
-- [ ] Rate limiting on auth endpoints
-- [ ] Custom exception handler returns structured errors
-- [ ] No password hashes leaked in any API response
-- [ ] `git commit -m "Phase 2: Auth, RBAC, multi-tenancy"`
+- [x] `organizations` table created via Alembic migration
+- [x] `users` table created with `organization_id` FK
+- [x] `roles` table created, seeded with 5 roles
+- [x] `user_roles` join table created
+- [x] `restaurants` table created with `organization_id` FK
+- [x] Argon2 password hashing works
+- [x] JWT access token creation/validation works
+- [x] JWT refresh token creation/validation works
+- [x] `POST /auth/register` → creates org + user + OWNER role + returns tokens
+- [x] `POST /auth/login` → validates password, returns tokens
+- [x] `POST /auth/refresh` → rotates tokens
+- [x] `GET /auth/me` → returns authenticated user
+- [x] `get_current_user` dependency works on protected routes
+- [x] `require_roles()` dependency enforces role checks
+- [x] All repository queries filter by `organization_id`
+- [x] User CRUD API works (invite, list, get, update, assign role)
+- [x] Restaurant CRUD API works
+- [x] Rate limiting on auth endpoints
+- [x] Custom exception handler returns structured errors
+- [x] No password hashes leaked in any API response
+- [x] `git commit -m "Phase 2: Auth, RBAC, multi-tenancy"`
 
 ---
 

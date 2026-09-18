@@ -528,22 +528,22 @@ class ProgressPublisher:
 
 ## Phase 8 Completion Checklist
 
-- [ ] `notifications` table created with indexes
-- [ ] Alembic migration applied
-- [ ] Event bus: EventBus class with subscribe/publish
-- [ ] Event types: all defined (LEAD_CREATED, QUOTE_ACCEPTED, etc.)
-- [ ] Notification service: create, create_for_org_admins, mark_read, mark_all_read
-- [ ] Notification handlers registered for all key events
-- [ ] WebSocket notification manager: connect, disconnect, push
-- [ ] WebSocket endpoint: /ws/notifications with auth
-- [ ] Initial unread count sent on WebSocket connect
-- [ ] Notifications pushed in real-time to connected users
-- [ ] EventBus.publish() calls added throughout Phases 3-7
-- [ ] Job progress published via Redis → WebSocket
-- [ ] Notification API: list, count, mark read, mark all read, delete
-- [ ] Notification priorities: LOW, NORMAL, HIGH, URGENT
-- [ ] All queries scoped to authenticated user
-- [ ] `git commit -m "Phase 8: Notifications, events, real-time"`
+- [x] `notifications` table created with indexes
+- [x] Alembic migration applied
+- [x] Event bus: EventBus class with subscribe/publish
+- [x] Event types: all defined (LEAD_CREATED, QUOTE_ACCEPTED, etc.)
+- [x] Notification service: create, create_for_org_admins, mark_read, mark_all_read
+- [x] Notification handlers registered for all key events
+- [x] WebSocket notification manager: connect, disconnect, push
+- [x] WebSocket endpoint: /ws/notifications with auth
+- [x] Initial unread count sent on WebSocket connect
+- [x] Notifications pushed in real-time to connected users
+- [x] EventBus.publish() calls added throughout Phases 3-7
+- [x] Job progress published via Redis → WebSocket
+- [x] Notification API: list, count, mark read, mark all read, delete
+- [x] Notification priorities: LOW, NORMAL, HIGH, URGENT
+- [x] All queries scoped to authenticated user
+- [x] `git commit -m "Phase 8: Notifications, events, real-time"`
 
 ---
 

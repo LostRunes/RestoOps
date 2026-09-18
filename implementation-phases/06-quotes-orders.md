@@ -487,30 +487,30 @@ ToolRegistry.register(
 
 ## Phase 6 Completion Checklist
 
-- [ ] `quotes` table created with all fields
-- [ ] `quote_items` table created
-- [ ] `orders` table created
-- [ ] `order_items` table created
-- [ ] Alembic migration applied
-- [ ] Quote number generator: Q-YYYY-NNNN
-- [ ] Order number generator: ORD-YYYY-NNNN
-- [ ] Quote CRUD: create with items, list, get, update
-- [ ] Quote pricing: subtotal, tax, delivery, discount, total calculated correctly
-- [ ] Add/remove quote items → totals recalculated
-- [ ] Quote status flow: DRAFT → PENDING_APPROVAL → SENT → VIEWED → ACCEPTED/REJECTED/EXPIRED
-- [ ] Quote email: HTML + text rendered with items, totals, terms
-- [ ] Quote sent via EmailService through Mailpit
-- [ ] Quote acceptance triggers order creation (transactional)
-- [ ] Order created from quote with all items copied
-- [ ] Order status transitions validated
-- [ ] Revenue statistics API: total, count, average, by month
-- [ ] Lead pipeline_status updated: QUOTE_SENT on send, WON on accept
-- [ ] Lead activities logged on quote/order events
-- [ ] Audit logs created on quote approve, send, accept, reject
-- [ ] Celery Beat: quote expiration check runs daily
-- [ ] AI create_quote tool registered and connected
-- [ ] All queries scoped to organization_id
-- [ ] `git commit -m "Phase 6: Quotes, orders, revenue pipeline"`
+- [x] `quotes` table created with all fields
+- [x] `quote_items` table created
+- [x] `orders` table created
+- [x] `order_items` table created
+- [x] Alembic migration applied
+- [x] Quote number generator: Q-YYYY-NNNN
+- [x] Order number generator: ORD-YYYY-NNNN
+- [x] Quote CRUD: create with items, list, get, update
+- [x] Quote pricing: subtotal, tax, delivery, discount, total calculated correctly
+- [x] Add/remove quote items → totals recalculated
+- [x] Quote status flow: DRAFT → PENDING_APPROVAL → SENT → VIEWED → ACCEPTED/REJECTED/EXPIRED
+- [x] Quote email: HTML + text rendered with items, totals, terms
+- [x] Quote sent via EmailService through Mailpit
+- [x] Quote acceptance triggers order creation (transactional)
+- [x] Order created from quote with all items copied
+- [x] Order status transitions validated
+- [x] Revenue statistics API: total, count, average, by month
+- [x] Lead pipeline_status updated: QUOTE_SENT on send, WON on accept
+- [x] Lead activities logged on quote/order events
+- [x] Audit logs created on quote approve, send, accept, reject
+- [x] Celery Beat: quote expiration check runs daily
+- [x] AI create_quote tool registered and connected
+- [x] All queries scoped to organization_id
+- [x] `git commit -m "Phase 6: Quotes, orders, revenue pipeline"`
 
 ---
 
