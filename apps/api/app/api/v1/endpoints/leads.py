@@ -18,7 +18,9 @@ from typing import Optional
 from uuid import uuid4
 
 from fastapi import APIRouter, Depends, File, HTTPException, Query, UploadFile, status
-from sqlalchemy.orm import Session
+from sqlalchemy.ext.asyncio import AsyncSession
+from sqlalchemy import select
+from sqlalchemy.orm import selectinload
 
 from app.api.deps import get_current_user, get_db
 from app.models.job import Job
@@ -36,7 +38,8 @@ from app.schemas.lead import (
 )
 from app.schemas.verification import JobResponse
 
-router = APIRouter(prefix="/leads", tags=["leads"])
+router = APIRouter(tags=["leads"])
+
 
 EMAIL_REGEX = re.compile(r"^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$")
 
@@ -48,16 +51,19 @@ PIPELINE_STAGES = [
 
 # ─── Helper ───────────────────────────────────────────────────────────────────
 
-def _get_org_lead(lead_id: str, org_id: str, db: Session) -> Lead:
-    lead = db.query(Lead).filter(
+async def _get_org_lead(lead_id: str, org_id: str, db: AsyncSession) -> Lead:
+    stmt = select(Lead).options(selectinload(Lead.contacts)).filter(
         Lead.id == lead_id, Lead.organization_id == org_id
-    ).first()
+    )
+    result = await db.execute(stmt)
+    lead = result.scalar_one_or_none()
+    
     if not lead:
         raise HTTPException(status_code=404, detail="Lead not found")
     return lead
 
 
-def _log_activity(db: Session, lead_id: str, user_id: str | None,
+def _log_activity(db: AsyncSession, lead_id: str, user_id: str | None,
                    activity_type: str, description: str, metadata: dict | None = None):
     act = LeadActivity(
         lead_id=lead_id,
@@ -74,10 +80,10 @@ def _log_activity(db: Session, lead_id: str, user_id: str | None,
 # ─── CRUD ─────────────────────────────────────────────────────────────────────
 
 @router.post("/", response_model=LeadResponse, status_code=status.HTTP_201_CREATED)
-def create_lead(
+async def create_lead(
     payload: LeadCreate,
     current_user: User = Depends(get_current_user),
-    db: Session = Depends(get_db),
+    db: AsyncSession = Depends(get_db),
 ):
     """Create a single lead manually."""
     lead = Lead(
@@ -99,7 +105,7 @@ def create_lead(
         updated_at=datetime.now(timezone.utc),
     )
     db.add(lead)
-    db.flush()
+    await db.flush()
 
     for c in payload.contacts:
         contact = LeadContact(
@@ -114,58 +120,68 @@ def create_lead(
         db.add(contact)
 
     _log_activity(db, lead.id, current_user.id, "NOTE_ADDED", "Lead created manually.")
-    db.commit()
-    db.refresh(lead)
-    return lead
+    await db.commit()
+    return await _get_org_lead(lead.id, current_user.organization_id, db)
 
 
 @router.get("/", response_model=LeadListResponse)
-def list_leads(
+async def list_leads(
     page: int = Query(1, ge=1),
     size: int = Query(50, ge=1, le=200),
     pipeline_status: Optional[str] = Query(None),
     priority: Optional[str] = Query(None),
     search: Optional[str] = Query(None),
     current_user: User = Depends(get_current_user),
-    db: Session = Depends(get_db),
+    db: AsyncSession = Depends(get_db),
 ):
     """List leads for the current organization with filtering + pagination."""
-    q = db.query(Lead).filter(Lead.organization_id == current_user.organization_id)
+    stmt = select(Lead).options(selectinload(Lead.contacts)).filter(Lead.organization_id == current_user.organization_id)
 
     if pipeline_status:
-        q = q.filter(Lead.pipeline_status == pipeline_status.upper())
+        stmt = stmt.filter(Lead.pipeline_status == pipeline_status.upper())
     if priority:
-        q = q.filter(Lead.priority == priority.upper())
+        stmt = stmt.filter(Lead.priority == priority.upper())
     if search:
         pattern = f"%{search}%"
-        q = q.filter(
+        stmt = stmt.filter(
             Lead.company_name.ilike(pattern)
             | Lead.contact_name.ilike(pattern)
             | Lead.email.ilike(pattern)
         )
 
-    total = q.count()
-    items = q.order_by(Lead.created_at.desc()).offset((page - 1) * size).limit(size).all()
+    # In async, counting requires a separate query but we can just fetch all for now or do a fast subquery count.
+    # To keep it simple, we'll execute the paginated query and return it, while counting via another query.
+    # We will use select(func.count(Lead.id)) for true count, but to avoid importing func, we will just count Python side if not paginated strictly, or we can use the same stmt.
+    
+    from sqlalchemy import func
+    count_stmt = select(func.count(Lead.id)).select_from(stmt.subquery())
+    count_result = await db.execute(count_stmt)
+    total = count_result.scalar() or 0
+
+    stmt = stmt.order_by(Lead.created_at.desc()).offset((page - 1) * size).limit(size)
+    result = await db.execute(stmt)
+    items = result.scalars().all()
+    
     return {"items": items, "total": total, "page": page, "size": size}
 
 
 @router.get("/{lead_id}", response_model=LeadResponse)
-def get_lead(
+async def get_lead(
     lead_id: str,
     current_user: User = Depends(get_current_user),
-    db: Session = Depends(get_db),
+    db: AsyncSession = Depends(get_db),
 ):
-    return _get_org_lead(lead_id, current_user.organization_id, db)
+    return await _get_org_lead(lead_id, current_user.organization_id, db)
 
 
 @router.patch("/{lead_id}", response_model=LeadResponse)
-def update_lead(
+async def update_lead(
     lead_id: str,
     payload: LeadUpdate,
     current_user: User = Depends(get_current_user),
-    db: Session = Depends(get_db),
+    db: AsyncSession = Depends(get_db),
 ):
-    lead = _get_org_lead(lead_id, current_user.organization_id, db)
+    lead = await _get_org_lead(lead_id, current_user.organization_id, db)
     old_status = lead.pipeline_status
 
     for field, value in payload.model_dump(exclude_none=True).items():
@@ -179,30 +195,29 @@ def update_lead(
             {"from": old_status, "to": payload.pipeline_status},
         )
 
-    db.commit()
-    db.refresh(lead)
-    return lead
+    await db.commit()
+    return await _get_org_lead(lead.id, current_user.organization_id, db)
 
 
 @router.delete("/{lead_id}", status_code=status.HTTP_204_NO_CONTENT)
-def delete_lead(
+async def delete_lead(
     lead_id: str,
     current_user: User = Depends(get_current_user),
-    db: Session = Depends(get_db),
+    db: AsyncSession = Depends(get_db),
 ):
-    lead = _get_org_lead(lead_id, current_user.organization_id, db)
-    db.delete(lead)
-    db.commit()
+    lead = await _get_org_lead(lead_id, current_user.organization_id, db)
+    await db.delete(lead)
+    await db.commit()
 
 
 # ─── Pipeline Move ────────────────────────────────────────────────────────────
 
 @router.post("/{lead_id}/pipeline/{stage}", response_model=LeadResponse)
-def move_pipeline(
+async def move_pipeline(
     lead_id: str,
     stage: str,
     current_user: User = Depends(get_current_user),
-    db: Session = Depends(get_db),
+    db: AsyncSession = Depends(get_db),
 ):
     """Explicitly move a lead to a pipeline stage."""
     stage = stage.upper()
@@ -211,7 +226,7 @@ def move_pipeline(
             status_code=400,
             detail=f"Invalid stage. Valid stages: {PIPELINE_STAGES}",
         )
-    lead = _get_org_lead(lead_id, current_user.organization_id, db)
+    lead = await _get_org_lead(lead_id, current_user.organization_id, db)
     old_status = lead.pipeline_status
     lead.pipeline_status = stage
     lead.updated_at = datetime.now(timezone.utc)
@@ -220,26 +235,23 @@ def move_pipeline(
         f"Pipeline moved: {old_status} → {stage}",
         {"from": old_status, "to": stage},
     )
-    db.commit()
-    db.refresh(lead)
-    return lead
+    await db.commit()
+    return await _get_org_lead(lead.id, current_user.organization_id, db)
 
 
 # ─── Activity Timeline ────────────────────────────────────────────────────────
 
 @router.get("/{lead_id}/activity")
-def get_lead_activity(
+async def get_lead_activity(
     lead_id: str,
     current_user: User = Depends(get_current_user),
-    db: Session = Depends(get_db),
+    db: AsyncSession = Depends(get_db),
 ):
-    lead = _get_org_lead(lead_id, current_user.organization_id, db)
-    activities = (
-        db.query(LeadActivity)
-        .filter(LeadActivity.lead_id == lead.id)
-        .order_by(LeadActivity.created_at.desc())
-        .all()
-    )
+    lead = await _get_org_lead(lead_id, current_user.organization_id, db)
+    stmt = select(LeadActivity).filter(LeadActivity.lead_id == lead.id).order_by(LeadActivity.created_at.desc())
+    result = await db.execute(stmt)
+    activities = result.scalars().all()
+    
     return [
         {
             "id": a.id,
@@ -255,18 +267,16 @@ def get_lead_activity(
 # ─── Verification History ─────────────────────────────────────────────────────
 
 @router.get("/{lead_id}/verifications")
-def get_lead_verifications(
+async def get_lead_verifications(
     lead_id: str,
     current_user: User = Depends(get_current_user),
-    db: Session = Depends(get_db),
+    db: AsyncSession = Depends(get_db),
 ):
-    lead = _get_org_lead(lead_id, current_user.organization_id, db)
-    verifications = (
-        db.query(LeadVerification)
-        .filter(LeadVerification.lead_id == lead.id)
-        .order_by(LeadVerification.checked_at.desc())
-        .all()
-    )
+    lead = await _get_org_lead(lead_id, current_user.organization_id, db)
+    stmt = select(LeadVerification).filter(LeadVerification.lead_id == lead.id).order_by(LeadVerification.checked_at.desc())
+    result = await db.execute(stmt)
+    verifications = result.scalars().all()
+    
     return [
         {
             "id": v.id,
@@ -291,7 +301,7 @@ async def import_csv(
     file: UploadFile = File(...),
     auto_verify: bool = Query(True, description="Auto-trigger email verification job after import"),
     current_user: User = Depends(get_current_user),
-    db: Session = Depends(get_db),
+    db: AsyncSession = Depends(get_db),
 ):
     """
     Upload a CSV file to bulk-import leads.
@@ -357,13 +367,13 @@ async def import_csv(
             updated_at=now,
         )
         db.add(lead)
-        db.flush()
+        await db.flush()
         lead_ids.append(lead.id)
 
         _log_activity(db, lead.id, current_user.id, "CSV_IMPORTED",
                       f"Lead imported from CSV: {file.filename}")
 
-    db.commit()
+    await db.commit()
 
     # ── Optionally kick off a verification job ─────────────────────────────────
     job_id = str(uuid4())
@@ -382,7 +392,7 @@ async def import_csv(
             updated_at=now,
         )
         db.add(job)
-        db.commit()
+        await db.commit()
 
         # Kick Celery task
         from app.jobs.verification_job import run_verification_job

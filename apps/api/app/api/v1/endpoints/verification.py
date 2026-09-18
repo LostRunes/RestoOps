@@ -13,7 +13,8 @@ from datetime import datetime, timezone
 from uuid import uuid4
 
 from fastapi import APIRouter, Depends, HTTPException, status
-from sqlalchemy.orm import Session
+from sqlalchemy.ext.asyncio import AsyncSession
+from sqlalchemy import select
 
 from app.api.deps import get_current_user, get_db
 from app.models.job import Job
@@ -29,7 +30,8 @@ from app.schemas.verification import (
 )
 from app.services.verification import verify_email
 
-router = APIRouter(prefix="/verification", tags=["verification"])
+router = APIRouter(tags=["verification"])
+
 
 
 # ─── Single Email Verification (Real-time) ────────────────────────────────────
@@ -38,7 +40,7 @@ router = APIRouter(prefix="/verification", tags=["verification"])
 async def verify_single_email(
     payload: VerifyEmailRequest,
     current_user: User = Depends(get_current_user),
-    db: Session = Depends(get_db),
+    db: AsyncSession = Depends(get_db),
 ):
     """
     Verify a single email address in real-time using the BounceBlitz engine.
@@ -69,11 +71,9 @@ async def verify_single_email(
         provider=result.provider,
         latency_ms=result.latency_ms,
         checked_at=datetime.now(timezone.utc),
-        created_at=datetime.now(timezone.utc),
-        updated_at=datetime.now(timezone.utc),
     )
     db.add(record)
-    db.commit()
+    await db.commit()
 
     return VerificationResultResponse(
         email=result.email,
@@ -99,10 +99,10 @@ async def verify_single_email(
 # ─── Batch Verification (Celery Job) ─────────────────────────────────────────
 
 @router.post("/batch", response_model=BatchVerifyResponse, status_code=status.HTTP_202_ACCEPTED)
-def trigger_batch_verification(
+async def trigger_batch_verification(
     payload: BatchVerifyRequest,
     current_user: User = Depends(get_current_user),
-    db: Session = Depends(get_db),
+    db: AsyncSession = Depends(get_db),
 ):
     """
     Enqueue a batch verification job for the given list of lead IDs.
@@ -112,14 +112,13 @@ def trigger_batch_verification(
         raise HTTPException(status_code=400, detail="lead_ids must not be empty")
 
     # Validate all lead IDs belong to this org
-    leads = (
-        db.query(Lead)
-        .filter(
-            Lead.id.in_(payload.lead_ids),
-            Lead.organization_id == current_user.organization_id,
-        )
-        .all()
+    stmt = select(Lead).filter(
+        Lead.id.in_(payload.lead_ids),
+        Lead.organization_id == current_user.organization_id,
     )
+    result = await db.execute(stmt)
+    leads = result.scalars().all()
+    
     found_ids = {l.id for l in leads}
     missing = set(payload.lead_ids) - found_ids
     if missing:
@@ -144,7 +143,7 @@ def trigger_batch_verification(
         updated_at=now,
     )
     db.add(job)
-    db.commit()
+    await db.commit()
 
     from app.jobs.verification_job import run_verification_job
     run_verification_job.delay(job_id)
@@ -155,53 +154,56 @@ def trigger_batch_verification(
 # ─── Job Status Polling ────────────────────────────────────────────────────────
 
 @router.get("/jobs/{job_id}", response_model=JobResponse)
-def get_job_status(
+async def get_job_status(
     job_id: str,
     current_user: User = Depends(get_current_user),
-    db: Session = Depends(get_db),
+    db: AsyncSession = Depends(get_db),
 ):
     """Poll a verification job for real-time progress."""
-    job = db.query(Job).filter(
+    stmt = select(Job).filter(
         Job.id == job_id,
         Job.organization_id == current_user.organization_id,
-    ).first()
+    )
+    result = await db.execute(stmt)
+    job = result.scalar_one_or_none()
+    
     if not job:
         raise HTTPException(status_code=404, detail="Job not found")
     return job
 
 
 @router.get("/jobs", response_model=list[JobResponse])
-def list_jobs(
+async def list_jobs(
     current_user: User = Depends(get_current_user),
-    db: Session = Depends(get_db),
+    db: AsyncSession = Depends(get_db),
 ):
     """List recent verification jobs for this organization."""
-    jobs = (
-        db.query(Job)
-        .filter(
-            Job.organization_id == current_user.organization_id,
-            Job.type == "VERIFICATION",
-        )
-        .order_by(Job.created_at.desc())
-        .limit(50)
-        .all()
-    )
+    stmt = select(Job).filter(
+        Job.organization_id == current_user.organization_id,
+        Job.type == "VERIFICATION",
+    ).order_by(Job.created_at.desc()).limit(50)
+    
+    result = await db.execute(stmt)
+    jobs = result.scalars().all()
     return jobs
 
 
 # ─── Job Cancellation ─────────────────────────────────────────────────────────
 
 @router.post("/jobs/{job_id}/cancel", response_model=JobResponse)
-def cancel_job(
+async def cancel_job(
     job_id: str,
     current_user: User = Depends(get_current_user),
-    db: Session = Depends(get_db),
+    db: AsyncSession = Depends(get_db),
 ):
     """Cancel a pending or running verification job."""
-    job = db.query(Job).filter(
+    stmt = select(Job).filter(
         Job.id == job_id,
         Job.organization_id == current_user.organization_id,
-    ).first()
+    )
+    result = await db.execute(stmt)
+    job = result.scalar_one_or_none()
+    
     if not job:
         raise HTTPException(status_code=404, detail="Job not found")
     if job.status in ("COMPLETED", "FAILED", "CANCELLED"):
@@ -210,6 +212,6 @@ def cancel_job(
     job.status = "CANCELLED"
     job.completed_at = datetime.now(timezone.utc)
     job.updated_at = datetime.now(timezone.utc)
-    db.commit()
-    db.refresh(job)
+    await db.commit()
+    await db.refresh(job)
     return job

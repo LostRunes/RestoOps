@@ -3,6 +3,12 @@ from sqlalchemy import DateTime, ForeignKey, Integer, String
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 from app.db.base import Base, TimestampMixin, UUIDMixin
 
+from typing import TYPE_CHECKING
+if TYPE_CHECKING:
+    from app.models.message import Message
+    from app.models.lead import Lead
+
+
 
 class Conversation(Base, UUIDMixin, TimestampMixin):
     __tablename__ = "conversations"

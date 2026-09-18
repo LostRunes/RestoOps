@@ -2,6 +2,14 @@ from sqlalchemy import Boolean, ForeignKey, Integer, String, Text
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 from app.db.base import Base, TimestampMixin, UUIDMixin
 
+from typing import TYPE_CHECKING
+if TYPE_CHECKING:
+    from app.models.lead_contact import LeadContact
+    from app.models.lead_verification import LeadVerification
+    from app.models.campaign_lead import CampaignLead
+    from app.models.lead_activity import LeadActivity
+
+
 
 class Lead(Base, UUIDMixin, TimestampMixin):
     __tablename__ = "leads"

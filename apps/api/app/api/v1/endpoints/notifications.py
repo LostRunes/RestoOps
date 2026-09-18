@@ -41,6 +41,7 @@ async def list_notifications(
 
 
 @router.get("/count", response_model=UnreadCountResponse)
+@router.get("/unread-count", response_model=UnreadCountResponse)
 async def get_unread_count(
     db: AsyncSession = Depends(get_db),
     current_user: User = Depends(get_current_user),

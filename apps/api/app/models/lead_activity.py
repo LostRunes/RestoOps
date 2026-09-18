@@ -4,6 +4,11 @@ from sqlalchemy import JSON
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 from app.db.base import Base, TimestampMixin, UUIDMixin
 
+from typing import TYPE_CHECKING
+if TYPE_CHECKING:
+    from app.models.lead import Lead
+
+
 
 class LeadActivity(Base, UUIDMixin, TimestampMixin):
     __tablename__ = "lead_activities"

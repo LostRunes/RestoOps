@@ -108,3 +108,29 @@ async def update_restaurant(
     await db.refresh(restaurant)
 
     return restaurant
+
+
+@router.delete(
+    "/{restaurant_id}",
+    status_code=status.HTTP_204_NO_CONTENT,
+    dependencies=[Depends(require_roles("OWNER", "ADMIN"))],
+)
+async def delete_restaurant(
+    restaurant_id: str,
+    current_user: Annotated[User, Depends(get_current_user)],
+    db: Annotated[AsyncSession, Depends(get_db)],
+):
+    stmt = select(Restaurant).where(
+        Restaurant.id == restaurant_id,
+        Restaurant.organization_id == current_user.organization_id,
+    )
+    result = await db.execute(stmt)
+    restaurant = result.scalar_one_or_none()
+
+    if not restaurant:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND, detail="Restaurant not found"
+        )
+
+    await db.delete(restaurant)
+    await db.commit()

@@ -47,9 +47,9 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   const login = async (credentials: any) => {
     setIsLoading(true);
     try {
-      const data = await api.post<{ access_token: string; refresh_token: string; user: User }>("/auth/login", credentials);
+      const data = await api.post<{ access_token: string; refresh_token: string }>("/auth/login", credentials);
       api.setTokens(data.access_token, data.refresh_token);
-      setUser(data.user);
+      await fetchUser();
       router.push("/dashboard");
     } finally {
       setIsLoading(false);
@@ -59,10 +59,8 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   const register = async (payload: any) => {
     setIsLoading(true);
     try {
-      const data = await api.post<{ access_token: string; refresh_token: string; user: User }>("/auth/register", payload);
-      api.setTokens(data.access_token, data.refresh_token);
-      setUser(data.user);
-      router.push("/dashboard");
+      await api.post("/auth/register", payload);
+      await login({ email: payload.email, password: payload.password });
     } finally {
       setIsLoading(false);
     }

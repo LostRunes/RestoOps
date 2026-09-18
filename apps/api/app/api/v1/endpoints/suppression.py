@@ -11,46 +11,50 @@ from datetime import datetime, timezone
 from uuid import uuid4
 
 from fastapi import APIRouter, Depends, HTTPException, Query, status
-from sqlalchemy.orm import Session
+from sqlalchemy.ext.asyncio import AsyncSession
+from sqlalchemy import select
 
 from app.api.deps import get_current_user, get_db
 from app.models.suppression import SuppressionEntry
 from app.models.user import User
 from app.schemas.verification import SuppressionCreate, SuppressionResponse
 
-router = APIRouter(prefix="/suppression", tags=["suppression"])
-
+router = APIRouter(tags=["suppression"])
 
 @router.get("/", response_model=list[SuppressionResponse])
-def list_suppressed(
+async def list_suppressed(
     page: int = Query(1, ge=1),
     size: int = Query(100, ge=1, le=500),
     reason: str | None = Query(None),
     current_user: User = Depends(get_current_user),
-    db: Session = Depends(get_db),
+    db: AsyncSession = Depends(get_db),
 ):
-    q = db.query(SuppressionEntry).filter(
+    stmt = select(SuppressionEntry).filter(
         SuppressionEntry.organization_id == current_user.organization_id
     )
     if reason:
-        q = q.filter(SuppressionEntry.reason == reason.upper())
-    return q.order_by(SuppressionEntry.created_at.desc()).offset((page - 1) * size).limit(size).all()
+        stmt = stmt.filter(SuppressionEntry.reason == reason.upper())
+    stmt = stmt.order_by(SuppressionEntry.created_at.desc()).offset((page - 1) * size).limit(size)
+    result = await db.execute(stmt)
+    return result.scalars().all()
 
 
 @router.post("/", response_model=SuppressionResponse, status_code=status.HTTP_201_CREATED)
-def add_suppression(
+async def add_suppression(
     payload: SuppressionCreate,
     current_user: User = Depends(get_current_user),
-    db: Session = Depends(get_db),
+    db: AsyncSession = Depends(get_db),
 ):
     if not payload.email and not payload.phone:
         raise HTTPException(status_code=400, detail="Email or phone is required")
 
     if payload.email:
-        existing = db.query(SuppressionEntry).filter(
+        stmt = select(SuppressionEntry).filter(
             SuppressionEntry.organization_id == current_user.organization_id,
             SuppressionEntry.email == payload.email,
-        ).first()
+        )
+        result = await db.execute(stmt)
+        existing = result.scalar_one_or_none()
         if existing:
             raise HTTPException(status_code=409, detail="Email already in suppression list")
 
@@ -66,46 +70,53 @@ def add_suppression(
         updated_at=now,
     )
     db.add(entry)
-    db.commit()
-    db.refresh(entry)
+    await db.commit()
+    await db.refresh(entry)
     return entry
 
 
 @router.delete("/{entry_id}", status_code=status.HTTP_204_NO_CONTENT)
-def remove_suppression(
+async def remove_suppression(
     entry_id: str,
     current_user: User = Depends(get_current_user),
-    db: Session = Depends(get_db),
+    db: AsyncSession = Depends(get_db),
 ):
-    entry = db.query(SuppressionEntry).filter(
+    stmt = select(SuppressionEntry).filter(
         SuppressionEntry.id == entry_id,
         SuppressionEntry.organization_id == current_user.organization_id,
-    ).first()
+    )
+    result = await db.execute(stmt)
+    entry = result.scalar_one_or_none()
+    
     if not entry:
         raise HTTPException(status_code=404, detail="Suppression entry not found")
-    db.delete(entry)
-    db.commit()
+    await db.delete(entry)
+    await db.commit()
 
 
 @router.post("/check")
-def check_suppressed(
+async def check_suppressed(
     payload: dict,
     current_user: User = Depends(get_current_user),
-    db: Session = Depends(get_db),
+    db: AsyncSession = Depends(get_db),
 ):
     """Check if an email or phone is on the suppression list."""
     email = payload.get("email")
     phone = payload.get("phone")
 
-    q = db.query(SuppressionEntry).filter(
+    stmt = select(SuppressionEntry).filter(
         SuppressionEntry.organization_id == current_user.organization_id
     )
+    
     if email:
-        entry = q.filter(SuppressionEntry.email == email).first()
+        result = await db.execute(stmt.filter(SuppressionEntry.email == email))
+        entry = result.scalar_one_or_none()
         if entry:
             return {"suppressed": True, "reason": entry.reason, "source": entry.source}
+            
     if phone:
-        entry = q.filter(SuppressionEntry.phone == phone).first()
+        result = await db.execute(stmt.filter(SuppressionEntry.phone == phone))
+        entry = result.scalar_one_or_none()
         if entry:
             return {"suppressed": True, "reason": entry.reason, "source": entry.source}
 

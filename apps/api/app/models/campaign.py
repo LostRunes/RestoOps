@@ -3,6 +3,12 @@ from sqlalchemy import DateTime, ForeignKey, String, Text, JSON
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 from app.db.base import Base, TimestampMixin, UUIDMixin
 
+from typing import TYPE_CHECKING
+if TYPE_CHECKING:
+    from app.models.campaign_step import CampaignStep
+    from app.models.campaign_lead import CampaignLead
+
+
 
 class Campaign(Base, UUIDMixin, TimestampMixin):
     __tablename__ = "campaigns"

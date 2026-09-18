@@ -21,7 +21,21 @@ from app.services.call_service import CallService
 
 router = APIRouter()
 
-# Singleton Redis client for idempotency checks
+
+@router.get("")
+async def list_webhooks() -> dict:
+    """List registered webhook endpoints (informational)."""
+    return {
+        "webhooks": [
+            {
+                "name": "Exotel Status Callback",
+                "method": "POST",
+                "path": "/api/v1/webhooks/exotel/status",
+                "description": "Receives call status updates from Exotel",
+            }
+        ]
+    }
+
 _redis_client: aioredis.Redis | None = None
 
 

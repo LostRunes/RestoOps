@@ -17,11 +17,18 @@ export default function RegisterPage() {
     e.preventDefault();
     setError("");
     try {
+      const names = fullName.trim().split(" ");
+      const firstName = names[0] || "User";
+      const lastName = names.slice(1).join(" ") || "Admin";
+      const slug = orgName.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "") || `org-${Date.now()}`;
+
       await register({
-        full_name: fullName,
+        first_name: firstName,
+        last_name: lastName,
         email,
         password,
         organization_name: orgName,
+        organization_slug: slug,
       });
     } catch (err: any) {
       setError(err.message || "Failed to register organization.");

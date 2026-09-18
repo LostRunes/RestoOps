@@ -29,8 +29,7 @@ class CampaignRepository:
             self.db.add(step)
 
         await self.db.commit()
-        await self.db.refresh(campaign)
-        return campaign
+        return await self.get_by_id(campaign.id, org_id)
 
     async def get_by_id(self, campaign_id: str, org_id: str) -> Campaign | None:
         stmt = (
@@ -64,8 +63,7 @@ class CampaignRepository:
                 setattr(campaign, key, val)
 
         await self.db.commit()
-        await self.db.refresh(campaign)
-        return campaign
+        return await self.get_by_id(campaign_id, org_id)
 
     async def add_step(self, campaign_id: str, **step_data) -> CampaignStep:
         step = CampaignStep(campaign_id=campaign_id, **step_data)

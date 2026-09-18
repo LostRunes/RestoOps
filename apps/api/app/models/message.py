@@ -2,6 +2,11 @@ from sqlalchemy import ForeignKey, String, Text, JSON
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 from app.db.base import Base, TimestampMixin, UUIDMixin
 
+from typing import TYPE_CHECKING
+if TYPE_CHECKING:
+    from app.models.conversation import Conversation
+
+
 
 class Message(Base, UUIDMixin, TimestampMixin):
     __tablename__ = "messages"
