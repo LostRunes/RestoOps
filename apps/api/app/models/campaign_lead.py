@@ -1,7 +1,12 @@
+from typing import TYPE_CHECKING
 from datetime import datetime
 from sqlalchemy import DateTime, ForeignKey, Index, Integer, String, UniqueConstraint
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 from app.db.base import Base, TimestampMixin, UUIDMixin
+
+if TYPE_CHECKING:
+    from app.models.campaign import Campaign
+    from app.models.lead import Lead
 
 
 class CampaignLead(Base, UUIDMixin, TimestampMixin):

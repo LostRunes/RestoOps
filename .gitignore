@@ -38,6 +38,9 @@ build/
 .env
 *.pem
 *.key
+credentials.json
+credentials*.json
+client_secret*.json
 
 # IDEs
 .idea/

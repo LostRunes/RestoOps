@@ -2,9 +2,11 @@ from fastapi import APIRouter
 from app.api.v1.endpoints import (
     ai,
     auth,
+    calls,
     campaigns,
     conversations,
     leads,
+    notifications,
     orders,
     organizations,
     quotes,
@@ -12,6 +14,7 @@ from app.api.v1.endpoints import (
     suppression,
     users,
     verification,
+    webhooks,
 )
 
 api_router = APIRouter()
@@ -40,3 +43,6 @@ api_router.include_router(
 api_router.include_router(ai.router, prefix="/ai", tags=["AI"])
 api_router.include_router(quotes.router, prefix="/quotes", tags=["Quotes"])
 api_router.include_router(orders.router, prefix="/orders", tags=["Orders"])
+api_router.include_router(calls.router, prefix="/calls", tags=["Calls"])
+api_router.include_router(webhooks.router, prefix="/webhooks", tags=["Webhooks"])
+api_router.include_router(notifications.router, prefix="/notifications", tags=["Notifications"])

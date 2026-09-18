@@ -11,6 +11,9 @@ from app.core.logging import setup_logging, logger
 async def lifespan(app: FastAPI):
     setup_logging()
     logger.info("Starting up RestoOps API service", environment=settings.ENVIRONMENT)
+    # Register event-driven notification handlers
+    from app.services.notification_handlers import register_notification_handlers
+    register_notification_handlers()
     yield
     logger.info("Shutting down RestoOps API service")
 
@@ -33,8 +36,14 @@ if settings.BACKEND_CORS_ORIGINS:
 
 # Routers
 from app.api.v1.router import api_router
+from app.api.websockets.webrtc_ws import router as webrtc_ws_router
+from app.api.websockets.notification_ws import router as notification_ws_router
 
 app.include_router(api_router, prefix=settings.API_V1_STR)
+# WebRTC WebSocket signaling — registered directly (not under /api/v1)
+app.include_router(webrtc_ws_router)
+# Real-time notification WebSocket
+app.include_router(notification_ws_router)
 
 # Prometheus Metrics
 Instrumentator().instrument(app).expose(app)

@@ -2,6 +2,7 @@ from datetime import datetime, timezone
 from decimal import Decimal
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy import select
+from app.core.events import Event, EventBus, EventType
 from app.models.quote import Quote
 from app.models.quote_item import QuoteItem
 from app.models.lead import Lead
@@ -286,6 +287,14 @@ class QuoteService:
         self.db.add(audit)
 
         await self.db.flush()
+
+        await EventBus.publish(Event(
+            EventType.QUOTE_SENT, org_id,
+            {"quote_id": quote.id, "quote_number": quote.quote_number,
+             "lead_email": lead.email, "total": float(quote.total or 0),
+             "company_name": lead.company_name},
+            user_id=user_id,
+        ))
         return quote
 
     async def accept_quote(self, quote_id: str, org_id: str, user_id: str | None = None):
@@ -295,6 +304,7 @@ class QuoteService:
 
         order_service = OrderService(self.db)
         return await order_service.create_from_quote(quote, org_id, user_id)
+
 
     async def reject_quote(self, quote_id: str, org_id: str, user_id: str | None = None) -> Quote:
         quote = await self.get_quote(quote_id, org_id)
@@ -322,6 +332,13 @@ class QuoteService:
         self.db.add(audit)
 
         await self.db.flush()
+
+        await EventBus.publish(Event(
+            EventType.QUOTE_REJECTED, org_id,
+            {"quote_id": quote.id, "quote_number": quote.quote_number,
+             "company_name": ""},
+            user_id=user_id,
+        ))
         return quote
 
     async def mark_viewed(self, quote_id: str, org_id: str) -> Quote:
@@ -345,4 +362,9 @@ class QuoteService:
             )
             self.db.add(activity)
         await self.db.flush()
+        for q in expired_quotes:
+            await EventBus.publish(Event(
+                EventType.QUOTE_EXPIRED, q.organization_id,
+                {"quote_id": q.id, "quote_number": q.quote_number},
+            ))
         return expired_quotes

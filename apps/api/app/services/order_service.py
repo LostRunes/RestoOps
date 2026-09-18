@@ -2,6 +2,7 @@ from datetime import datetime, timezone
 from decimal import Decimal
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy import select
+from app.core.events import Event, EventBus, EventType
 from app.models.order import Order
 from app.models.order_item import OrderItem
 from app.models.quote import Quote
@@ -93,7 +94,24 @@ class OrderService:
         self.db.add(audit)
 
         await self.db.flush()
-        return await self.repo.get_by_id(order.id, org_id)
+        order = await self.repo.get_by_id(order.id, org_id)
+
+        await EventBus.publish(Event(
+            EventType.ORDER_CREATED, org_id,
+            {"order_id": order.id, "order_number": order_number,
+             "total": float(quote.total or 0),
+             "company_name": lead.company_name if lead else "",
+             "quote_id": quote.id, "quote_number": quote.quote_number},
+            user_id=user_id,
+        ))
+        await EventBus.publish(Event(
+            EventType.QUOTE_ACCEPTED, org_id,
+            {"quote_id": quote.id, "quote_number": quote.quote_number,
+             "order_id": order.id, "total": float(quote.total or 0),
+             "company_name": lead.company_name if lead else ""},
+            user_id=user_id,
+        ))
+        return order
 
     async def update_status(
         self, order_id: str, org_id: str, new_status: str, user_id: str | None = None

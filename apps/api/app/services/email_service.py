@@ -1,3 +1,4 @@
+from app.core.config import settings
 from app.integrations.email.base import EmailMessage, EmailProvider, SendResult
 from app.integrations.email.mailpit import MailpitProvider
 from app.models.campaign import Campaign
@@ -6,10 +7,23 @@ from app.models.lead import Lead
 from app.services.template_engine import TemplateEngine
 
 
+def _default_provider() -> EmailProvider:
+    """
+    Auto-select the email provider:
+    - GmailProvider when GMAIL_REFRESH_TOKEN is set in .env (real delivery)
+    - MailpitProvider otherwise (local dev, catches email in http://localhost:8025)
+    """
+    if settings.gmail_configured:
+        from app.integrations.email.gmail_provider import GmailProvider
+        return GmailProvider()
+    return MailpitProvider()
+
+
 class EmailService:
     def __init__(self, provider: EmailProvider | None = None, template_engine: TemplateEngine | None = None):
-        self.provider = provider or MailpitProvider()
+        self.provider = provider or _default_provider()
         self.template_engine = template_engine or TemplateEngine()
+
 
     async def send_email(
         self,

@@ -113,13 +113,13 @@ def test_audit_logs_table_columns(pg):
 
 
 def test_alembic_migrations_current(pg):
-    """Verify the latest migration (Phase 5) has been applied."""
+    """Verify the latest migration (Phase 8) has been applied."""
     rows = _query(pg, "SELECT version_num FROM alembic_version")
     assert rows, "No alembic migration version found"
     version = rows[0][0]
-    assert version == "a4680eaa59d7", (
+    assert version == "ba5aea00cc02", (
         f"Unexpected alembic version: {version}. "
-        f"Expected a4680eaa59d7 (Phase 6). Run: alembic upgrade head"
+        f"Expected ba5aea00cc02 (Phase 8 — notifications). Run: alembic upgrade head"
     )
 
 

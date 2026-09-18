@@ -1,14 +1,42 @@
-# Phase 7 — Calling: Twilio & WebRTC
+# Phase 7 — Calling: Exotel & WebRTC
 
-> **Goal:** Build the dual calling architecture — Twilio for real phone calls (trial) and WebRTC for browser-to-browser calls. Implement the CallService abstraction, Twilio provider with webhook handling, WebRTC signaling via WebSockets, call state management, and the calls database. After this phase, staff can call leads via phone or browser.
+> **Goal:** Build the dual calling architecture — Exotel for real PSTN phone calls and WebRTC for browser-to-browser calls. Implement the `CallService` abstraction, Exotel provider with status-callback webhook handling, WebRTC signaling via WebSockets, call state management, and the calls database. After this phase, staff can call leads via phone (through Exotel) or browser (via WebRTC).
 
 > **Depends on:** Phase 6 (Quotes & Orders)
 
 ---
 
-## Step 7.1 — Database Models
+## Exotel Background
 
-Already created in Phase 3 as part of the schema plan. If not yet migrated:
+Exotel is our Twilio replacement — an Indian cloud telephony provider with a Twilio-compatible REST API structure.
+
+### Key Differences From Twilio
+
+| Aspect | Twilio | Exotel |
+|---|---|---|
+| Auth | `AccountSID:AuthToken` | `APIKey:APIToken` |
+| Base URL | `api.twilio.com/2010-04-01/Accounts/{SID}/Calls` | `api.exotel.com/v1/Accounts/{SID}/Calls/connect` |
+| Call Initiation | `calls.create(...)` | POST form-data to `/Calls/connect` |
+| TwiML | XML response from a URL you host | Not needed for click-to-call |
+| Webhook Signature Validation | HMAC-SHA1 via `RequestValidator` | No built-in signature — validate secret query param |
+| Status Keys | `CallStatus`, `CallSid` | `Status`, `Sid` |
+
+### Our Exotel Credentials
+
+```
+Account SID (SID):  restoops1
+API Key:            a408902b0d23a83757cabed10fecf939d1a9487fbf3511d0
+API Token:          57e00381d729c4d862fab7c161c8b9e0484b3c2029548900
+Region / Subdomain: api.exotel.com  (Singapore)
+Caller ID (ExoPhone): 08047284815
+Trial Number:       09513886363
+```
+
+> **Trial restriction:** On Exotel trial, calls can only be made **to numbers that are registered / verified** in your Exotel account (same as Twilio trial). The verified numbers are `07667408570` and `06370099540` (visible in your dashboard screenshot).
+
+---
+
+## Step 7.1 — Database Models
 
 ### 7.1.1 — Calls Model
 
@@ -23,13 +51,13 @@ restaurant_id     UUID, FK → restaurants.id, NULLABLE
 lead_id           UUID, FK → leads.id, NOT NULL
 conversation_id   UUID, FK → conversations.id, NULLABLE
 
-provider          VARCHAR(20)    # TWILIO, WEBRTC
+provider          VARCHAR(20)    # EXOTEL, WEBRTC
 
 direction         VARCHAR(10)    # OUTBOUND, INBOUND
-from_number       VARCHAR(50), NULLABLE    # Phone number or user identifier
-to_number         VARCHAR(50), NULLABLE    # Phone number or peer identifier
+from_number       VARCHAR(50), NULLABLE
+to_number         VARCHAR(50), NULLABLE
 
-status            VARCHAR(20)    
+status            VARCHAR(20)
 # INITIATED → RINGING → IN_PROGRESS → COMPLETED → FAILED → NO_ANSWER → BUSY → CANCELLED
 
 initiated_by      UUID, FK → users.id, NULLABLE
@@ -41,7 +69,7 @@ ended_at          TIMESTAMP WITH TZ, NULLABLE
 duration_seconds  INTEGER, NULLABLE
 
 recording_url     TEXT, NULLABLE
-twilio_call_sid   VARCHAR(100), NULLABLE, UNIQUE
+exotel_call_sid   VARCHAR(100), NULLABLE, UNIQUE    # was twilio_call_sid
 
 notes             TEXT, NULLABLE
 
@@ -50,7 +78,7 @@ created_at        TIMESTAMP WITH TZ
 
 - Index on `organization_id`
 - Index on `lead_id`
-- Index on `twilio_call_sid`
+- Index on `exotel_call_sid`
 
 ### 7.1.2 — Call Events Model
 
@@ -65,7 +93,7 @@ call_id     UUID, FK → calls.id, NOT NULL
 event_type  VARCHAR(50)   # INITIATED, RINGING, ANSWERED, ENDED, FAILED, RECORDING_AVAILABLE, STATUS_UPDATE
 payload     JSONB, NULLABLE
 
-source      VARCHAR(20)   # SYSTEM, TWILIO_WEBHOOK, WEBRTC_SIGNAL
+source      VARCHAR(20)   # SYSTEM, EXOTEL_WEBHOOK, WEBRTC_SIGNAL
 
 created_at  TIMESTAMP WITH TZ
 ```
@@ -91,15 +119,15 @@ from uuid import UUID
 @dataclass
 class CallRequest:
     lead_id: UUID
-    from_identifier: str    # Phone number or user_id
-    to_identifier: str      # Phone number or peer user_id
+    from_identifier: str    # ExoPhone number or user_id
+    to_identifier: str      # Destination phone number or peer user_id
     org_id: UUID
     initiated_by: UUID
 
 @dataclass
 class CallResult:
     success: bool
-    call_id: str | None         # Provider-specific call ID
+    call_id: str | None         # Provider-specific call ID (Exotel Sid, or room_id for WebRTC)
     status: str
     error: str | None = None
 
@@ -119,49 +147,141 @@ class CallProvider(ABC):
 
 ---
 
-## Step 7.3 — Twilio Provider
+## Step 7.3 — Exotel Provider
 
-**File:** `apps/api/app/integrations/twilio/__init__.py`
-**File:** `apps/api/app/integrations/twilio/provider.py`
+**File:** `apps/api/app/integrations/exotel/__init__.py`  
+**File:** `apps/api/app/integrations/exotel/provider.py`
+
+### How Exotel Click-to-Call Works
+
+Exotel's "Connect Two Numbers" API is a **click-to-call** mechanism:
+1. Exotel calls **Person A** (the agent/staff member) using the ExoPhone.
+2. When Person A answers, Exotel then calls **Person B** (the lead/customer).
+3. Both are bridged together.
+
+So `From` = agent's phone, `To` = lead's phone, `CallerId` = our ExoPhone (`08047284815`).
 
 ```python
-from twilio.rest import Client
-from twilio.request_validator import RequestValidator
+import httpx
 from app.core.config import settings
+from app.integrations.call_base import CallProvider, CallRequest, CallResult
 
-class TwilioProvider(CallProvider):
+
+EXOTEL_BASE_URL = "https://{subdomain}/v1/Accounts/{sid}/Calls/connect"
+
+# Exotel status → Our status mapping
+EXOTEL_STATUS_MAP = {
+    "queued":      "INITIATED",
+    "in-progress": "IN_PROGRESS",
+    "ringing":     "RINGING",
+    "completed":   "COMPLETED",
+    "failed":      "FAILED",
+    "busy":        "BUSY",
+    "no-answer":   "NO_ANSWER",
+    "canceled":    "CANCELLED",
+}
+
+
+class ExotelProvider(CallProvider):
     def __init__(self):
-        self.client = Client(settings.TWILIO_ACCOUNT_SID, settings.TWILIO_AUTH_TOKEN)
-        self.from_number = settings.TWILIO_PHONE_NUMBER
-        self.validator = RequestValidator(settings.TWILIO_AUTH_TOKEN)
+        self.api_key = settings.EXOTEL_API_KEY
+        self.api_token = settings.EXOTEL_API_TOKEN
+        self.account_sid = settings.EXOTEL_ACCOUNT_SID
+        self.caller_id = settings.EXOTEL_CALLER_ID         # 08047284815
+        self.subdomain = settings.EXOTEL_SUBDOMAIN         # api.exotel.com
+        self.base_url = f"https://{self.subdomain}/v1/Accounts/{self.account_sid}/Calls/connect"
     
     async def initiate_call(self, request: CallRequest) -> CallResult:
         """
-        1. Create Twilio call:
-            call = self.client.calls.create(
-                to=request.to_identifier,
-                from_=self.from_number,
-                url=f"{settings.API_URL}/api/v1/webhooks/twilio/voice/twiml",
-                status_callback=f"{settings.API_URL}/api/v1/webhooks/twilio/status",
-                status_callback_event=["initiated", "ringing", "answered", "completed"],
-            )
-        2. Return CallResult(success=True, call_id=call.sid, status="INITIATED")
+        POST form-data to Exotel's /Calls/connect endpoint.
         
-        Error handling:
-        - Invalid number → CallResult(success=False, error="...")
-        - Twilio not configured → CallResult(success=False, error="Twilio not configured")
-        - Trial restrictions → clear error message
+        From       = agent's phone number (who to call first)
+        To         = lead's phone number (who to connect to)
+        CallerId   = our ExoPhone number (08047284815)
+        Record     = true
+        StatusCallback = our webhook URL
+        StatusCallbackEvents = terminal,answered
+        StatusCallbackContentType = application/json
         """
+        if not all([self.api_key, self.api_token, self.account_sid]):
+            return CallResult(success=False, call_id=None,
+                              status="FAILED", error="Exotel not configured")
+        
+        callback_url = (
+            f"{settings.API_URL}/api/v1/webhooks/exotel/status"
+            f"?secret={settings.EXOTEL_WEBHOOK_SECRET}"
+        )
+        
+        data = {
+            "From":                     request.from_identifier,   # agent phone
+            "To":                       request.to_identifier,     # lead phone
+            "CallerId":                 self.caller_id,
+            "Record":                   "true",
+            "StatusCallback":           callback_url,
+            "StatusCallbackEvents":     "terminal,answered",
+            "StatusCallbackContentType": "application/json",
+        }
+        
+        async with httpx.AsyncClient() as client:
+            try:
+                response = await client.post(
+                    self.base_url,
+                    data=data,
+                    auth=(self.api_key, self.api_token),
+                    timeout=15.0,
+                )
+                if response.status_code in (200, 201):
+                    body = response.json()
+                    call_data = body.get("Call", {})
+                    sid = call_data.get("Sid")
+                    raw_status = call_data.get("Status", "queued")
+                    mapped_status = EXOTEL_STATUS_MAP.get(raw_status, "INITIATED")
+                    return CallResult(success=True, call_id=sid, status=mapped_status)
+                else:
+                    error_body = response.text
+                    return CallResult(success=False, call_id=None,
+                                      status="FAILED", error=f"Exotel error {response.status_code}: {error_body}")
+            except httpx.ConnectError:
+                return CallResult(success=False, call_id=None,
+                                  status="FAILED", error="Cannot connect to Exotel API")
+            except httpx.TimeoutException:
+                return CallResult(success=False, call_id=None,
+                                  status="FAILED", error="Exotel API timeout")
     
     async def end_call(self, provider_call_id: str) -> bool:
-        """Update call status to 'completed' via Twilio API."""
+        """
+        Exotel does not have a direct "end call" REST endpoint in v1.
+        The call is considered ended when Exotel sends the terminal status webhook.
+        For now, we mark the call as CANCELLED in our DB and return True.
+        In production you'd use Exotel's call leg hangup API if available on your plan.
+        """
+        return True
     
     async def get_call_status(self, provider_call_id: str) -> str:
-        """Fetch call status from Twilio API."""
+        """
+        GET /v1/Accounts/{sid}/Calls/{CallSid}.json
+        Returns current Exotel status, mapped to our status.
+        """
+        url = f"https://{self.subdomain}/v1/Accounts/{self.account_sid}/Calls/{provider_call_id}.json"
+        async with httpx.AsyncClient() as client:
+            response = await client.get(
+                url,
+                auth=(self.api_key, self.api_token),
+                timeout=10.0,
+            )
+            if response.status_code == 200:
+                body = response.json()
+                raw_status = body.get("Call", {}).get("Status", "")
+                return EXOTEL_STATUS_MAP.get(raw_status, "UNKNOWN")
+        return "UNKNOWN"
     
-    def validate_webhook(self, url: str, params: dict, signature: str) -> bool:
-        """Validate Twilio webhook signature. CRITICAL for security."""
-        return self.validator.validate(url, params, signature)
+    def validate_webhook_secret(self, secret: str) -> bool:
+        """
+        Exotel does not sign webhooks like Twilio.
+        We pass a `?secret=...` query parameter in StatusCallback URL
+        and validate it here.
+        """
+        return secret == settings.EXOTEL_WEBHOOK_SECRET
 ```
 
 ---
@@ -180,19 +300,18 @@ class WebRTCProvider(CallProvider):
     
     async def initiate_call(self, request: CallRequest) -> CallResult:
         """
-        1. Create a call room (unique room_id)
-        2. Store room state in Redis (or DB)
-        3. Generate invite link/token for the peer
-        4. Return CallResult with room_id
+        1. Create a call room (unique room_id = UUID)
+        2. Store room state in Redis with TTL 3600s
+        3. Return CallResult with room_id as call_id
         
         The actual WebRTC connection is established via WebSocket signaling.
         """
     
     async def end_call(self, provider_call_id: str) -> bool:
-        """Clean up room state, notify connected peers."""
+        """Clean up room state, notify connected peers via WebSocket."""
     
     async def get_call_status(self, provider_call_id: str) -> str:
-        """Check room state from Redis/DB."""
+        """Check room state from Redis."""
 ```
 
 ### WebRTC Room Manager
@@ -201,17 +320,20 @@ class WebRTCProvider(CallProvider):
 
 ```python
 import redis.asyncio as redis
+import json, uuid
+from datetime import datetime
 
 class WebRTCRoomManager:
     def __init__(self, redis_url: str):
         self.redis = redis.from_url(redis_url)
     
-    async def create_room(self, room_id: str, caller_id: str, callee_id: str) -> dict:
+    async def create_room(self, caller_id: str, callee_id: str) -> dict:
         """
         Store in Redis:
         Key: f"webrtc:room:{room_id}"
         Value: {"caller_id": ..., "callee_id": ..., "status": "WAITING", "created_at": ...}
         TTL: 3600 (1 hour)
+        Returns room dict with room_id.
         """
     
     async def join_room(self, room_id: str, user_id: str) -> dict | None:
@@ -232,7 +354,7 @@ class WebRTCRoomManager:
 
 ```python
 class CallService:
-    def __init__(self, twilio_provider: TwilioProvider, 
+    def __init__(self, exotel_provider: ExotelProvider,
                  webrtc_provider: WebRTCProvider,
                  call_repo: CallRepository):
         ...
@@ -240,10 +362,12 @@ class CallService:
     async def start_call(self, org_id, lead_id, provider_type: str,
                          from_id: str, to_id: str, initiated_by: UUID) -> Call:
         """
-        1. Select provider based on provider_type (TWILIO or WEBRTC)
+        provider_type: "EXOTEL" or "WEBRTC"
+        
+        1. Select provider
         2. Create call record in DB (status=INITIATED)
         3. Call provider.initiate_call()
-        4. Update call record with provider call ID
+        4. Update call record with provider call ID (exotel_call_sid)
         5. Create call_event (INITIATED)
         6. Create lead_activity (CALL_STARTED)
         7. Create/update conversation (channel=VOICE or WEBRTC)
@@ -254,21 +378,21 @@ class CallService:
         """
         1. Fetch call
         2. Call provider.end_call()
-        3. Update call status → COMPLETED, ended_at, duration
+        3. Update call status → CANCELLED (manual end before completion)
         4. Create call_event (ENDED)
-        5. Create lead_activity (CALL_COMPLETED)
-        6. Return call
+        5. Return call
         """
     
-    async def handle_twilio_status(self, call_sid: str, status: str, 
-                                    duration: int | None = None) -> None:
+    async def handle_exotel_status(self, call_sid: str, status: str,
+                                    duration: int | None = None,
+                                    recording_url: str | None = None) -> None:
         """
-        Called by Twilio webhook handler.
-        1. Find call by twilio_call_sid
-        2. Map Twilio status → our status
-        3. Update call record
-        4. Create call_event
-        5. If completed: calculate duration, create notification
+        Called by Exotel status webhook handler.
+        1. Find call by exotel_call_sid
+        2. Map Exotel status → our status (use EXOTEL_STATUS_MAP)
+        3. Update call record (status, ended_at, duration_seconds, recording_url)
+        4. Create call_event (STATUS_UPDATE or ENDED)
+        5. If terminal status (completed/failed/busy/no-answer): create notification
         """
     
     async def get_call(self, call_id, org_id) -> Call: ...
@@ -315,7 +439,6 @@ class WebRTCSignalingManager:
 
 signaling_manager = WebRTCSignalingManager()
 
-# WebSocket endpoint
 @router.websocket("/ws/webrtc/{room_id}")
 async def webrtc_signaling(websocket: WebSocket, room_id: str):
     """
@@ -331,7 +454,6 @@ async def webrtc_signaling(websocket: WebSocket, room_id: str):
         "from": "user_id"
     }
     """
-    # Authenticate
     user_id = await authenticate_ws(websocket)
     await signaling_manager.connect(websocket, room_id, user_id)
     
@@ -346,62 +468,55 @@ async def webrtc_signaling(websocket: WebSocket, room_id: str):
 
 ---
 
-## Step 7.7 — Twilio Webhook Handlers
+## Step 7.7 — Exotel Webhook Handler
 
 **File:** `apps/api/app/api/webhooks.py`
 
+> **Note:** Unlike Twilio, Exotel does **not** need a TwiML response URL for click-to-call. The only webhook we handle is the `StatusCallback`.
+
 ```python
-from fastapi import Request, Response
-from twilio.twiml.voice_response import VoiceResponse
+from fastapi import Request, Response, HTTPException, Query
+import json
 
-@router.post("/api/v1/webhooks/twilio/voice/twiml")
-async def twilio_voice_twiml(request: Request):
+@router.post("/api/v1/webhooks/exotel/status")
+async def exotel_status_callback(
+    request: Request,
+    secret: str = Query(...),
+    exotel_provider: ExotelProvider = Depends(get_exotel_provider),
+    call_service: CallService = Depends(get_call_service),
+):
     """
-    Called when Twilio connects the call.
-    Returns TwiML instructions.
+    Called by Exotel with call status updates.
+    We asked for JSON format via StatusCallbackContentType=application/json.
     
-    1. Validate webhook signature (CRITICAL)
-    2. Return TwiML:
-        <Response>
-            <Say>Connecting your call...</Say>
-            <Dial>
-                <Number>{to_number}</Number>
-            </Dial>
-        </Response>
+    1. Validate the secret query parameter
+    2. Parse JSON body
+    3. Extract: Sid (CallSid), Status, Duration, RecordingUrl
+    4. Call call_service.handle_exotel_status()
+    5. Handle idempotency (same webhook may arrive multiple times)
     """
-    # Validate signature
-    form_data = await request.form()
-    signature = request.headers.get("X-Twilio-Signature", "")
-    if not twilio_provider.validate_webhook(str(request.url), dict(form_data), signature):
-        raise HTTPException(status_code=403, detail="Invalid webhook signature")
+    # Validate shared secret
+    if not exotel_provider.validate_webhook_secret(secret):
+        raise HTTPException(status_code=403, detail="Invalid webhook secret")
     
-    response = VoiceResponse()
-    response.say("Connecting your call from RestoOps.")
-    response.dial(form_data.get("To"))
+    # Exotel sends JSON when StatusCallbackContentType=application/json
+    body = await request.json()
     
-    return Response(content=str(response), media_type="application/xml")
-
-@router.post("/api/v1/webhooks/twilio/status")
-async def twilio_status_callback(request: Request):
-    """
-    Called by Twilio with call status updates.
+    call_sid     = body.get("Sid") or body.get("CallSid")
+    status       = body.get("Status") or body.get("CallStatus")
+    duration     = body.get("Duration") or body.get("CallDuration")
+    recording    = body.get("RecordingUrl")
     
-    1. Validate webhook signature
-    2. Extract: CallSid, CallStatus, CallDuration
-    3. Call CallService.handle_twilio_status()
-    4. Handle idempotency (same webhook may arrive multiple times)
-    """
-    form_data = await request.form()
-    signature = request.headers.get("X-Twilio-Signature", "")
+    # Idempotency: skip if already processed
+    if await is_webhook_processed(call_sid, status):
+        return Response(status_code=200)
     
-    if not twilio_provider.validate_webhook(str(request.url), dict(form_data), signature):
-        raise HTTPException(status_code=403, detail="Invalid webhook signature")
-    
-    call_sid = form_data.get("CallSid")
-    status = form_data.get("CallStatus")
-    duration = form_data.get("CallDuration")
-    
-    await call_service.handle_twilio_status(call_sid, status, int(duration) if duration else None)
+    await call_service.handle_exotel_status(
+        call_sid=call_sid,
+        status=status,
+        duration=int(duration) if duration else None,
+        recording_url=recording,
+    )
     
     return Response(status_code=200)
 ```
@@ -411,7 +526,7 @@ async def twilio_status_callback(request: Request):
 ```python
 async def is_webhook_processed(call_sid: str, event: str) -> bool:
     """
-    Check Redis for f"webhook:{call_sid}:{event}".
+    Check Redis for f"webhook:exotel:{call_sid}:{event}".
     If exists → already processed, skip.
     If not → set with TTL 24h, process.
     """
@@ -427,7 +542,7 @@ async def is_webhook_processed(call_sid: str, event: str) -> bool:
 class CallRepository:
     async def create(self, **data) -> Call: ...
     async def get_by_id(self, call_id, org_id) -> Call | None: ...
-    async def get_by_twilio_sid(self, call_sid: str) -> Call | None: ...
+    async def get_by_exotel_sid(self, call_sid: str) -> Call | None: ...   # was get_by_twilio_sid
     async def list_by_org(self, org_id, lead_id=None) -> list[Call]: ...
     async def update(self, call_id, **data) -> Call: ...
     
@@ -442,10 +557,10 @@ class CallRepository:
 ### `apps/api/app/api/calls.py`
 
 ```text
-POST  /api/v1/calls                → Start a call (phone or browser)
+POST  /api/v1/calls                → Start a call (EXOTEL or WEBRTC)
 GET   /api/v1/calls                → List calls (with filters)
 GET   /api/v1/calls/{id}           → Get call details (with events)
-POST  /api/v1/calls/{id}/end       → End an active call
+POST  /api/v1/calls/{id}/end       → End / cancel an active call
 GET   /api/v1/calls/{id}/status    → Get current call status
 GET   /api/v1/calls/{id}/events    → Get call events
 ```
@@ -455,8 +570,10 @@ GET   /api/v1/calls/{id}/events    → Get call events
 ```python
 class CallCreateRequest(BaseModel):
     lead_id: UUID
-    provider: str   # "TWILIO" or "WEBRTC"
-    to: str         # Phone number (Twilio) or user_id (WebRTC)
+    provider: str   # "EXOTEL" or "WEBRTC"
+    to: str         # Lead's phone number (Exotel) or peer user_id (WebRTC)
+    from_: str      # Agent's phone number (Exotel) or own user_id (WebRTC)
+                    # field_alias="from" in schema
 ```
 
 ### Register Routers
@@ -467,9 +584,7 @@ from app.api.websockets import webrtc_ws
 
 app.include_router(calls.router, prefix="/api/v1/calls", tags=["calls"])
 app.include_router(webhooks.router, prefix="/api/v1/webhooks", tags=["webhooks"])
-
-# WebSocket route registered directly on app
-app.include_router(webrtc_ws.router)
+app.include_router(webrtc_ws.router)  # WebSocket registered directly
 ```
 
 ---
@@ -479,17 +594,49 @@ app.include_router(webrtc_ws.router)
 **File:** `apps/api/app/schemas/call.py`
 
 ```python
-# CallCreateRequest: lead_id, provider (TWILIO|WEBRTC), to
+# CallCreateRequest: lead_id, provider (EXOTEL|WEBRTC), to, from_
 # CallResponse: all fields + events summary
 # CallEventResponse: event_type, payload, source, created_at
-# CallStatusResponse: status, duration, provider
+# CallStatusResponse: status, duration, provider, exotel_call_sid
 ```
 
 ---
 
-## Step 7.11 — STUN Configuration
+## Step 7.11 — Config Updates
 
-For development, use Google's public STUN server:
+### `.env` additions
+
+```env
+# Exotel Configuration (Phase 7)
+EXOTEL_ACCOUNT_SID=restoops1
+EXOTEL_API_KEY=a408902b0d23a83757cabed10fecf939d1a9487fbf3511d0
+EXOTEL_API_TOKEN=57e00381d729c4d862fab7c161c8b9e0484b3c2029548900
+EXOTEL_CALLER_ID=08047284815
+EXOTEL_SUBDOMAIN=api.exotel.com
+EXOTEL_WEBHOOK_SECRET=restoops-exotel-webhook-secret-change-me
+```
+
+### `apps/api/app/core/config.py` additions
+
+```python
+# Exotel
+EXOTEL_ACCOUNT_SID: str = ""
+EXOTEL_API_KEY: str = ""
+EXOTEL_API_TOKEN: str = ""
+EXOTEL_CALLER_ID: str = ""
+EXOTEL_SUBDOMAIN: str = "api.exotel.com"
+EXOTEL_WEBHOOK_SECRET: str = "change-me"
+
+@property
+def exotel_configured(self) -> bool:
+    return bool(self.EXOTEL_API_KEY and self.EXOTEL_API_TOKEN and self.EXOTEL_ACCOUNT_SID)
+```
+
+---
+
+## Step 7.12 — STUN Configuration (WebRTC)
+
+For development, use Google's public STUN servers (free, no account needed):
 
 ```python
 STUN_SERVERS = [
@@ -498,35 +645,59 @@ STUN_SERVERS = [
 ]
 ```
 
-These are returned to the frontend when initiating a WebRTC call so the browser knows where to discover its network info.
+Returned to frontend when initiating a WebRTC call so the browser can discover its public network address.
+
+---
+
+## Step 7.13 — Dependencies
+
+Add to `apps/api/requirements.txt`:
+```
+httpx>=0.27.0       # Already present for async HTTP — used to call Exotel REST API
+```
+
+No additional package needed. Exotel's API is plain REST over HTTPS with Basic Auth —
+we use `httpx` (already installed) rather than an SDK.
+
+> **No `twilio` package needed.** Remove it from requirements if it was added.
+
+---
+
+## Trial Account Restrictions
+
+On the free trial:
+- Calls can **only** be placed to numbers registered in your Exotel account.
+- Verified numbers from the dashboard: `07667408570` and `06370099540`.
+- The ExoPhone number is `08047284815`.
+- You can test by calling from `07667408570` (agent) → to `06370099540` (lead).
 
 ---
 
 ## Phase 7 Completion Checklist
 
-- [ ] `calls` table created with all fields
+- [ ] `calls` table created with `exotel_call_sid` field
 - [ ] `call_events` table created
 - [ ] Alembic migration applied
 - [ ] Call provider abstraction: `CallProvider` base class
-- [ ] Twilio provider: can initiate calls via Twilio API
-- [ ] Twilio provider: can end calls
-- [ ] Twilio provider: webhook signature validation works
-- [ ] Twilio TwiML endpoint: returns valid TwiML for call connect
-- [ ] Twilio status callback: processes status updates
-- [ ] Webhook idempotency: prevents duplicate processing
+- [ ] Exotel provider: `initiate_call()` via REST POST to `/Calls/connect`
+- [ ] Exotel provider: `get_call_status()` via REST GET
+- [ ] Exotel provider: `validate_webhook_secret()` checks shared secret
+- [ ] Exotel status webhook: receives JSON, validates secret, updates call
+- [ ] Webhook idempotency: prevents duplicate processing via Redis
 - [ ] WebRTC provider: creates rooms, manages state in Redis
 - [ ] WebRTC room manager: create, join, close rooms
 - [ ] WebSocket signaling: connects peers, relays offer/answer/ICE
 - [ ] WebSocket authentication works
-- [ ] Call service facade: start_call(), end_call(), handle_twilio_status()
+- [ ] Call service facade: `start_call()`, `end_call()`, `handle_exotel_status()`
 - [ ] Call records: status transitions tracked
 - [ ] Call events: logged for each state change
 - [ ] Call API: start, list, get, end, status, events
 - [ ] Lead activity logged on call events
 - [ ] Conversation created/updated on call start
-- [ ] STUN server configuration available
-- [ ] All queries scoped to organization_id
-- [ ] `git commit -m "Phase 7: Twilio calling, WebRTC, signaling"`
+- [ ] STUN server configuration available via API
+- [ ] All queries scoped to `organization_id`
+- [ ] `.env` updated with Exotel credentials
+- [ ] `git commit -m "Phase 7: Exotel calling, WebRTC signaling"`
 
 ---
 

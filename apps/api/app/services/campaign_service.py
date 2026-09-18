@@ -1,6 +1,7 @@
 from datetime import datetime, timezone
 from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
+from app.core.events import Event, EventBus, EventType
 from app.models.campaign import Campaign
 from app.models.lead import Lead
 from app.repositories.campaign_repo import CampaignRepository
@@ -62,6 +63,11 @@ class CampaignService:
         campaign.started_at = now
         await self.db.commit()
         await self.db.refresh(campaign)
+        await EventBus.publish(Event(
+            EventType.CAMPAIGN_STARTED, org_id,
+            {"campaign_id": campaign.id, "campaign_name": campaign.name,
+             "lead_count": len(leads)},
+        ))
         return campaign
 
     async def pause_campaign(self, campaign_id: str, org_id: str) -> Campaign:
@@ -72,6 +78,10 @@ class CampaignService:
         campaign.status = "PAUSED"
         await self.db.commit()
         await self.db.refresh(campaign)
+        await EventBus.publish(Event(
+            EventType.CAMPAIGN_PAUSED, org_id,
+            {"campaign_id": campaign.id, "campaign_name": campaign.name},
+        ))
         return campaign
 
     async def cancel_campaign(self, campaign_id: str, org_id: str) -> Campaign:

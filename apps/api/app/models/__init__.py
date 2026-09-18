@@ -13,6 +13,9 @@ from app.models.lead_activity import LeadActivity
 from app.models.lead_contact import LeadContact
 from app.models.lead_verification import LeadVerification
 from app.models.message import Message
+from app.models.notification import Notification
+from app.models.call import Call
+from app.models.call_event import CallEvent
 from app.models.order import Order
 from app.models.order_item import OrderItem
 from app.models.organization import Organization
@@ -50,4 +53,7 @@ __all__ = [
     "QuoteItem",
     "Order",
     "OrderItem",
+    "Call",
+    "CallEvent",
+    "Notification",
 ]

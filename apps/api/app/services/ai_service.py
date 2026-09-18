@@ -16,6 +16,7 @@ from sqlalchemy import select
 
 from app.agents.conversation_agent import ConversationAgent
 from app.agents.tools import ToolRegistry
+from app.core.events import Event, EventBus, EventType
 from app.integrations.ollama.client import OllamaClient
 from app.models.ai_run import AIRun
 from app.models.ai_action import AIAction
@@ -186,6 +187,11 @@ class AIService:
         )
 
         await self.db.commit()
+        await EventBus.publish(Event(
+            EventType.AI_ACTION_APPROVED, org_id,
+            {"action_id": action_id, "tool_name": action.tool, "status": new_status},
+            user_id=user_id,
+        ))
         return {"status": new_status, "result": exec_result}
 
     async def reject_action(
