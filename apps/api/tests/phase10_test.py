@@ -324,6 +324,15 @@ if token:
 # ─── 8. QUOTES ────────────────────────────────────────────────────────────────
 header("8. Quotes - Full Lifecycle")
 if token and state.get("lead_id"):
+    if not state.get("restaurant_id"):
+        try:
+            r_payload = {"name": "Test Quote Restaurant", "address": "123 Quote St"}
+            res = session.post(f"{API}/restaurants", headers=headers, json=r_payload)
+            if res.status_code == 201:
+                state["restaurant_id"] = res.json().get("id")
+        except Exception:
+            pass
+            
     quote_payload = {
         "lead_id": state["lead_id"],
         "restaurant_id": state.get("restaurant_id"),
@@ -344,7 +353,7 @@ if token and state.get("lead_id"):
             quote = r.json()
             state["quote_id"] = quote.get("id")
             check("Quote ID returned", bool(state["quote_id"]))
-            check("Quote title matches", quote.get("title") == "RestoOps Pro Package")
+            check("Quote event date matches", quote.get("event_date") == "2026-10-10")
             check("Quote has items", len(quote.get("items", [])) >= 1)
         else:
             print(f"    Error: {r.text[:300]}")

@@ -47,7 +47,12 @@ async def start_call(
             restaurant_id=payload.restaurant_id,
             conversation_id=payload.conversation_id,
         )
-        return call
+        from sqlalchemy.orm import selectinload
+        from sqlalchemy import select
+        from app.models.call import Call
+        stmt = select(Call).options(selectinload(Call.events)).where(Call.id == call.id)
+        result = await db.execute(stmt)
+        return result.scalar_one()
     except ValueError as e:
         raise HTTPException(status_code=400, detail=str(e))
 
