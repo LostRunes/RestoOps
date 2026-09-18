@@ -1,6 +1,7 @@
 # Phase 9 — Next.js Frontend Dashboard
 
 > **Goal:** Build the complete Next.js frontend with all pages, components, real-time WebSocket integration, and the WebRTC call interface. The dashboard should be production-quality, responsive, and visually impressive — not a basic CRUD UI.
+should be primarly dark themed, easy on the eye shades, still look good and visually pleasing and ravering, no neon stuff at all, need comfortable thing.
 
 > **Depends on:** Phase 8 (Notifications, Events, Real-time)
 
