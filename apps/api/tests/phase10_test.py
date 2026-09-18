@@ -381,7 +381,7 @@ if token and state.get("lead_id"):
 
         try:
             r = session.post(f"{API}/quotes/{state['quote_id']}/items", headers=headers, json={
-                "description": "Priority Support", "quantity": 1, "unit_price": 99.00, "discount_pct": 0.0
+                "name": "Priority Support", "quantity": 1, "unit_price": 99.00
             })
             check("POST /quotes/{id}/items -> 201", r.status_code == 201, f"status={r.status_code}")
             if r.status_code == 201:

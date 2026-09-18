@@ -29,6 +29,7 @@ async def create_quote(
     data["items"] = items
     data["created_by"] = current_user.id
     quote = await service.create_quote(current_user.organization_id, **data)
+    await db.commit()
     return quote
 
 
@@ -67,9 +68,11 @@ async def update_quote(
 ) -> Any:
     service = QuoteService(db)
     try:
-        return await service.update_quote(
+        res = await service.update_quote(
             quote_id, current_user.organization_id, **payload.model_dump(exclude_unset=True)
         )
+        await db.commit()
+        return res
     except ValueError as e:
         raise HTTPException(status_code=400, detail=str(e))
 
@@ -83,9 +86,11 @@ async def add_quote_item(
 ) -> Any:
     service = QuoteService(db)
     try:
-        return await service.add_item(
+        res = await service.add_item(
             quote_id, current_user.organization_id, **payload.model_dump()
         )
+        await db.commit()
+        return res
     except ValueError as e:
         raise HTTPException(status_code=400, detail=str(e))
 
@@ -100,6 +105,7 @@ async def remove_quote_item(
     service = QuoteService(db)
     try:
         await service.remove_item(quote_id, current_user.organization_id, item_id)
+        await db.commit()
     except ValueError as e:
         raise HTTPException(status_code=400, detail=str(e))
 
@@ -112,7 +118,9 @@ async def submit_quote(
 ) -> Any:
     service = QuoteService(db)
     try:
-        return await service.submit_for_approval(quote_id, current_user.organization_id)
+        res = await service.submit_for_approval(quote_id, current_user.organization_id)
+        await db.commit()
+        return res
     except ValueError as e:
         raise HTTPException(status_code=400, detail=str(e))
 
@@ -125,9 +133,11 @@ async def approve_quote(
 ) -> Any:
     service = QuoteService(db)
     try:
-        return await service.approve_quote(
+        res = await service.approve_quote(
             quote_id, current_user.organization_id, user_id=current_user.id
         )
+        await db.commit()
+        return res
     except ValueError as e:
         raise HTTPException(status_code=400, detail=str(e))
 
@@ -140,9 +150,11 @@ async def send_quote(
 ) -> Any:
     service = QuoteService(db)
     try:
-        return await service.send_quote(
+        res = await service.send_quote(
             quote_id, current_user.organization_id, user_id=current_user.id
         )
+        await db.commit()
+        return res
     except ValueError as e:
         raise HTTPException(status_code=400, detail=str(e))
 
@@ -158,6 +170,7 @@ async def accept_quote(
         order = await service.accept_quote(
             quote_id, current_user.organization_id, user_id=current_user.id
         )
+        await db.commit()
         return order
     except ValueError as e:
         raise HTTPException(status_code=400, detail=str(e))
@@ -171,8 +184,10 @@ async def reject_quote(
 ) -> Any:
     service = QuoteService(db)
     try:
-        return await service.reject_quote(
+        res = await service.reject_quote(
             quote_id, current_user.organization_id, user_id=current_user.id
         )
+        await db.commit()
+        return res
     except ValueError as e:
         raise HTTPException(status_code=400, detail=str(e))
